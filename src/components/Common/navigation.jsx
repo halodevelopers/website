@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import TransitionsModal from './model';
+import TransitionsModal from './signinModel';
+import TransitionsModal2 from './loginModel';
 import { Link } from 'react-router-dom';
 
 class NavBar extends Component {
@@ -34,7 +35,7 @@ class NavBar extends Component {
                         </div>
                         <div className="collapse d-flex justify-content-end"  id="navbarNav">
                             <TransitionsModal />
-                            <TransitionsModal />
+                            <TransitionsModal2 />
                         </div>
                     </div>
                 </nav>
