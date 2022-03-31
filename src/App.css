@@ -1,38 +1,77 @@
-.App {
+body {
+  background: #ffffff;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+/* Logo */
+#logo{
+  color: #00008b;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+/* End of logo */
+
+#button-addon1 {
+  color: #00008b ;
+}
+
+i {
+  color: #00008b;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+.hero-text{
+  color: #00008b;
+  font-size: 4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 60%;
+  font-weight: 700;
+  margin-top: 80px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* buttons */
+#btn-solid {
+  background-color: #00008b;
   color: white;
+  border-color: #00008b;
 }
 
-.App-link {
-  color: #61dafb;
+#btn-solid:hover{
+  background-color: #09095e;
+  color: white;
+  border-color: #00008b;
+  box-shadow: #09095e;
+}
+#btn-outline{
+  background-color: #ffffff;
+  color: #00008b;
+  border-color: #00008b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn-outline:hover{
+  background-color: #09095e;
+  color: white;
+  border-color: #00008b;
+  box-shadow: #09095e;
+}
+/* End of Buttons */
+
+/* Box Tip */
+.tip-box{
+  background-color: #ffffff;
+  border-color: #02021b;
+  border-radius: 20px;
+  border: 3px solid;
 }
