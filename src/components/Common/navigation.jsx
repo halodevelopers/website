@@ -3,12 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import TransitionsModal from './signinModel';
 import TransitionsModal2 from './loginModel';
 import { Link } from 'react-router-dom';
+import styles from './css/navbar.module.css';
+import clsx from 'clsx';
 
 class NavBar extends Component {
     state = {}
     render() {
         return (
-            <div className="container">
+            <div className={clsx("container-fluid", styles.navbar)}>
                 <nav className="navbar navbar-expand-lg navbar-light p-2">
                     <div className="container-fluid">
                         <a className="navbar-brand d-flex justify-content-start" id='logo' href="#">HaloDev</a>
