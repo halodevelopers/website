@@ -24,12 +24,14 @@ class Compete extends Component {
                             <DifficultyCheckBox />
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col text-center">
                         <div>
-                            <h1>Comptetions 0</h1>
+                            <h3>Comptetions 0</h3>
                         </div>
-                        <div>
-                            <CompteteCard/>
+                        <div className='mt-10'>
+                            <div>
+                                <CompteteCard />
+                            </div>
                         </div>
                     </div>
                 </div>
