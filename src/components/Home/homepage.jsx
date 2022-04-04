@@ -12,8 +12,8 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <NavBar/>
-                <div className={clsx("container hero hero-text ", styles.hero )}><br />
+                <NavBar />
+                <div className={clsx("container hero hero-text ", styles.hero)}><br />
                     <h1 className='text-center' >
                         Learn, grow, build
 
@@ -41,7 +41,9 @@ class Home extends Component {
                     </div> */}
 
                 </div>
-                <ScrollableTabsButtonAuto />
+                <div className="container-fluid">
+                    <ScrollableTabsButtonAuto />
+                </div>
                 <LearnSection />
             </div>
         );

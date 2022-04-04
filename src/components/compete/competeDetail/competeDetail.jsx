@@ -4,16 +4,18 @@ import CompeteHero from './competeHero';
 import CompeteTab from './competeTab';
 
 class CompeteDetail extends Component {
-    state = {  } 
-    render() { 
+    state = {}
+    render() {
         return (
             <div>
-                <NavBar/>
-                <CompeteHero/>
-                <CompeteTab/>
+                <NavBar />
+                <CompeteHero />
+                <div className="container-fluid">
+                    <CompeteTab />
+                </div>
             </div>
         );
     }
 }
- 
+
 export default CompeteDetail
