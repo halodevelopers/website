@@ -56,7 +56,7 @@ class Footer extends Component {
 
             <div className="bg-light py-4">
               <div className="container text-center">
-                <p className="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+                <p className="text-muted mb-0 py-2">© 2022 HaloDev All rights reserved.</p>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 
 // creating a singleCard for competitions used in competeCard.jsx  
@@ -11,8 +12,10 @@ class SingleCard extends Component {
                     <img src="./zindi.png" class="img-thumbnail rounded float-start" alt="..."></img>
                 </div>
                 <div className="col-6 text-lowercase">
+                <Link to="/compete/detail">
                     <h4 className='text-lowercase'>Torture Resue Forecast Challenge</h4>
                     <p>Can you forecast the number of turtles rescued per site per week in Kenya?</p>
+                </Link>
                 </div>
                 <div className="col-3 text-lowercase">
                     <h5>Knowledge</h5>

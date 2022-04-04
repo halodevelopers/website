@@ -16,7 +16,7 @@ class Compete extends Component {
         return (
             <div>
                 <NavBar />
-                <div className="container row m-10">
+                <div className="container-fluid  row m-10">
                     <Intro />
                     <div className="col-3 mt-5">
                         <div className='container'>
