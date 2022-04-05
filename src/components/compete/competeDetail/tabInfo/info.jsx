@@ -6,6 +6,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import DescriptionDetail from './description';
+import Evaluation from './evaluation';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -71,7 +72,7 @@ export default function Info() {
         className={classes.tabs}
       >
         <Tab label="Description" {...a11yProps(0)} />
-        <Tab label="Item Two" {...a11yProps(1)} />
+        <Tab label="Evaluation" {...a11yProps(1)} />
         <Tab label="Item Three" {...a11yProps(2)} />
         <Tab label="Item Four" {...a11yProps(3)} />
         <Tab label="Item Five" {...a11yProps(4)} />
@@ -79,10 +80,10 @@ export default function Info() {
         <Tab label="Item Seven" {...a11yProps(6)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <DescriptionDetail/>
+        <DescriptionDetail />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <Evaluation/>
       </TabPanel>
       <TabPanel value={value} index={2}>
         Item Three
