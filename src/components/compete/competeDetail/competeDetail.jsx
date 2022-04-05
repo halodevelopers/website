@@ -10,7 +10,7 @@ class CompeteDetail extends Component {
             <div>
                 <NavBar />
                 <CompeteHero />
-                <div className="container-fluid">
+                <div>
                     <CompeteTab />
                 </div>
             </div>

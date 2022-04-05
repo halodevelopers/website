@@ -6,6 +6,9 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import Info from './tabInfo/info';
+import style from './css/competeTab.module.css';
+import clsx from 'clsx';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -57,35 +60,37 @@ export default function CompeteTab() {
   };
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static" color="default">
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          indicatorColor="primary"
-          textColor="primary"
-          variant="scrollable"
-          scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
-        >
-          <Tab label="Info" {...a11yProps(0)} />
-          <Tab label="Data" {...a11yProps(1)} />
-          <Tab label="Discussion" {...a11yProps(2)} />
-          <Tab label="LeaderBoard" {...a11yProps(3)} />
-        </Tabs>
-      </AppBar>
-      <TabPanel value={value} index={0}>
-        Info
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        Data
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        Discussion
-      </TabPanel>
-      <TabPanel value={value} index={3}>
-        LeaderBoard
-      </TabPanel>
+    <div className={clsx(style.container)}>
+      <div className={classes.root}>
+        <AppBar position="static" color="default">
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            indicatorColor="primary"
+            textColor="primary"
+            variant="scrollable"
+            scrollButtons="auto"
+            aria-label="scrollable auto tabs example"
+          >
+            <Tab label="Info" {...a11yProps(0)} />
+            <Tab label="Data" {...a11yProps(1)} />
+            <Tab label="Discussion" {...a11yProps(2)} />
+            <Tab label="LeaderBoard" {...a11yProps(3)} />
+          </Tabs>
+        </AppBar>
+        <TabPanel value={value} index={0}>
+          <Info />
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+          Data
+        </TabPanel>
+        <TabPanel value={value} index={2}>
+          Discussion
+        </TabPanel>
+        <TabPanel value={value} index={3}>
+          LeaderBoard
+        </TabPanel>
+      </div>
     </div>
   );
 }
