@@ -6,9 +6,11 @@ import styles from './halodev.module.css';
 import CompeteDetail from '../components/compete/competeDetail/competeDetail';
 
 
+
 function Halodev() {
   return (
     <div className="App">
+
       <Router>
         <Routes>
           <Route element={<Home />} path="/" />
@@ -18,7 +20,6 @@ function Halodev() {
         </Routes>
       </Router>
       <Footer />
-
     </div>
   );
 }
