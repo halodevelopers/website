@@ -4,8 +4,8 @@ class Evaluation extends Component {
     state = {}
     render() {
         return (
-            <div>
-                <h1>Evaluation</h1>
+            <div className='container top-margin'>
+                <h1 id='evaluation'>Evaluation</h1>
                 <p>
                     The error metric for this competition is the Root Mean Squared Error.
                 </p>

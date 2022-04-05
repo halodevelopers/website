@@ -4,8 +4,8 @@ class DescriptionDetail extends Component {
     state = {}
     render() {
         return (
-            <div className='container'>
-                <h1>Description</h1>
+            <div className='container top-margin'>
+                <h1 id='description'>Description</h1>
                 <p>
                     The objective of this competition is to create a machine learning model to help Kenyan
                     non-profit organization Local Ocean Conservation anticipate the number of turtles they will

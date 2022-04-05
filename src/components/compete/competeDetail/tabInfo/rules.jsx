@@ -4,8 +4,8 @@ class Rules extends Component {
     state = {}
     render() {
         return (
-            <div>
-                <h1>Rules</h1>
+            <div className='container top-margin'>
+                <h1 id='rules'>Rules</h1>
                 <p>
                     As this is a learning challenge, aside from the rules in the Terms of Use, no other particular rules apply.
 
