@@ -7,6 +7,7 @@ import CompeteDetail from '../components/compete/competeDetail/competeDetail';
 
 
 
+
 function Halodev() {
   return (
     <div className="App">
