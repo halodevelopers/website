@@ -20,12 +20,12 @@ class Home extends Component {
                     </h1>
                     <h1 className='text-center' >
 
-                        connections and help
+                        Connections and help
 
                     </h1>
                     <h1 className='text-center' >
 
-                        transform the world with AI
+                        Transform the world with AI
                     </h1>
                     <div className={clsx("text-center", styles.textcenter)}>
                         <button className={clsx("btn btn-primary btn-lg m-2", styles.buttoncompete)} id='btn-solid'>Compete</button>

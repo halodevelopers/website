@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import zindi from './images/zindi.jpg';
+import styles from './css/competeCard.module.css';
+import clsx from 'clsx';
+
 
 
 // creating a singleCard for competitions used in competeCard.jsx  
@@ -9,10 +13,10 @@ class SingleCard extends Component {
         return (
             <div className="row">
                 <div className="col-3">
-                    <img src="./zindi.png" class="img-thumbnail rounded float-start" alt="..."></img>
+                    <img src={zindi} class="img-thumbnail rounded float-start" alt="..."></img>
                 </div>
                 <div className="col-6 text-lowercase">
-                <Link to="/compete/detail">
+                <Link className = {clsx(styles.link)} to="/compete/detail">
                     <h4 className='text-lowercase'>Torture Resue Forecast Challenge</h4>
                     <p>Can you forecast the number of turtles rescued per site per week in Kenya?</p>
                 </Link>
