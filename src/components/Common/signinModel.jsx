@@ -4,6 +4,8 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import SigninForm from './signin.jsx';
+import styles from './css/register.module.css';
+import clsx from 'clsx';
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -34,7 +36,7 @@ export default function TransitionsModal() {
 
   return (
     <div>
-      <button type="button" className='btn' id='btn-outline' onClick={handleOpen}>
+      <button type="button" className={clsx(styles.btn, 'me-2')} id='btn-outline' onClick={handleOpen}>
         Sign in
       </button>
       <Modal

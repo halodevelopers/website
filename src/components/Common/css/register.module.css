@@ -1,0 +1,20 @@
+.btn{
+    color: #fff;
+    border: none;
+    background-color: #0B0B45;
+    border-radius: 5px;
+    font-weight:700px;
+    height: 40px;
+    width: 80px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+
+}
+
+.btn:hover{
+    color: #0B0B45;
+    border-color: #0B0B45;
+    background-color: #fff;
+    border: 0.5px;
+    border-radius: 5px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+}

@@ -1,17 +1,9 @@
 .navbar{
-    /* background-color: #fff;
-    border-bottom: 1px solid #e5e5e5;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out; */
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-bottom: 1px solid #e6e5e5;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: 80px;
-    padding: 0 20px;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(0,0,0,.55);
+}
+
+.link{
+    text-docoration:none;
 }
