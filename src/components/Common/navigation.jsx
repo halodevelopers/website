@@ -11,10 +11,11 @@ class NavBar extends Component {
     render() {
         return (
             <div className={clsx("container-fluid", styles.navbar)}>
-                <nav className="navbar navbar-expand-lg navbar-light p-2">
+                <nav className={clsx("navbarlight navbar navbar-expand-lg navbar-light p-2")}>
                     <div className="container-fluid">
-                    <Link className={clsx(styles.link)} to="/">
-                        <a className="navbar-brand d-flex justify-content-start" id='logo' href="#">HaloDev</a>
+                    <Link className={clsx("navbarlink",styles.link)} to="/">
+                        <a className={clsx("", styles.navbarbrand)} id='logo' href="/" />
+                        <a className={clsx("", styles.navbartext)} id='logo' href="/">Halodevs</a>
                     </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>

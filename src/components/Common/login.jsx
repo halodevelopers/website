@@ -6,7 +6,7 @@ class LoginForm extends Component {
   render() {
     return (
       <div>
-        <h2 className="text-uppercase text-center mb-5">Login</h2>
+        <h2 className=" text-uppercase text-center mb-5">Login</h2>
         <form>
           <div className="form-outline mb-4">
             <input type="email" id="form3Example3cg" className="form-control form-control-lg" />
