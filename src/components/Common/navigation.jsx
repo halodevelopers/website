@@ -10,8 +10,11 @@ class NavBar extends Component {
     state = {}
     render() {
         return (
+            
             <div className={clsx("container-fluid", styles.navbar)}>
+
                 <nav className={clsx("navbarlight navbar navbar-expand-lg navbar-light p-2")}>
+
                     <div className="container-fluid">
                     <Link className={clsx("navbarlink",styles.link)} to="/">
                         <a className={clsx("", styles.navbarbrand)} id='logo' href="/" />
@@ -45,6 +48,8 @@ class NavBar extends Component {
                     </div>
                 </nav>
             </div>
+
+
         );
     }
 }
