@@ -5,12 +5,14 @@ import TransitionsModal2 from './loginModel';
 import { Link } from 'react-router-dom';
 import styles from './css/navbar.module.css';
 import clsx from 'clsx';
+import AnnouncementBar from './anouncementbar';
 
 class NavBar extends Component {
     state = {}
     render() {
         return (
-            
+            <div>
+            <AnnouncementBar />
             <div className={clsx("container-fluid", styles.navbar)}>
 
                 <nav className={clsx("navbarlight navbar navbar-expand-lg navbar-light p-2")}>
@@ -48,7 +50,7 @@ class NavBar extends Component {
                     </div>
                 </nav>
             </div>
-
+            </div>
 
         );
     }

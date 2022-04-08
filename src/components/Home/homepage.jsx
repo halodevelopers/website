@@ -5,13 +5,12 @@ import LearnSection from './learn.jsx'
 import clsx from 'clsx';
 import NavBar from "../Common/navigation";
 import styles from './css/homepage.module.css';
-import AnnouncementBar from '../Common/anouncementbar';
+// import AnnouncementBar from '../Common/anouncementbar';
 class Home extends Component {
     state = {}
     render() {
         return (
             <div>
-                <AnnouncementBar />
                 <NavBar />
                 <div className={clsx("container hero hero-text ", styles.hero)}><br />
                     <h1 className='text-center' >
