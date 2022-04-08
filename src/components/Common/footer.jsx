@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
+import styles from './css/footer.module.css';
+import clsx from 'clsx';
 
 class Footer extends Component {
   state = {}
@@ -8,10 +10,10 @@ class Footer extends Component {
       <div>
         <div className="d-flex flex-column">
           <div className="bg-white">
-            <div className="container py-5">
+            <div className={clsx("container py-5", styles.container)}>
               <div className="row py-4">
-                <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                <h1 className='font-italic text-muted'>HaloDev</h1>
+                <div className={clsx("col-lg-4 col-md-6 mb-4 mb-lg-0", styles.container)}>
+                  <h1 className={('font-italic text-muted halodevs')}>Halodevs</h1>
                   <p className="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                   <ul className="list-inline mt-4">
                     <li className="list-inline-item"><a href="#" target="_blank" title="twitter"><i className="fa fa-twitter"></i></a></li>
@@ -45,9 +47,9 @@ class Footer extends Component {
                   <div className="p-1 rounded border">
                     <div className="input-group">
                       <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" className="form-control border-0 shadow-0"></input>
-                        <div className="input-group-append">
-                          <button id="button-addon1" type="submit" className="btn btn-link"><i className="fa fa-paper-plane"></i></button>
-                        </div>
+                      <div className="input-group-append">
+                        <button id="button-addon1" type="submit" className="btn btn-link"><i className="fa fa-paper-plane"></i></button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -61,7 +63,7 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-        </div>
+      </div>
 
     );
   }

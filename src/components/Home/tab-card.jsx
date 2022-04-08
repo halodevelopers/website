@@ -8,7 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import MediaCard from './cards';
-
+import clsx from 'clsx';
+import styles from '../Home/css/tab.module.css';
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -42,16 +43,17 @@ function a11yProps(index) {
   };
 }
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 0,
-    width: '100%',
-    backgroundColor: theme.palette.background.paper,
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     flexGrow: 0,
+//     width: '100%',
+//     backgroundColor: '#fff',
+//     // backgroundColor: theme.palette.background.paper,
+//   },
+// }));
 
 export default function ScrollableTabsButtonAuto() {
-  const classes = useStyles();
+
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -59,13 +61,13 @@ export default function ScrollableTabsButtonAuto() {
   };
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static" color="default">
+    <div className={clsx("tabapp", styles.appbar)}>
+
         <Tabs
+          className={clsx("tab", styles.tab )}
           value={value}
           onChange={handleChange}
           indicatorColor="primary"
-          textColor="primary"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
@@ -75,7 +77,8 @@ export default function ScrollableTabsButtonAuto() {
           <Tab label="For Knowledge" {...a11yProps(2)} />
           <Tab label="For Intership" {...a11yProps(3)} />
         </Tabs>
-      </AppBar>
+
+      <div className={clsx("container tabpanel", styles.tabpanel)}>
       <TabPanel value={value} index={0}>
         <div className="container">
           <div className="row">
@@ -89,7 +92,7 @@ export default function ScrollableTabsButtonAuto() {
               <MediaCard />
             </div>
           </div>
-          <div className="row mt-2">
+          <div className="row mt-5">
             <div className="col">
               <MediaCard />
             </div>
@@ -115,7 +118,7 @@ export default function ScrollableTabsButtonAuto() {
               <MediaCard />
             </div>
           </div>
-          <div className="row">
+          <div className="row mt-5">
             <div className="col">
               <MediaCard />
             </div>
@@ -141,7 +144,7 @@ export default function ScrollableTabsButtonAuto() {
               <MediaCard />
             </div>
           </div>
-          <div className="row">
+          <div className="row mt-5">
             <div className="col">
               <MediaCard />
             </div>
@@ -167,7 +170,7 @@ export default function ScrollableTabsButtonAuto() {
               <MediaCard />
             </div>
           </div>
-          <div className="row mt-2">
+          <div className="row mt-5">
             <div className="col">
               <MediaCard />
             </div>
@@ -180,6 +183,7 @@ export default function ScrollableTabsButtonAuto() {
           </div>
         </div>
       </TabPanel>
+      </div>
     </div>
   );
 }

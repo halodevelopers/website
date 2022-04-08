@@ -39,8 +39,8 @@ class Home extends Component {
                     </div> */}
 
                 </div>
-                <div className="container-fluid">
-                    <ScrollableTabsButtonAuto />
+                <div className="container">
+                    <ScrollableTabsButtonAuto className={clsx("scroll", styles.scroll)} />
                 </div>
                 <LearnSection />
             </div>
