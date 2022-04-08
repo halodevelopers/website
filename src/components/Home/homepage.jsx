@@ -5,6 +5,7 @@ import LearnSection from './learn.jsx'
 import clsx from 'clsx';
 import NavBar from "../Common/navigation";
 import styles from './css/homepage.module.css';
+// import AnnouncementBar from '../Common/anouncementbar';
 class Home extends Component {
     state = {}
     render() {
