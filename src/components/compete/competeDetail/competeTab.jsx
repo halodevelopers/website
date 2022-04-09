@@ -62,7 +62,6 @@ export default function CompeteTab() {
   return (
     <div className={clsx(style.container)}>
       <div className={classes.root}>
-        <AppBar position="static" color="default">
           <Tabs
             value={value}
             onChange={handleChange}
@@ -77,7 +76,6 @@ export default function CompeteTab() {
             <Tab label="Discussion" {...a11yProps(2)} />
             <Tab label="LeaderBoard" {...a11yProps(3)} />
           </Tabs>
-        </AppBar>
         <TabPanel value={value} index={0}>
           <Info />
         </TabPanel>
