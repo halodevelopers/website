@@ -4,7 +4,7 @@ import DashBoardCompeteTab from './dashboardCompeteTab';
 function DashCompete() {
     return ( 
         <div>
-            <div className="container">
+            <div className="container-fluid">
                 <DashBoardCompeteTab/>
             </div>
         </div>
