@@ -7,3 +7,12 @@
     position: relative;
 
 } */
+.container {
+  border: 1px solid #dedfe0;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.tabs {
+  padding: 0px;
+}
+

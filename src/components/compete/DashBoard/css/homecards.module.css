@@ -1,0 +1,50 @@
+.container {
+  border: 1px solid #dedfe0;
+}
+.ratings {
+  display: flex;
+  
+  /* background-color: #dedfe0; */
+}
+
+.cardheader {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background-color: #fbfbfb;
+}
+.card__title {
+  padding: 20px;
+  margin-right: 40px;
+  color: #0006;
+}
+
+.card__title:hover {
+  color: #20beff;
+}
+
+.rank {
+  align-items: center;
+  border-bottom: 1px solid hsla(210, 3%, 87%, 0.5);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: center;
+}
+.rank:hover {
+  color: #5ac995;
+}
+
+.card__bottom {
+  min-height: 76px;
+  padding: 20px;
+}
+.card_title__bottom {
+  color: #fbfbfb;
+}
+
+.ratings__icons {
+  padding: 20px;
+  border: 1px solid #dedfe0;
+}
