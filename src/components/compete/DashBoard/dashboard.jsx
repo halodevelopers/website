@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "../../Common/navigation";
 import UserCard from "./userCard";
-import DashboardTab from "./dashboardTab";
+// import DashboardTab from "./dashboardTab";
 import clsx from "clsx";
 import styles from "./css/dashborad.module.css";
 class DashBoard extends Component {
