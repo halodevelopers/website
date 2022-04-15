@@ -18,7 +18,7 @@ class UserCard extends Component {
                         <p>Uganda</p>
                     </div>
                     <div className="col-4">
-
+                        
                     </div>
                 </div>
             </div>
