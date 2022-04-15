@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Compete from "../components/compete/compete";
 import styles from './halodev.module.css';
 import CompeteDetail from '../components/compete/competeDetail/competeDetail';
-import DashBoard from '../components/compete/DashBoard/dashbord';
+import DashBoard from '../components/compete/DashBoard/dashboard';
 
 
 
