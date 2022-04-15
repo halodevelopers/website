@@ -8,6 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import DashboardCard from './dashboardCard';
 import DashCompete from './DashCompete';
+import clsx from "clsx";
+import styles from "./css/tabs.module.css";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -38,14 +40,14 @@ TabPanel.propTypes = {
 function a11yProps(index) {
   return {
     id: `scrollable-auto-tab-${index}`,
-    'aria-controls': `scrollable-auto-tabpanel-${index}`,
+    "aria-controls": `scrollable-auto-tabpanel-${index}`,
   };
 }
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    width: '100%',
+    width: "100%",
     // backgroundColor: theme.palette.background.paper,
   },
 }));
@@ -59,8 +61,11 @@ export default function DashboardTab() {
   };
 
   return (
-    <div className={classes.root}>
+
+    <div>
       <Tabs
+        className={clsx("tabs", styles.tabs)}
+
         value={value}
         onChange={handleChange}
         indicatorColor="primary"
@@ -78,6 +83,7 @@ export default function DashboardTab() {
         <Tab label="Notifications" {...a11yProps(6)} />
         <Tab label="Account" {...a11yProps(7)} />
       </Tabs>
+
       <TabPanel value={value} index={0}>
         <div className="container-fluid">
           <DashboardCard />

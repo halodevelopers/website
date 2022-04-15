@@ -19,9 +19,7 @@ class DashBoard extends Component {
             </div>
           </div>
           <div className={clsx("row", styles.row)}>
-            <div className="col-md-12">
-              <DashboardTab />
-            </div>
+            <div className="col-md-12"></div>
           </div>
         </div>
       </div>
