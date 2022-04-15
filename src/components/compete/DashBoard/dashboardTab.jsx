@@ -10,6 +10,7 @@ import DashboardCard from './dashboardCard';
 import DashCompete from './DashCompete';
 import clsx from "clsx";
 import styles from "./css/tabs.module.css";
+import DashBoardDataSet from './dashboardDataset';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -95,7 +96,7 @@ export default function DashboardTab() {
         </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <DashBoardDataSet/>
       </TabPanel>
       <TabPanel value={value} index={3}>
         Item Four
