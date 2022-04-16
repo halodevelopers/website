@@ -15,8 +15,8 @@ class UserCard extends Component {
           <div className={clsx("col-2")}>
             <img
               src={avatar}
-              style={{ width: "200px" }}
-              class="img-thumbnail rounded float-start"
+              style={{ width: "150px" }}
+              class="rounded float-start"
               alt="..."
             ></img>
           </div>
