@@ -1,15 +1,25 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  
+}
 .container {
   border: 1px solid #dedfe0;
+  margin: 10px;
+  padding: 10px;
+  align-content: center;
 }
 .ratings {
   display: flex;
-  
+
   /* background-color: #dedfe0; */
 }
 
 .cardheader {
   display: flex;
   align-items: center;
+
   height: 64px;
   background-color: #fbfbfb;
 }

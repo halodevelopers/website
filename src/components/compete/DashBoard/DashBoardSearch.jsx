@@ -13,8 +13,9 @@ class DashBoardDataSetSearch extends Component {
             <div>
                 <form action="" method="post">
                     <div>
-                        <SearchIcon/>
+
                         <input className = {clsx(styles.inputstyle)} type="text" placeholder='Search DataSet' required />
+                        <SearchIcon/>
                         <button className='btn btn-light'>Filter</button>
                     </div>
                     <div>

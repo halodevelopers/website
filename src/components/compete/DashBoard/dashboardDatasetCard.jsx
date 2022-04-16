@@ -21,7 +21,7 @@ class DashBoardDataSetCard extends Component {
                             </p>
                         </div>
                         <div>
-                            <button className="btn btn-outline-dark">Dataset</button>
+                            <button className={clsx("btn btn-outline-dark", styles.button)}>Dataset</button>
                         </div>
                     </div>
                 </div>

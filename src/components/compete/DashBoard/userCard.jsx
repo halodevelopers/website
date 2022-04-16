@@ -8,34 +8,44 @@ class UserCard extends Component {
   state = {};
   render() {
     return (
-      <div className={clsx("container mt-5")}>
+      <div className={clsx("container-fluid mt-5")}>
         <div className={clsx("row")}>
-          <div className={clsx("container", styles.container)}>
-          <div className={clsx("row")}>
-          <div className={clsx("col-2")}>
-            <img
-              src={avatar}
-              style={{ width: "150px" }}
-              class="rounded float-start"
-              alt="..."
-            ></img>
-          </div>
-          <div className="col-6">
-            <h4>Atwanzire Timothy Ian</h4>
-            <p>Data Scientist</p>
-            <p>HaloDev</p>
-            <p>Uganda</p>
-          </div>
-          <div className="col-4">
-            <img src="logo/novice@192.png" alt="" />
+          <div className={clsx("container-fluid")}>
+            <div className={clsx("row", )}>
+              <div className="container">
+                <div className={clsx("row", styles.row)}>
+                  <div className={clsx("col-2")}>
+                    <img
+                      src={avatar}
+                      style={{ width: "150px" }}
+                      class="rounded float-start"
+                      alt="..."
+                    ></img>
+                  </div>
+                  <div className="col-6">
+                    <h4>Atwanzire Timothy Ian</h4>
+                    <p>Data Scientist</p>
+                    <p>HaloDev</p>
+                    <p>Uganda</p>
+                  </div>
+                  <div className="col-4">
+                    <img src="logo/novice@192.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div className="row">
+          <div className="container-fluid">
+            <div className={clsx("row",)}>
+              <DashboardTab />
+            </div>
           </div>
-          </div>
-        <div className={clsx("row", styles.tabs)}>
-          <DashboardTab />
         </div>
+
       </div>
+
     );
   }
 }
