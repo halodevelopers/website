@@ -63,27 +63,30 @@ export default function DashboardTab() {
 
   return (
 
-    <div>
-      <Tabs
-        className={clsx("tabs", styles.tabs)}
+    <div className={clsx("container-fluid")}>
+      <div className={clsx("row", styles.row)}>
+        <div className="col-md-12">
+          <Tabs
+            className={clsx("tabs", styles.tabs)}
 
-        value={value}
-        onChange={handleChange}
-        indicatorColor="primary"
-        textColor="primary"
-        variant="scrollable"
-        scrollButtons="auto"
-        aria-label="scrollable auto tabs example"
-      >
-        <Tab label="Home" {...a11yProps(0)} />
-        <Tab label="Competitions" {...a11yProps(1)} />
-        <Tab label="Datasets" {...a11yProps(2)} />
-        <Tab label="Code" {...a11yProps(3)} />
-        <Tab label="Discussions" {...a11yProps(4)} />
-        <Tab label="Followers" {...a11yProps(5)} />
-        <Tab label="Notifications" {...a11yProps(6)} />
-        <Tab label="Account" {...a11yProps(7)} />
-      </Tabs>
+            value={value}
+            onChange={handleChange}
+            indicatorColor="primary"
+            textColor="primary"
+            variant="scrollable"
+            scrollButtons="auto"
+            aria-label="scrollable auto tabs example"
+          >
+            <Tab label="Home" {...a11yProps(0)} />
+            <Tab label="Competitions" {...a11yProps(1)} />
+            <Tab label="Datasets" {...a11yProps(2)} />
+            <Tab label="Code" {...a11yProps(3)} />
+            <Tab label="Discussions" {...a11yProps(4)} />
+            <Tab label="Followers" {...a11yProps(5)} />
+            <Tab label="Notifications" {...a11yProps(6)} />
+            <Tab label="Account" {...a11yProps(7)} />
+          </Tabs>
+
 
       <TabPanel value={value} index={0}>
         <div className="container-fluid">
@@ -96,7 +99,7 @@ export default function DashboardTab() {
         </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <DashBoardDataSet/>
+        <DashBoardDataSet />
       </TabPanel>
       <TabPanel value={value} index={3}>
         Item Four
@@ -114,5 +117,8 @@ export default function DashboardTab() {
         Item Eight
       </TabPanel>
     </div>
+    </div>
+      </div>
+
   );
 }

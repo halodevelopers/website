@@ -1,15 +1,107 @@
 .inputstyle{
     width: 85%;
     height: 3em;
-    border-radius: 10px;
     margin: 20px;
     border: 0.1px solid #343a40;
     text-align: center;
+    color: #0B0B45;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-align:justify;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    font: 350 40px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+   text-justify: distribute;
+
 }
 
 .datasetBorder{
-    border: 1px solid #343a40;
+    width: 100%;
+    z-index: 1;
+    padding-left: 0px;
+    border-bottom: 1px solid #e6e5e5;
+    color: #0B0B45;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-align:justify;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    font: 350 40px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    border-width: 1px;
+    border-style: none;
+    border-color: none;
+    border-image: initial;
     padding: 30px;
-    border-radius: 10px;
-    
+    size: 8rem;
+    margin-bottom: 8px;
+
+
+}
+
+.button{
+    margin-top: 5rem;
+    color: #fff;
+    border: none;
+    background-color: #0B0B45;
+    border-radius: 5px;
+    font-weight:700px;
+    height: 40px;
+    width: 80px;
+    font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+
+
+    color: #fff;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: #0B0B45;
+    box-sizing: border-box;
+    font: 350 20px;
+    border-width: 1px;
+    border-style: none;
+    border-color: none;
+    border-image: initial;
+    border-radius: 2px 2px 2px 2px;
+
+
+}
+
+.button:hover{
+    color: #0B0B45;
+    border-color: #0B0B45;
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+
+
+    border: none;
+    border-radius: 5px;
+    font-weight:700px;
+    height: 40px;
+    width: 80px;
+    font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: #c8c8e6;
+    box-sizing: border-box;
+    font: 350 20px;
+    border-width: 1px;
+    border-style: none;
+    border-color: none;
+    border-image: initial;
+    border-radius: 2px 2px 2px 2px;
 }

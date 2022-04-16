@@ -14,8 +14,8 @@ import { data } from "./data/data";
 
 function DashboardCard() {
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container-fluid">
+      <div className={clsx("row", styles.row)}>
         {data.map((data) => (
           <>
             <div className={clsx("col-3", styles.container)}>
@@ -64,7 +64,7 @@ function DashboardCard() {
                 </Typography>
               </div>
             </div>
-            ;
+
           </>
         ))}
       </div>
