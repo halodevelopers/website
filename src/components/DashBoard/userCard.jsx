@@ -4,6 +4,8 @@ import avatar from "./images/avatar.jpg";
 import clsx from "clsx";
 import styles from "./css/dashborad.module.css";
 import DashboardTab from "./dashboardTab";
+
+
 class UserCard extends Component {
   state = {};
   render() {
@@ -17,8 +19,7 @@ class UserCard extends Component {
                   <div className={clsx("col-2")}>
                     <img
                       src={avatar}
-                      style={{ width: "150px" }}
-                      class="rounded float-start"
+                      className={clsx("row", styles.avatar)}
                       alt="..."
                     ></img>
                   </div>
@@ -35,7 +36,7 @@ class UserCard extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div><hr/>
         <div className="row">
           <div className="container-fluid">
             <div className={clsx("row",)}>
