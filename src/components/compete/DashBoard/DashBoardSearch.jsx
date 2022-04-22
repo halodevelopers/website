@@ -4,27 +4,22 @@ import styles from './css/dashboardDataset.module.css';
 import clsx from 'clsx';
 import SimpleTabs from './dashboardDSTab';
 
-
-class DashBoardDataSetSearch extends Component {
-    state = {}
-
-    render() {
+function DashBoardSearch(props){
         return (
             <div>
                 <form action="" method="post">
                     <div>
 
-                        <input className = {clsx(styles.inputstyle)} type="text" placeholder='Search DataSet' required />
+                        <input className = {clsx(styles.inputstyle)} type="text" placeholder='Am Looking For ...' required />
                         <SearchIcon/>
                         <button className='btn btn-light'>Filter</button>
                     </div>
-                    <div>
+                    {/* <div>
                         <SimpleTabs/>
-                    </div>
+                    </div> */}
                 </form>
             </div>
         );
     }
-}
 
-export default DashBoardDataSetSearch;
+export default DashBoardSearch;

@@ -17,8 +17,7 @@ class UserCard extends Component {
                   <div className={clsx("col-2")}>
                     <img
                       src={avatar}
-                      style={{ width: "150px" }}
-                      class="rounded float-start"
+                      className={clsx("row", styles.avatar)}
                       alt="..."
                     ></img>
                   </div>
@@ -35,7 +34,7 @@ class UserCard extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div><hr/>
         <div className="row">
           <div className="container-fluid">
             <div className={clsx("row",)}>

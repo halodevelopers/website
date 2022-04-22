@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DashBoardDataSetCard from './dashboardDatasetCard';
+import SimpleTabs from './dashboardDSTab';
 
 class DashBoardDataSet extends Component {
     state = {  } 
@@ -7,6 +8,7 @@ class DashBoardDataSet extends Component {
         return (
             <div>
                 <DashBoardDataSetCard/>
+                <SimpleTabs/>
             </div>
         );
     }

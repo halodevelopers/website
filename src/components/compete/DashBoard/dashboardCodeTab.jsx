@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import NoWork from './nowork';
 
+
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
 
@@ -49,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function SimpleTabs() {
+export default function SimpleCodeTab() {
     const classes = useStyles();
     const [value, setValue] = React.useState(0);
 
@@ -73,14 +74,13 @@ export default function SimpleTabs() {
                 <Tab label="Bookmark" {...a11yProps(2)} />
             </Tabs>
             <TabPanel value={value} index={0}>
-                
-                <NoWork name ="Dataset"/>
+                <NoWork name = "Code"/>
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <NoWork name ="Dataset"/>
+                <NoWork name = "Code"/>
             </TabPanel>
             <TabPanel value={value} index={2}>
-                <NoWork name ="Dataset"/>
+                <NoWork name = "Code"/>
             </TabPanel>
         </div>
     );
