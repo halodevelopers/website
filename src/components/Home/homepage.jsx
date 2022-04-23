@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ScrollableTabsButtonAuto from './tab-card';
-import LearnSection from './learn.jsx'
 import clsx from 'clsx';
 import NavBar from "../Common/navigation";
 import styles from './css/homepage.module.css';
+
+// Home Import componets
+import LearnSection from './learn.jsx'
+import JoinUs from './joinOurCommunity'
 // import AnnouncementBar from '../Common/anouncementbar';
 class Home extends Component {
     state = {}
@@ -44,6 +47,7 @@ class Home extends Component {
                     <ScrollableTabsButtonAuto className={clsx("scroll", styles.scroll)} />
                 </div>
                 <LearnSection />
+                <JoinUs />
             </div>
         );
     }
