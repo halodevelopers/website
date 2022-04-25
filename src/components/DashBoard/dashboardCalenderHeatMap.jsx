@@ -19,6 +19,7 @@ function DashBoardCalenderHeatMap() {
                     return `color-scale-${value.count}`;
                 }}
             />
+            
         </div>
     );
 }
