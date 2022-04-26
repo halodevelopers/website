@@ -12,6 +12,8 @@ import clsx from "clsx";
 import styles from "./css/tabs.module.css";
 import DashBoardDataSet from './dashboardDataset';
 import DashBoardCode from './dashboardCode';
+import DashBoardCalenderHeatMap from './dashboardCalenderHeatMap';
+import DashBoardProfileBio from './dashboardProfileBio';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -89,6 +91,8 @@ export default function DashboardTab() {
       <TabPanel value={value} index={0}>
         <div className="container-fluid">
           <DashboardCard />
+          <DashBoardProfileBio />
+          <DashBoardCalenderHeatMap/>
         </div>
       </TabPanel>
       <TabPanel value={value} index={1}>

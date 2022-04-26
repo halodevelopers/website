@@ -7,6 +7,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import NoWork from './nowork';
+import DashBoardCodeCard from './dashBoardCodeCard';
 
 
 function TabPanel(props) {
@@ -58,6 +59,7 @@ export default function SimpleCodeTab() {
         setValue(newValue);
     };
 
+
     return (
         <div className={classes.root}>
             <Tabs
@@ -74,7 +76,8 @@ export default function SimpleCodeTab() {
                 <Tab label="Bookmark" {...a11yProps(2)} />
             </Tabs>
             <TabPanel value={value} index={0}>
-                <NoWork name = "Code"/>
+                <DashBoardCodeCard name = "Titanic" detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"/>
+                <DashBoardCodeCard name = "Air Sensor Classification" detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"/>
             </TabPanel>
             <TabPanel value={value} index={1}>
                 <NoWork name = "Code"/>
