@@ -77,6 +77,7 @@ export default function SimpleCodeTab() {
             </Tabs>
             <TabPanel value={value} index={0}>
                 <DashBoardCodeCard name = "Titanic" detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"/>
+                <DashBoardCodeCard name = "Air Sensor Classification" detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"/>
             </TabPanel>
             <TabPanel value={value} index={1}>
                 <NoWork name = "Code"/>

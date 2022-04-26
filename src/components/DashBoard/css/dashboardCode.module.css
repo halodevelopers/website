@@ -1,7 +1,36 @@
-.h3{
-    color: red;
+.avatarCode{
+    width: 80px;
+    border-radius: 50%;
 }
 
-.codeImg{
-    width: 50px;   
+.codeCard{
+    padding-top: 20px;
+    border-bottom: 1px solid #e6e5e5;
+}
+.codeCardTitle{
+    font-size: 16;
+    font-weight: 300;
+}
+.codeCardBody{
+    font-size: 10;
+}
+
+.codeRate{
+    border: 1px solid #e6e5e5;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+}
+
+.codeIcon{
+    float:left; 
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #e6e5e5;
+}
+
+.codeNum{
+    padding-right: 10px;
+    padding-left: 10px;
 }
