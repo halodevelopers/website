@@ -5,15 +5,15 @@ class Rules extends Component {
     render() {
         return (
             <div className='container top-margin'>
-                <h1 id='rules'>Rules</h1>
+                <h5 id='rules'>Rules</h5>
                 <p>
                     As this is a learning challenge, aside from the rules in the Terms of Use, no other particular rules apply.
 
                     This challenge is open to all and not restricted to any country.
                 </p>
-                <h3>
+                <h6>
                     Teams and collaboration
-                </h3>
+                </h6>
                 <p>
 
                     You may participate in this competition as an individual or in a team of up to four people. When creating a team,
@@ -25,9 +25,9 @@ class Rules extends Component {
                     Code must not be shared privately outside of a team. Any code that is shared, must be made available to all
                     competition participants through the platform. (i.e. on the discussion boards).
                 </p>
-                <h3>
+                <h6>
                     Datasets and packages
-                </h3>
+                </h6>
                 <p>
 
                     The solution must use publicly-available, open-source packages only. Your models should not use any of the metadata provided.

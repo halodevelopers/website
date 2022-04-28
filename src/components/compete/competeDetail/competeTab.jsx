@@ -9,6 +9,8 @@ import Box from '@material-ui/core/Box';
 import Info from './tabInfo/info';
 import style from './css/competeTab.module.css';
 import clsx from 'clsx';
+import Data from './data/data';
+import Discussions from './discussions/discussions';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -80,10 +82,10 @@ export default function CompeteTab() {
           <Info />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          Data
+          <Data />
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Discussion
+          <Discussions/>
         </TabPanel>
         <TabPanel value={value} index={3}>
           LeaderBoard

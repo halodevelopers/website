@@ -1,0 +1,16 @@
+.ul_links{
+    text-decoration: none;
+    list-style: none;
+}
+
+.a_links{
+    text-decoration: none;
+    color: black;
+    opacity: .8;
+}
+
+.a_links:hover{
+    border-left: 3px solid #0B0B45;
+    padding-left: 5px;
+}
+
