@@ -11,6 +11,7 @@ import style from './css/competeTab.module.css';
 import clsx from 'clsx';
 import Data from './data/data';
 import Discussions from './discussions/discussions';
+import LeaderBoard from './leaderboard/leaderboard';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -88,7 +89,7 @@ export default function CompeteTab() {
           <Discussions/>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          LeaderBoard
+          <LeaderBoard/>
         </TabPanel>
       </div>
     </div>
