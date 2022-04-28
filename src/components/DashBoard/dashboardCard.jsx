@@ -1,11 +1,4 @@
-import {
-  Typography,
-  CardHeader,
-  Avatar,
-  IconButton,
-  Card,
-  CardContent,
-} from "@material-ui/core";
+import { Typography, CardHeader, Avatar, IconButton, Card, CardContent } from "@material-ui/core";
 import React from "react";
 import CodeIcon from "@material-ui/icons/Code";
 import clsx from "clsx";

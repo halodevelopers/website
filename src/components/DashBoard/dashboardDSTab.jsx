@@ -6,7 +6,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import NoDataset from './nodataset';
+import NoWork from './nowork';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -73,13 +73,14 @@ export default function SimpleTabs() {
                 <Tab label="Bookmark" {...a11yProps(2)} />
             </Tabs>
             <TabPanel value={value} index={0}>
-                <NoDataset />
+                
+                <NoWork name ="Dataset"/>
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <NoDataset />
+                <NoWork name ="Dataset"/>
             </TabPanel>
             <TabPanel value={value} index={2}>
-                <NoDataset />
+                <NoWork name ="Dataset"/>
             </TabPanel>
         </div>
     );

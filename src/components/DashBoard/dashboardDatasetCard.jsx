@@ -26,7 +26,7 @@ class DashBoardDataSetCard extends Component {
                     </div>
                 </div>
                 <div>
-                    <DashBoardDataSetSearch />
+                    <DashBoardDataSetSearch/>
                 </div>
             </div>
         );

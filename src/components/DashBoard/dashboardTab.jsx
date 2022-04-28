@@ -11,6 +11,9 @@ import DashCompete from './DashCompete';
 import clsx from "clsx";
 import styles from "./css/tabs.module.css";
 import DashBoardDataSet from './dashboardDataset';
+import DashBoardCode from './dashboardCode';
+import DashBoardCalenderHeatMap from './dashboardCalenderHeatMap';
+import DashBoardProfileBio from './dashboardProfileBio';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -82,15 +85,14 @@ export default function DashboardTab() {
             <Tab label="Datasets" {...a11yProps(2)} />
             <Tab label="Code" {...a11yProps(3)} />
             <Tab label="Discussions" {...a11yProps(4)} />
-            <Tab label="Followers" {...a11yProps(5)} />
-            <Tab label="Notifications" {...a11yProps(6)} />
-            <Tab label="Account" {...a11yProps(7)} />
           </Tabs>
 
 
       <TabPanel value={value} index={0}>
         <div className="container-fluid">
           <DashboardCard />
+          <DashBoardProfileBio />
+          <DashBoardCalenderHeatMap/>
         </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
@@ -102,19 +104,10 @@ export default function DashboardTab() {
         <DashBoardDataSet />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Four
+        <DashBoardCode/>
       </TabPanel>
       <TabPanel value={value} index={4}>
         Item Five
-      </TabPanel>
-      <TabPanel value={value} index={5}>
-        Item Six
-      </TabPanel>
-      <TabPanel value={value} index={6}>
-        Item Seven
-      </TabPanel>
-      <TabPanel value={value} index={7}>
-        Item Eight
       </TabPanel>
     </div>
     </div>
