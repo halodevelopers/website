@@ -15,7 +15,7 @@ function Discussions() {
                 <div className={clsx('col-sm-auto px-0', styles.search_icon)}>
                     <SearchIcon />
                 </div>
-                <div className={clsx('col-md-5 px-0', styles.search_input)}>
+                <div className={clsx('col-4 px-0', styles.search_input)}>
                     <input type="text" className={clsx('form-control', styles.form_input)} placeholder='Search Discussion...' />
                 </div>
             </div>
