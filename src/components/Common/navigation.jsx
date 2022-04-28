@@ -12,18 +12,6 @@ class NavBar extends Component {
     render() {
         return (
             <div>
-
-
-
-
-
-
-
-
-
-
-
-
                 <AnnouncementBar />
                 <div className={clsx("container-fluid sticky-top", styles.navbar)}>
 
