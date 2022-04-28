@@ -5,7 +5,7 @@ class Timeline extends Component {
     render() {
         return (
             <div className='container top-margin'>
-                <h1 id='timeline'>Timeline</h1>
+                <h5 id='timeline'>Timeline</h5>
                 <p>
                     As this is a knowledge competition it will not close.
                     We reserve the right to update the contest timeline if necessary.

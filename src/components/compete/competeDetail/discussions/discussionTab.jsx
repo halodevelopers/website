@@ -6,11 +6,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Info from './tabInfo/info';
-import style from './css/competeTab.module.css';
-import clsx from 'clsx';
-import Data from './data/data';
-import Discussions from './discussions/discussions';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -53,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function CompeteTab() {
+export default function DiscussionTab() {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -62,35 +57,41 @@ export default function CompeteTab() {
   };
 
   return (
-    <div className={clsx(style.container)}>
-      <div className={classes.root}>
-          <Tabs
-            value={value}
-            onChange={handleChange}
-            indicatorColor="primary"
-            textColor="primary"
-            variant="scrollable"
-            scrollButtons="auto"
-            aria-label="scrollable auto tabs example"
-          >
-            <Tab label="Info" {...a11yProps(0)} />
-            <Tab label="Data" {...a11yProps(1)} />
-            <Tab label="Discussion" {...a11yProps(2)} />
-            <Tab label="LeaderBoard" {...a11yProps(3)} />
-          </Tabs>
-        <TabPanel value={value} index={0}>
-          <Info />
-        </TabPanel>
-        <TabPanel value={value} index={1}>
-          <Data />
-        </TabPanel>
-        <TabPanel value={value} index={2}>
-          <Discussions/>
-        </TabPanel>
-        <TabPanel value={value} index={3}>
-          LeaderBoard
-        </TabPanel>
-      </div>
+    <div className={classes.root}>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          variant="scrollable"
+          scrollButtons="auto"
+          aria-label="scrollable auto tabs example"
+        >
+          <Tab label="All" {...a11yProps(0)} />
+          <Tab label="NoteBook" {...a11yProps(1)} />
+          <Tab label="Help" {...a11yProps(2)} />
+          <Tab label="Data" {...a11yProps(3)} />
+          <Tab label="Platform" {...a11yProps(4)} />
+          <Tab label="Connect" {...a11yProps(5)} />
+        </Tabs>
+      <TabPanel value={value} index={0}>
+        Item One
+      </TabPanel>
+      <TabPanel value={value} index={1}>
+        Item Two
+      </TabPanel>
+      <TabPanel value={value} index={2}>
+        Item Three
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+        Item Four
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+        Item Five
+      </TabPanel>
+      <TabPanel value={value} index={5}>
+        Item Six
+      </TabPanel>
     </div>
   );
 }
