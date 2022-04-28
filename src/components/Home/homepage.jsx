@@ -8,6 +8,8 @@ import styles from './css/homepage.module.css';
 // Home Import componets
 import LearnSection from './learn.jsx'
 import JoinUs from './joinOurCommunity'
+import Partnership from './patnership'
+import { PauseCircleOutlineRounded } from '@material-ui/icons';
 // import AnnouncementBar from '../Common/anouncementbar';
 class Home extends Component {
     state = {}
@@ -46,6 +48,7 @@ class Home extends Component {
                 <div className="container">
                     <ScrollableTabsButtonAuto className={clsx("scroll", styles.scroll)} />
                 </div>
+                <Partnership />
                 <LearnSection />
                 <JoinUs />
             </div>
