@@ -1,47 +1,49 @@
 import React from 'react';
-import LeaderBoardUsers from './leaderboardUser';
 import avator from './images/ebin.png';
+import styles from './css/leaderboard.module.css';
+import clsx from 'clsx';
+import LeaderBoardUsers from './leaderboardUser';
 
 function LeaderBoardCard() {
     return (
-        <div>
+<div>
+<div className={clsx(styles.card_titles)}>
             <div className="row text-center">
                 <div className="col-auto">
                     <div className="heading">
-                        <h5>RANK</h5>
-                    </div>
-                    <div>
-                        <p>1</p>
+                        <h6 className={clsx(styles.card_heading)}>RANK</h6>
                     </div>
                 </div>
                 <div className="col">
-                    <h5>USER</h5>
-                    <div>
-                        <img src={avator} style={{ width: "40px", borderRadius: "50%" }} alt="" />
-                        <h6>Ebiendele</h6>
-                        <p>Federal University</p>
+                    <div className="heading">
+                        <h6 className={clsx(styles.card_heading)}>USER</h6>
                     </div>
                 </div>
-                <div className="col-auto">
-                    <h5>SCORE</h5>
-                    <div>
-                        <h4>1.47000</h4>
+                <div className="col">
+                    <div className="heading">
+                        <h6 className={clsx(styles.card_heading)}>SCORE</h6>
                     </div>
                 </div>
-                <div className="col-auto">
-                    <h5>LAST SUBMISSION</h5>
-                    <div>
-                        <h4>18 hours Ago</h4>
+                <div className="col">
+                    <div className="heading">
+                        <h6 className={clsx(styles.card_heading)}>LAST SUBMISSION</h6>
                     </div>
                 </div>
-                <div className="col-auto">
-                    <h5>TIME LEFT</h5>
-                    <div>
-                        3 hours
+                <div className="col">
+                    <div className="heading">
+                        <h6 className={clsx(styles.card_heading)}>#SUBMITTED</h6>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="heading">
+                        <h6 className={clsx(styles.card_heading)}>TIME LEFT</h6>
+
                     </div>
                 </div>
             </div>
         </div>
+        <LeaderBoardUsers/>
+</div>
     );
 }
 

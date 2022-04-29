@@ -5,6 +5,7 @@ import Compete from "../components/compete/compete";
 import CompeteDetail from '../components/compete/competeDetail/competeDetail';
 import DashBoard from '../components/DashBoard/dashboard';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Community from '../components/Community/community';
 
 
 
@@ -18,6 +19,7 @@ function Halodev() {
           <Route element={<Home />} path="/" />
           <Route element={<Compete />} path="/compete" />
           <Route element={<CompeteDetail />} path="/compete/detail" />
+          <Route element={<Community />} path="/community" />
           <Route element={<DashBoard/>} path="/profile" />
           {/* <Home/> */}
         </Routes>

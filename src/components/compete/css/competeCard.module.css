@@ -3,3 +3,28 @@
     color: #0B0B45;
     text-transform: uppercase;
 }
+
+.compete_img{
+    width: 200px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+.comptete_title_inner{
+    line-height: 14px;
+    color: #1f0f4f;
+}
+
+.comptete_title_inner:hover{
+    text-decoration: underline;
+}
+
+.card_body{
+    font-size: 14px;
+}
+
+.compete_card{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #777288;
+}

@@ -1,0 +1,47 @@
+.card_heading{
+    color: #777288;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.leaderboard_inline{
+    display: inline;
+}
+
+.leaderboard_left{
+    float: left;
+}
+
+.leaderboard_user{
+    text-align: left;
+    display: block;
+    /* padding-left: 5px; */
+}
+
+.leaderboard_user_title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.leaderboard_body{
+    color: #777288;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card_titles{
+    padding-bottom: 5px;
+}
+
+.card_user{
+    padding-top: 10px;
+    border-bottom: 1px solid #777288;  
+}
