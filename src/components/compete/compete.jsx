@@ -6,7 +6,7 @@ import DifficultyCheckBox from './Difficulty';
 import Intro from './intro';
 import CompteteCard from './competeCard';
 import SearchIcon from '@material-ui/icons/Search';
-
+import TopicCheckBox from './topic';
 
 // Creating the competion page
 // author : Halodev
@@ -40,6 +40,7 @@ class Compete extends Component {
                             <div>
                                 <RewardCheckBox />
                                 <DifficultyCheckBox />
+                                <TopicCheckBox/>
                             </div>
                         </div>
                         <div className="col">

@@ -20,39 +20,39 @@ export default function DifficultyCheckBox() {
         <FormGroup col>
             {/* Reward Section */}
             <h3 className='mt-2'>Difficulty</h3>
-                <FormControlLabel
-                    control={
-                        <Checkbox
-                            checked={state.checkedA}
-                            onChange={handleChange}
-                            name="checkedA"
-                            color="primary"
-                        />
-                    }
-                    label="Good For Beginners"
-                />
-                                <FormControlLabel
-                    control={
-                        <Checkbox
-                            checked={state.checkedB}
-                            onChange={handleChange}
-                            name="checkedB"
-                            color="primary"
-                        />
-                    }
-                    label="Intermediate"
-                />
-                                <FormControlLabel
-                    control={
-                        <Checkbox
-                            checked={state.checkedC}
-                            onChange={handleChange}
-                            name="checkedC"
-                            color="primary"
-                        />
-                    }
-                    label="Advanced"
-                />
+            <FormControlLabel
+                control={
+                    <Checkbox
+                        checked={state.checkedA}
+                        onChange={handleChange}
+                        name="checkedA"
+                        color="primary"
+                    />
+                }
+                label="Good For Beginners"
+            />
+            <FormControlLabel
+                control={
+                    <Checkbox
+                        checked={state.checkedB}
+                        onChange={handleChange}
+                        name="checkedB"
+                        color="primary"
+                    />
+                }
+                label="Intermediate"
+            />
+            <FormControlLabel
+                control={
+                    <Checkbox
+                        checked={state.checkedC}
+                        onChange={handleChange}
+                        name="checkedC"
+                        color="primary"
+                    />
+                }
+                label="Advanced"
+            />
         </FormGroup>
     );
 }

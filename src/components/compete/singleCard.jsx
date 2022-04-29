@@ -14,7 +14,7 @@ class SingleCard extends Component {
             <div className={clsx(styles.compete_card)}>
                 <div className="row">
                     <div className="col-3">
-                        <img src={zindi} className={clsx("rounded float-start", styles.compete_img)} alt="..."></img>
+                        <img src={zindi} className={clsx("float-start", styles.compete_img)} alt="..."></img>
                     </div>
                     <div className="col-6 mt-2">
                         <Link className={clsx(styles.link)} to="/compete/detail">

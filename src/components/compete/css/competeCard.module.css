@@ -5,7 +5,9 @@
 }
 
 .compete_img{
-    width: 250px;
+    width: 200px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
 }
 
 .comptete_title_inner{
