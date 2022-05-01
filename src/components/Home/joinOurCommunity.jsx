@@ -1,38 +1,40 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.css';
+
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import styles from './css/joinus.module.css';
 import clsx from 'clsx';
 
-
-class JoinUs extends Component{
+class JoinUs extends Component {
     state = {}
-    render(){
+    render() {
         return (
             <div className={clsx("container-fluid", styles.container)}>
-                <div className={clsx("row", styles.row)}>
-                    <div className="col-md-6 border">
-                        <div className="text">
-                            <div className={clsx("title", styles.title)}>
-                                <h1>
-                                    Join our community of bright minds
-                                </h1>
+                <Row className={clsx("container", styles.innercontainer)}>
+                    <div className={clsx("col-md-6", styles.joinus)}>
+                        <div className={clsx("Jumbotron", styles.Jumbotron)}>
+                            <div className={clsx("text-left", styles.title)}>
+                                <h1>Join our community of bright minds</h1>
                             </div>
-                            <div className="p">
-                            There are more than 30 000 people in our community from novices to experts. Get noticed by companies through participating in competitions.
+                            <p>
+                                There are more than 30 000 people in our community from novices to experts. Get noticed by companies through participating in competitions.
+
+                            </p>
+                            <div className="d-flex justify-content-left">
+                                <button type="button" className={clsx("btn", styles.btn)}>Join Halodevs</button>
+                                <button type="button" className={clsx("btn", styles.btn1)}>Become AI Expert</button>
                             </div>
                         </div>
-                        <div className="explore">
-                            <a href="/compete">
-                                <button type="button" className={clsx(styles.btn)} id='btn-outline' >
-                                   <span>Explore</span>
-                                </button>
-                            </a>
+                    </div>
+                    <div className={clsx("col-md-6", )}>
+                        <div className={clsx("Jumbotron", styles.innercontainer)}>
+
                         </div>
                     </div>
-                    <div className="col-md-6 border">
-                        column 2
-                    </div>
-                </div>
+                </Row>
             </div>
         );
     }
