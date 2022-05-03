@@ -41,7 +41,9 @@ class NavBar extends Component {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Projects</a>
+                                        <Link className={clsx(styles.link)} to="/projects">
+                                            <a className="nav-link" href="#">Projects</a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link">Jobs</a>

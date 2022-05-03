@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import Container from 'react-bootstrap/Container';
+import styles from './css/joinus.module.css';
+import clsx from 'clsx';
+import Row from 'react-bootstrap/Row';
+
 
 class Patnership extends Component {
     state = {}
