@@ -7,8 +7,7 @@ import DashBoard from '../components/DashBoard/dashboard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Community from '../components/Community/community';
 import Projects from '../components/projects/projects';
-
-
+import ProjectDetail from '../components/projects/projectDetail';
 
 function Halodev() {
   return (
@@ -22,6 +21,7 @@ function Halodev() {
           <Route element={<Community />} path="/community" />
           <Route element={<DashBoard/>} path="/profile" />
           <Route element ={<Projects/>} path = "/projects" />
+          <Route element ={<ProjectDetail/>} path = "/projects/detail" />
           {/* <Home/> */}
         </Routes>
       </Router>
