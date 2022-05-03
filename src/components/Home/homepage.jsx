@@ -9,8 +9,12 @@ import styles from './css/homepage.module.css';
 import LearnSection from './learn.jsx'
 import JoinUs from './joinOurCommunity'
 import Partnership from './patnership'
-import { PauseCircleOutlineRounded } from '@material-ui/icons';
+import HeroLink from './home/herolink'
+import Pride from "./home/works"
 // import AnnouncementBar from '../Common/anouncementbar';
+
+
+
 class Home extends Component {
     state = {}
     render() {
@@ -45,9 +49,22 @@ class Home extends Component {
                     </div> */}
 
                 </div>
+                {/* Links */}
+                <div className="hero-theme">
+                    <div className={clsx("grid-x grid-padding-x grid-x--equal-height", styles.herolink)}>
+                        <HeroLink href="/students" name="students" />
+                        <HeroLink href="/patners" name="partners" />
+                        <HeroLink href= "/coaches" name="coaches" />
+                    </div>
+                </div>
+                {/* Pride */}
+                <Pride />
+
+                {/* Learn Section */}
                 <div className="container">
                     <ScrollableTabsButtonAuto className={clsx("scroll", styles.scroll)} />
                 </div>
+                
                 <Partnership />
                 <LearnSection />
                 <JoinUs />

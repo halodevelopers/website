@@ -103,3 +103,20 @@ h1{
 .scroll{
   background-color: #fff;
 }
+
+
+.herolink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
