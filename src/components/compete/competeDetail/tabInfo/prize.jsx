@@ -5,7 +5,7 @@ class Prize extends Component {
     render() {
         return (
             <div className='container top-margin'>
-                <h1 id='prize'>Prize</h1>
+                <h5 id='prize'>Prize</h5>
                 <p>
                     This is a learning competition. Aside from knowledge, there are no prizes for this competition.
                 </p>
