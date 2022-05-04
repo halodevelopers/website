@@ -125,21 +125,24 @@ h1{
   color: white;
   margin-right: 1rem;
   margin-top: 2rem;
-  border-radius: 1px;
+  border: none;
+  font-family: var(--bs-body-font-family);
   background-color: #0B0B45;
+  padding: 8px;
 }
 
 .btn:hover{
   color: #0B0B45;
   background-color: #dedee7;
-  border: 1.5px solid #dedee7;
+  border: none;
 }
 
 .btn1{
   color: #0B0B45;
   margin-right: 1rem;
   margin-top: 2rem;
-  border-radius: 1px;
+  font-family: var(--bs-body-font-family);
+  border: none;
   background-color: #dedee7;
 }
 

@@ -6,11 +6,12 @@ import NavBar from "../Common/navigation";
 import styles from './css/homepage.module.css';
 
 // Home Import componets
-import LearnSection from './learn.jsx'
-import JoinUs from './joinOurCommunity'
-import Partnership from './patnership'
-import HeroLink from './home/herolink'
-import Pride from "./home/works"
+import LearnSection from './learn.jsx';
+import JoinUs from './joinOurCommunity';
+import Partnership from './patnership';
+import HeroLink from './home/herolink';
+import Pride from "./home/works";
+import Project from "./home/projects";
 // import AnnouncementBar from '../Common/anouncementbar';
 
 
@@ -21,7 +22,7 @@ class Home extends Component {
         return (
             <div>
                 <NavBar />
-                <div className={clsx("container hero hero-text ", styles.hero)}><br />
+                <div className={clsx("container-fluid hero hero-text ", styles.hero)}><br />
                     <h1 className='text-center' >
                         Learn, grow, build
 
@@ -36,8 +37,8 @@ class Home extends Component {
                         Transform the world with AI
                     </h1>
                     <div className="d-flex justify-content-center">
-                        <button type="button" className={clsx("btn", styles.btn)}>Join Halodevs</button>
-                        <button type="button" className={clsx("btn", styles.btn1)}>Partner with Halodevs</button>
+                        <button type="button" className={clsx("button", styles.btn)}>Join Halodevs</button>
+                        <button type="button" className={clsx("button", styles.btn1)}>Partner with Halodevs</button>
                     </div>
                     
                     {/* <div className="tip-box mt-5">
@@ -61,14 +62,15 @@ class Home extends Component {
                 {/* Pride */}
                 <Pride />
                 <Partnership />
-
+                
+                <Project />
                 {/* Learn Section */}
-                <div className="container">
+                {/* <div className="container">
                     <ScrollableTabsButtonAuto className={clsx("scroll", styles.scroll)} />
                 </div>
 
                 
-                <LearnSection />
+                <LearnSection /> */}
                 <JoinUs />
             </div>
         );
