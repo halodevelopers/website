@@ -9,8 +9,12 @@ import styles from './css/homepage.module.css';
 import LearnSection from './learn.jsx'
 import JoinUs from './joinOurCommunity'
 import Partnership from './patnership'
-import { PauseCircleOutlineRounded } from '@material-ui/icons';
+import HeroLink from './home/herolink'
+import Pride from "./home/works"
 // import AnnouncementBar from '../Common/anouncementbar';
+
+
+
 class Home extends Component {
     state = {}
     render() {
@@ -31,10 +35,11 @@ class Home extends Component {
 
                         Transform the world with AI
                     </h1>
-                    <div className={clsx("text-center", styles.textcenter)}>
-                        <button className={clsx("btn btn-primary btn-lg m-2", styles.buttoncompete)} id='btn-solid'>Compete</button>
-                        <button className={clsx("btn btn-primary btn-lg m-2", styles.buttonsecond)} id='btn-outline'>Partner with Halodevs</button>
+                    <div className="d-flex justify-content-center">
+                        <button type="button" className={clsx("btn", styles.btn)}>Join Halodevs</button>
+                        <button type="button" className={clsx("btn", styles.btn1)}>Partner with Halodevs</button>
                     </div>
+                    
                     {/* <div className="tip-box mt-5">
                         <p style={{fontSize:"1.5rem", fontStyle:"italic"}} className='text-center'>
                             HaloDev hosts the largest community of African data scientists, working to solve the world’s
@@ -45,10 +50,24 @@ class Home extends Component {
                     </div> */}
 
                 </div>
+                {/* Links */}
+                {/* <div className="hero-theme">
+                    <div className={clsx("grid-x grid-padding-x grid-x--equal-height", styles.herolink)}>
+                        <HeroLink href="/students" name="students" />
+                        <HeroLink href="/patners" name="partners" />
+                        <HeroLink href="/coaches" name="coaches" />
+                    </div>
+                </div> */}
+                {/* Pride */}
+                <Pride />
+                <Partnership />
+
+                {/* Learn Section */}
                 <div className="container">
                     <ScrollableTabsButtonAuto className={clsx("scroll", styles.scroll)} />
                 </div>
-                <Partnership />
+
+                
                 <LearnSection />
                 <JoinUs />
             </div>
