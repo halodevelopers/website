@@ -13,7 +13,7 @@ function ProjectContributor() {
                 <p>Code to Change and Transform the World</p>
             </div>
             <div style={{ paddingTop: '25px', paddingBottom: '30px' }}>
-                <ProjectSearch name="Contributor" />
+                <ProjectSearch name="Contribute To" />
             </div>
 
             {/* Contributor Card */}

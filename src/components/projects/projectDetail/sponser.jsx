@@ -12,7 +12,7 @@ function ProjectSponser() {
                 <p>Your Donation with Save and Change the  World</p>
             </div>
             <div style={{paddingTop:'25px', paddingBottom:'30px'}}>
-                <ProjectSearch name = "Sponser"/>
+                <ProjectSearch name = "Sponse"/>
             </div>
 
             {/* Sponser Card Titles*/}

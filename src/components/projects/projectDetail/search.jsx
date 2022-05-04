@@ -11,7 +11,7 @@ function ProjectSearch(props) {
                     <button className="btn btn-dark">SEARCH</button>
                 </div>
                 <div className="col">
-                    <a href="#" className="btn btn-outline-dark">Register As A {props.name}</a>
+                    <a href="#" className="btn btn-outline-dark">{props.name} Project</a>
                 </div>
             </div>
         </Fragment>
