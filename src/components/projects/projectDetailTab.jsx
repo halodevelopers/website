@@ -6,6 +6,8 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import ProjectDescription from './projectDetail/description';
+import ProjectSponser from './projectDetail/sponser';
+import ProjectContributor from './projectDetail/contributor';
 
 
 function TabPanel(props) {
@@ -78,8 +80,10 @@ export default function ProjectDetailTab() {
                 <ProjectDescription/>
             </TabPanel>
             <TabPanel value={value} index={1}>
+                <ProjectSponser/>
             </TabPanel>
             <TabPanel value={value} index={2}>
+                <ProjectContributor/>
             </TabPanel>
             <TabPanel value={value} index={3}>
             </TabPanel>

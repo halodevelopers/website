@@ -4,14 +4,16 @@ import NoWork from '../../DashBoard/nowork';
 function ProjectDescription() {
     return (
         <Fragment>
-            <div className="row container">
+            <div className="row container-fuild">
                 <div className="col-auto links">
-                    <ul className='m-2'>
-                        <li><a href="#intro">INTRO</a></li>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#tools">TOOLS</a></li>
-                        <li><a href="#program">PROGRAM</a></li>
-                    </ul>
+                    <nav>
+                        <ul className='m-2'>
+                            <li className='nav-link'><a href="#intro">INTRO</a></li>
+                            <li className='nav-link'><a href="#about">ABOUT</a></li>
+                            <li className='nav-link'><a href="#tools">TOOLS</a></li>
+                            <li className='nav-link'><a href="#program">PROGRAM</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div className="col">
                     <div id="intro">
@@ -46,9 +48,9 @@ function ProjectDescription() {
                             <li>OpenCV – 4.5.2</li>
                         </ul>
                     </div>
-                    <div className="program">
+                    <div id="program">
                         <h5>Program</h5>
-                        <NoWork name = "program"/>
+                        <NoWork name="program" />
                     </div>
                 </div>
             </div>
