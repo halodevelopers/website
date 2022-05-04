@@ -1,7 +1,9 @@
 .main{
-    margin-top: 8rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
     background-color: #f2f2f4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .container {
     display: flex;
