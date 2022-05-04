@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -11,10 +11,10 @@
     transition: all 0.3s;
 }
 
-.row{
-    font-size: 20px;
+.row {
+    font-size: 15px;
     justify-items: center;
-    font-weight: 200;
+    font-weight: 100;
     max-width: 1128px;
     text-align: center;
     position: relative;
@@ -25,10 +25,13 @@
     height: auto;
     box-sizing: content-box;
     text-transform: uppercase;
-    font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    font-family: var(--bs-body-font-family);
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+
 }
 
-.one{
+.one {
     color: #f14a3b;
     font-size: 3rem;
     font-weight: 800;
@@ -36,7 +39,7 @@
     margin-top: .5rem;
 }
 
-.two{
+.two {
     color: #1de1ae;
     font-size: 3rem;
     font-weight: 800;
@@ -45,7 +48,7 @@
 
 }
 
-.three{
+.three {
     color: #fcb70f;
     font-size: 3rem;
     font-weight: 800;
@@ -54,7 +57,7 @@
 
 }
 
-.four{
+.four {
     font-size: 3rem;
     font-weight: 800;
     line-height: 1;
@@ -64,7 +67,7 @@
 }
 
 
-.five{
+.five {
     color: #f14a3b;
     font-size: 3rem;
     font-weight: 800;
@@ -73,7 +76,7 @@
 
 }
 
-.six{
+.six {
     color: #fcb70f;
     font-size: 3rem;
     font-weight: 800;
