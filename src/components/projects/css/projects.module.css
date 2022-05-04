@@ -1,0 +1,18 @@
+.title{
+    color:#0B0B45;
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: rgb(19, 19, 19);
+    opacity: .7;
+}
+
+.title{
+    opacity: .9;
+}
