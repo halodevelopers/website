@@ -120,3 +120,32 @@ h1{
   transition: all 0.3s;
 
 }
+
+.btn{
+  color: white;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  border-radius: 1px;
+  background-color: #0B0B45;
+}
+
+.btn:hover{
+  color: #0B0B45;
+  background-color: #dedee7;
+  border: 1.5px solid #dedee7;
+}
+
+.btn1{
+  color: #0B0B45;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  border-radius: 1px;
+  background-color: #dedee7;
+}
+
+.btn1:hover{
+  color: white;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  background-color: #0B0B45;
+}
