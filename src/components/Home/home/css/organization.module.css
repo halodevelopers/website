@@ -1,0 +1,42 @@
+.text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: start;
+    color: #0B0B45;
+    text-align: justify;
+}
+
+strong{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: start;
+    color: #0B0B45;
+    text-align: justify;
+}
+
+.card{
+    border: none;
+}
+
+.organization{
+    
+    margin-bottom: 4rem;
+}
+
+strong{
+    color: #0B0B45;
+}
+.title{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+p{
+    padding: 3px;
+    margin: 0px;
+}
+
+.btn{
+    color: #0B0B45;
+    font-weight: bold;
+    font-size: 13px;
+}
