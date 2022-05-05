@@ -25,10 +25,11 @@ const Organization = () => {
             </div>
             <div className="row">
                 <div className="col-md-3">
-                    <div className="card">
+                    <div className={clsx("card", styles.card)}>
                         <div className="card-body">
                         
                             <CardHeader
+                                
                                 avatar={
                                     <Light />
                                     
@@ -41,19 +42,19 @@ const Organization = () => {
                                 }
 
                             />
-                            <h5 className="card-title">
+                            <h5 className={clsx("card-title", styles.title)}>
                                 <strong>Solve a problem</strong>
                             </h5>
                             <p className="card-text">
                                 We work with you to define and set up your machine learning challenge. Our community of data scientists solves the challenge through a competition and you receive the winning solutions.                            </p>
-                            <a href="#" className="btn">
-                                Learn More <ArrowRightAltIcon className="icon-right" />
+                            <a href="#" className={clsx("btn", styles.btn)}>
+                            Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="card">
+                    <div className={clsx("card", styles.card)}>
                         <div className="card-body">
                         <CardHeader
                                 avatar={
@@ -68,19 +69,19 @@ const Organization = () => {
                                 }
 
                             />
-                            <h5 className="card-title">
+                            <h5 className={clsx("card-title", styles.title)}>
                                 <strong>Find the best talent</strong>
                             </h5>
                             <p className="card-text">
                                 With thousands of skilled individuals across data science, artificial intelligence, machine learning and data engineering specialisations, Zindi helps you find the best talent.                            </p>
-                            <a href="#" className="btn">
-                                Learn More <ArrowRightAltIcon className="icon-right" />
+                            <a href="#" className={clsx("btn", styles.btn)}>
+                            Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="card">
+                    <div className={clsx("card", styles.card)}>
                         <div className="card-body">
                         <CardHeader
                                 avatar={
@@ -95,19 +96,19 @@ const Organization = () => {
                                 }
 
                             />
-                            <h5 className="card-title">
+                            <h5 className={clsx("card-title", styles.title)}>
                                 <strong>Build Your Brand</strong>
                             </h5>
                             <p className="card-text">
                                 Zindi hosts the largest community of data scientists in Africa. For organisations wishing to build their brand amongst this unique audience, Zindi is the place to go.                            </p>
-                            <a href="#" className="btn">
-                                Learn More <ArrowRightAltIcon className="icon-right" />
+                            <a href="#" className={clsx("btn", styles.btn)}>
+                            Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="card">
+                    <div className={clsx("card", styles.card)}>
                         <div className="card-body">
                         <CardHeader
                                 avatar={
@@ -122,13 +123,13 @@ const Organization = () => {
                                 }
 
                             />
-                            <h5 className="card-title">
+                            <h5 className={clsx("card-title", styles.title)}>
                                 <strong>Improve your organisation’s skills</strong>
                             </h5>
                             <p className="card-text">
                                 Build your organisation’s skills by hosting a hackathon on Zindi. Hackathons are short, fun, problem-solving sprints, usually run over 1–3 days designed to challenge your organisation’s skills and foster collaboration.                            </p>
-                            <a href="#" className="btn">
-                                Learn More <ArrowRightAltIcon className="icon-right" />
+                            <a href="#" className={clsx("btn", styles.btn)}>
+                            Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
                         </div>
                     </div>

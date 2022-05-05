@@ -14,7 +14,7 @@ import Pride from "./home/works";
 import Project from "./home/projects";
 import Description from "./home/description";
 import Organization from "./home/organization";
-
+import HowItWorks from "./home/howItWorks";
 // import AnnouncementBar from '../Common/anouncementbar';
 
 
@@ -43,7 +43,7 @@ class Home extends Component {
                         <button type="button" className={clsx("button", styles.btn)}>Join Halodevs</button>
                         <button type="button" className={clsx("button", styles.btn1)}>Partner with Halodevs</button>
                     </div>
-                    
+
                     {/* <div className="tip-box mt-5">
                         <p style={{fontSize:"1.5rem", fontStyle:"italic"}} className='text-center'>
                             HaloDev hosts the largest community of African data scientists, working to solve the world’s
@@ -67,8 +67,10 @@ class Home extends Component {
                 <Description />
                 <Partnership />
                 <Organization />
-                
-                
+                <div className="container-fluid">
+                    <HowItWorks />
+                </div>
+
                 <Project />
                 {/* Learn Section */}
                 {/* <div className="container">
