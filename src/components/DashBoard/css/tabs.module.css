@@ -14,16 +14,14 @@
 
     width: 100%;
     z-index: 1;
-    height: 6rem;
+    height: 3rem;
     padding-left: 0px;
     /* border-bottom: 1px solid #e6e5e5; */
     color: #0B0B45;
-    letter-spacing: normal;
-    word-spacing: normal;
     text-transform: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);display: inline-block;
     text-align: center;
-    align-items: flex-start;
+    justify-content: flex-start;
     cursor: default;
     box-sizing: border-box;
     font: 350 20px;

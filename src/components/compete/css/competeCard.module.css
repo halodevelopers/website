@@ -1,7 +1,6 @@
 .link{
     text-decoration:none;
     color: #0B0B45;
-    text-transform: uppercase;
 }
 
 .compete_img{
@@ -13,10 +12,16 @@
 .comptete_title_inner{
     line-height: 14px;
     color: #1f0f4f;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .comptete_title_inner:hover{
     text-decoration: underline;
+}
+
+.comptete_p{
+    font-size: 14px;
 }
 
 .card_body{
@@ -24,7 +29,11 @@
 }
 
 .compete_card{
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-bottom: 1px solid #777288;
+}
+
+.card_list{
+    list-style-type: none;
 }

@@ -8,10 +8,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Community from '../components/Community/community';
 import Projects from '../components/projects/projects';
 import ProjectDetail from '../components/projects/projectDetail';
+import styles from './halodev.module.css';
+import clsx from 'clsx';
 
 function Halodev() {
   return (
-    <div className="App">
+    <div className={clsx(styles.body)}>
       <div>
       <Router>
         <Routes>

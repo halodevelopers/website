@@ -85,33 +85,36 @@ export default function DashboardTab() {
             <Tab label="Datasets" {...a11yProps(2)} />
             <Tab label="Code" {...a11yProps(3)} />
             <Tab label="Discussions" {...a11yProps(4)} />
+            <div className="edit-profile float-right" style={{ marginLeft: "5%" }}>
+              <button className="btn btn-dark">Edit Profile</button>
+            </div>
           </Tabs>
 
 
-      <TabPanel value={value} index={0}>
-        <div className="container-fluid">
-          <DashboardCard />
-          <DashBoardProfileBio />
-          <DashBoardCalenderHeatMap/>
+          <TabPanel value={value} index={0}>
+            <div className="container-fluid">
+              <DashboardCard />
+              <DashBoardProfileBio />
+              <DashBoardCalenderHeatMap />
+            </div>
+          </TabPanel>
+          <TabPanel value={value} index={1}>
+            <div>
+              <DashCompete />
+            </div>
+          </TabPanel>
+          <TabPanel value={value} index={2}>
+            <DashBoardDataSet />
+          </TabPanel>
+          <TabPanel value={value} index={3}>
+            <DashBoardCode />
+          </TabPanel>
+          <TabPanel value={value} index={4}>
+            Item Five
+          </TabPanel>
         </div>
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        <div>
-          <DashCompete />
-        </div>
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        <DashBoardDataSet />
-      </TabPanel>
-      <TabPanel value={value} index={3}>
-        <DashBoardCode/>
-      </TabPanel>
-      <TabPanel value={value} index={4}>
-        Item Five
-      </TabPanel>
-    </div>
-    </div>
       </div>
+    </div>
 
   );
 }

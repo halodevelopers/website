@@ -19,8 +19,9 @@ export default function TopicCheckBox() {
     return (
         <FormGroup col>
             {/* Reward Section */}
-            <h3 className='mt-2'>Topic</h3>
+            <h5 className='mt-2'>Topic</h5>
             <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedA}
@@ -32,6 +33,7 @@ export default function TopicCheckBox() {
                 label="Agriculture"
             />
             <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedB}
@@ -43,6 +45,7 @@ export default function TopicCheckBox() {
                 label="Arts & Culture"
             />
             <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -53,7 +56,8 @@ export default function TopicCheckBox() {
                 }
                 label="Biology"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -64,7 +68,8 @@ export default function TopicCheckBox() {
                 }
                 label="Computer Vision"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -75,7 +80,8 @@ export default function TopicCheckBox() {
                 }
                 label="Conservation"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -86,7 +92,8 @@ export default function TopicCheckBox() {
                 }
                 label="Construction"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -97,7 +104,8 @@ export default function TopicCheckBox() {
                 }
                 label="Cryptocurrency"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -108,7 +116,8 @@ export default function TopicCheckBox() {
                 }
                 label="Customer service"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -119,7 +128,8 @@ export default function TopicCheckBox() {
                 }
                 label="Energy"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -130,7 +140,8 @@ export default function TopicCheckBox() {
                 }
                 label="Financial Services"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -141,7 +152,8 @@ export default function TopicCheckBox() {
                 }
                 label="Government"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -152,7 +164,8 @@ export default function TopicCheckBox() {
                 }
                 label="Health"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
@@ -163,7 +176,8 @@ export default function TopicCheckBox() {
                 }
                 label="Insurance"
             />
-                        <FormControlLabel
+            <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}

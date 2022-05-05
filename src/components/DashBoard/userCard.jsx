@@ -13,7 +13,7 @@ class UserCard extends Component {
       <div className={clsx("container-fluid mt-5")}>
         <div className={clsx("row")}>
           <div className={clsx("container-fluid")}>
-            <div className={clsx("row", )}>
+            <div className={clsx("row",)}>
               <div className="container">
                 <div className={clsx("row", styles.row)}>
                   <div className={clsx("col-2")}>
@@ -25,9 +25,10 @@ class UserCard extends Component {
                   </div>
                   <div className="col-6">
                     <h4>Atwanzire Timothy Ian</h4>
-                    <p>Data Scientist</p>
-                    <p>HaloDev</p>
-                    <p>Uganda</p>
+                    <ul style={{ listStyleType: 'none' }}>
+                      <li>Data Scientist</li>
+                      <li>HaloDev</li>
+                      <li>Uganda</li></ul>
                   </div>
                   <div className="col-4">
                     <img src="logo/novice@192.png" alt="" />
@@ -36,7 +37,7 @@ class UserCard extends Component {
               </div>
             </div>
           </div>
-        </div><hr/>
+        </div><hr />
         <div className="row">
           <div className="container-fluid">
             <div className={clsx("row",)}>

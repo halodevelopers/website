@@ -19,8 +19,9 @@ export default function RewardCheckBox() {
     return (
         <FormGroup col>
             {/* Reward Section */}
-            <h3>Reward</h3>
+            <h5>Reward</h5>
             <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedA}
@@ -32,6 +33,7 @@ export default function RewardCheckBox() {
                 label="Money"
             />
             <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedB}
@@ -43,6 +45,7 @@ export default function RewardCheckBox() {
                 label="Points"
             />
             <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedC}
