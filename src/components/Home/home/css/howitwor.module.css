@@ -1,0 +1,13 @@
+.box{
+    padding-left: 30px;
+    padding: 30px;
+    margin-bottom: 6rem;
+}
+
+.text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: start;
+    color: #0B0B45;
+    text-align: justify;
+}
