@@ -65,20 +65,23 @@ export default function CompeteTab() {
   return (
     <div className={clsx(style.container)}>
       <div className={classes.root}>
-          <Tabs
-            value={value}
-            onChange={handleChange}
-            indicatorColor="primary"
-            textColor="primary"
-            variant="scrollable"
-            scrollButtons="auto"
-            aria-label="scrollable auto tabs example"
-          >
-            <Tab label="Info" {...a11yProps(0)} />
-            <Tab label="Data" {...a11yProps(1)} />
-            <Tab label="Discussion" {...a11yProps(2)} />
-            <Tab label="LeaderBoard" {...a11yProps(3)} />
-          </Tabs>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          variant="scrollable"
+          scrollButtons="auto"
+          aria-label="scrollable auto tabs example"
+        >
+          <Tab label="Info" {...a11yProps(0)} />
+          <Tab label="Data" {...a11yProps(1)} />
+          <Tab label="Discussion" {...a11yProps(2)} />
+          <Tab label="LeaderBoard" {...a11yProps(3)} />
+          <div className="join float-right" style={{marginLeft:"30%"}}>
+            <button className="btn btn-dark">Join</button>
+          </div>
+        </Tabs>
         <TabPanel value={value} index={0}>
           <Info />
         </TabPanel>
@@ -86,12 +89,13 @@ export default function CompeteTab() {
           <Data />
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <Discussions/>
+          <Discussions />
         </TabPanel>
         <TabPanel value={value} index={3}>
-          <LeaderBoard/>
+          <LeaderBoard />
         </TabPanel>
       </div>
+
     </div>
   );
 }
