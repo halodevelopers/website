@@ -10,6 +10,7 @@ import Projects from '../components/projects/projects';
 import ProjectDetail from '../components/projects/projectDetail';
 import styles from './halodev.module.css';
 import clsx from 'clsx';
+import Learn from '../components/Learn/learn';
 
 function Halodev() {
   return (
@@ -24,6 +25,8 @@ function Halodev() {
           <Route element={<DashBoard/>} path="/profile" />
           <Route element ={<Projects/>} path = "/projects" />
           <Route element ={<ProjectDetail/>} path = "/projects/detail" />
+          <Route element ={<Learn/>} path = "/learn" />
+
           {/* <Home/> */}
         </Routes>
       </Router>
