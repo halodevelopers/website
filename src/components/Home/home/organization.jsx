@@ -19,7 +19,7 @@ const Organization = () => {
             <div className="row">
                 <div className="col-md-12">
                     <div className={clsx("text", styles.text)}  >
-                        <strong>See how Zindi can help your organisation</strong>
+                        <strong>See how Halodevs can help your organisation</strong>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ const Organization = () => {
                                 <strong>Find the best talent</strong>
                             </h5>
                             <p className="card-text">
-                                With thousands of skilled individuals across data science, artificial intelligence, machine learning and data engineering specialisations, Zindi helps you find the best talent.                            </p>
+                                With thousands of skilled individuals across data science, artificial intelligence, machine learning and data engineering specialisations, Halodevs helps you find the best talent.                            </p>
                             <a href="#" className={clsx("btn", styles.btn)}>
                             Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
@@ -100,7 +100,7 @@ const Organization = () => {
                                 <strong>Build Your Brand</strong>
                             </h5>
                             <p className="card-text">
-                                Zindi hosts the largest community of data scientists in Africa. For organisations wishing to build their brand amongst this unique audience, Zindi is the place to go.                            </p>
+                                Halodevs hosts the largest community of data scientists in Africa. For organisations wishing to build their brand amongst this unique audience, Halodevs is the place to go.                            </p>
                             <a href="#" className={clsx("btn", styles.btn)}>
                             Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
@@ -127,7 +127,7 @@ const Organization = () => {
                                 <strong>Improve your organisation’s skills</strong>
                             </h5>
                             <p className="card-text">
-                                Build your organisation’s skills by hosting a hackathon on Zindi. Hackathons are short, fun, problem-solving sprints, usually run over 1–3 days designed to challenge your organisation’s skills and foster collaboration.                            </p>
+                                Build your organisation’s skills by hosting a hackathon on Halodevs. Hackathons are short, fun, problem-solving sprints, usually run over 1–3 days designed to challenge your organisation’s skills and foster collaboration.                            </p>
                             <a href="#" className={clsx("btn", styles.btn)}>
                             Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
