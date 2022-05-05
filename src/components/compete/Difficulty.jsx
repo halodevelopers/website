@@ -19,19 +19,22 @@ export default function DifficultyCheckBox() {
     return (
         <FormGroup col>
             {/* Reward Section */}
-            <h3 className='mt-2'>Difficulty</h3>
+            <h5 className='mt-2'>Difficulty</h5>
             <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedA}
                         onChange={handleChange}
                         name="checkedA"
                         color="primary"
+                        // style={{width:"5px"}}
                     />
                 }
                 label="Good For Beginners"
             />
             <FormControlLabel
+            style={{fontSize:"15px"}}
                 control={
                     <Checkbox
                         checked={state.checkedB}
@@ -43,6 +46,7 @@ export default function DifficultyCheckBox() {
                 label="Intermediate"
             />
             <FormControlLabel
+            
                 control={
                     <Checkbox
                         checked={state.checkedC}
