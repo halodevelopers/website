@@ -12,6 +12,9 @@ import Partnership from './patnership';
 import HeroLink from './home/herolink';
 import Pride from "./home/works";
 import Project from "./home/projects";
+import Description from "./home/description";
+import Organization from "./home/organization";
+
 // import AnnouncementBar from '../Common/anouncementbar';
 
 
@@ -61,7 +64,10 @@ class Home extends Component {
                 </div> */}
                 {/* Pride */}
                 <Pride />
+                <Description />
                 <Partnership />
+                <Organization />
+                
                 
                 <Project />
                 {/* Learn Section */}

@@ -1,0 +1,83 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import styles from './css/organization.module.css';
+import clsx from 'clsx';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import DividerStack from './stack';
+
+const Organization = () => {
+    return (
+        <div className={clsx("container", styles.organization)}>
+            <div className="row">
+                <div className="col-md-12">
+                    <div className={clsx("text-center", styles.text)}  >
+                        <strong>See how Zindi can help your organisation</strong>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+            <div className="col-md-3">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">
+                                <strong>Solve a problem</strong>
+                            </h5>
+                            <p className="card-text">
+                            We work with you to define and set up your machine learning challenge. Our community of data scientists solves the challenge through a competition and you receive the winning solutions.                            </p>
+                            <a href="#" className="btn">
+                                Learn More <ArrowRightAltIcon className="icon-right" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">
+                                <strong>Find the best talent</strong>
+                            </h5>
+                            <p className="card-text">
+                            With thousands of skilled individuals across data science, artificial intelligence, machine learning and data engineering specialisations, Zindi helps you find the best talent.                            </p>
+                            <a href="#" className="btn">
+                                Learn More <ArrowRightAltIcon className="icon-right" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">
+                                <strong>Build Your Brand</strong>
+                            </h5>
+                            <p className="card-text">
+                            Zindi hosts the largest community of data scientists in Africa. For organisations wishing to build their brand amongst this unique audience, Zindi is the place to go.                            </p>
+                            <a href="#" className="btn">
+                                Learn More <ArrowRightAltIcon className="icon-right" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">
+                                <strong>Improve your organisation’s skills</strong>
+                            </h5>
+                            <p className="card-text">
+                            Build your organisation’s skills by hosting a hackathon on Zindi. Hackathons are short, fun, problem-solving sprints, usually run over 1–3 days designed to challenge your organisation’s skills and foster collaboration.                            </p>
+                            <a href="#" className="btn">
+                                Learn More <ArrowRightAltIcon className="icon-right" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    );
+};
+
+export default Organization;
