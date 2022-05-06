@@ -1,3 +1,22 @@
+.header{
+    background: url("https://assets.zindi.africa/media/a057157895eb806c13aa3ac2421d75d2.png") right 0 top 0 no-repeat;
+    background-size: 450px auto;
+    height: 250px;
+}
+
+.hero_text{
+    padding-top: 80px;
+    width: 50%;
+}
+
+.heading{
+    font-size: 24px;
+}
+
+.body_param{
+    font-size: 16px;
+}
+
 .title{
     color:#0B0B45;
     text-transform: uppercase;

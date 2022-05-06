@@ -3,13 +3,13 @@ import React, { Fragment } from 'react';
 function JobCard() {
     return (
         <Fragment>
-            <div className="row m-2">
-                <div className="col-auto">
+            <div className="row m-3">
+                <div className="col-3">
                     <div className="img">
                         <img style={{width:"150px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJe2MysKx72TrhYTapdf5UMqir9J9Y80bFthEXH_VxE_dx4eZCK8yXod292y71zGNmNvo&usqp=CAU" alt="" />
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-8">
                 <div className="title">
                         <h5>Hulamin - Senior Data Scientist</h5>
                     </div>
@@ -23,7 +23,7 @@ function JobCard() {
                     </div>
                 </div>
             </div>
-            <hr style={{width:"80%"}}/>
+            <hr style={{width:"100%"}}/>
         </Fragment>
     );
 }

@@ -6,19 +6,21 @@ import styles from './css/projects.module.css';
 
 
 function Projects() {
-    return ( 
+    return (
         <Fragment>
-            <NavBar/>
-            <div className={clsx("container")}>
-            <div className={clsx(styles.header)} style={{marginTop:"30px"}}>
-                    <h3 className={clsx(styles.title)}>Projects</h3>
-                    <p style={{width:'50%'}}>Explore our incredible community, connect with fellow data
-                    scientists, and learn from the best.</p>
+            <NavBar />
+            <div className={clsx(styles.header)}>
+                <div className={clsx(styles.hero, "container")}>
+                    <div className={clsx(styles.hero_text)}>
+                        <h3 className={clsx(styles.title)}>Projects</h3>
+                        <p  className={clsx(styles.body_param)}>Explore our incredible community, connect with fellow data
+                            scientists, and learn from the best.</p>
+                    </div>
                 </div>
-                <ProjectTab/>
             </div>
+            <ProjectTab />
         </Fragment>
-     );
+    );
 }
 
 export default Projects;

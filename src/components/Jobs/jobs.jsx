@@ -2,22 +2,31 @@ import React, { Fragment } from 'react';
 import NavBar from '../Common/navigation';
 import FilterSideBAr from './filterSideBar';
 import JobCard from './jobCard';
+import clsx from 'clsx';
+import styles from './css/jobs.module.css';
 
 function Jobs() {
     return (
         <Fragment>
             <NavBar />
+            <div className={clsx(styles.header)}>
+                <div className={clsx(styles.hero, "container")}>
+                    <div className={clsx(styles.hero_text)}>
+                        <h1 className={clsx(styles.heading)} >Find A Job</h1>
+                        <p className={clsx(styles.body_param)}>We can help you find your first job, or your next job. Explore your opportunities.</p>
+                    </div>
+                </div>
+            </div>
             <div className="container">
-                <h5>Find A Job</h5>
-                <p>We can help you find your first job, or your next job. Explore your opportunities.</p>
+                <hr style={{ width: "95%" }} />
             </div>
             <div className="row container">
-                <div className="col-auto">
+                <div className="col-4">
                     <FilterSideBAr />
                 </div>
                 <div className="col">
-                    <div className='text-center'>
-                        <input type="text" placeholder='Search Jobs ...' className='form-control' />
+                    <div>
+                        <input type="text" id="search_input" placeholder='Search For Comptitions ...' className={clsx(styles.input, styles.input_form)} />
                     </div>
                     <div className="jobs">
                         <div className="job-count">

@@ -98,9 +98,12 @@ function CountrySelector() {
 function FilterSideBAr() {
     return (
         <Fragment>
-            <ExperienceCheckBox />
-            <CountrySelector />
-
+            <div className="ms-5">
+                <ExperienceCheckBox /> <hr/>
+                <div style={{width:"80%"}}>
+                <CountrySelector />
+                </div>
+            </div>
         </Fragment>
     );
 }
