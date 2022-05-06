@@ -6,6 +6,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import LearnCard from './learnCard';
+import NoWork from '../DashBoard/nowork';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -77,17 +78,22 @@ export default function LearnTab() {
 
             </Tabs>
             <TabPanel value={value} index={0}>
-                <LearnCard/>
+                <LearnCard />
             </TabPanel>
             <TabPanel value={value} index={1}>
+                <NoWork name="Information" />
             </TabPanel>
             <TabPanel value={value} index={2}>
+                <NoWork name="Information" />
             </TabPanel>
             <TabPanel value={value} index={3}>
+                <NoWork name="Information" />
             </TabPanel>
             <TabPanel value={value} index={4}>
+                <NoWork name="Information" />
             </TabPanel>
             <TabPanel value={value} index={5}>
+                <NoWork name="Information" />
             </TabPanel>
         </div>
     );
