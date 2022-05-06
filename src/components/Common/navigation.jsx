@@ -20,7 +20,7 @@ class NavBar extends Component {
                         <div className="container-fluid">
                             <Link className={clsx("navbarlink", styles.link)} to="/">
                                 <a className={clsx("", styles.navbarbrand)} id='logo' href="/" />
-                                <a className={clsx("navbartext", styles.navbartext)} id='logo' href="/">Halodevs</a>
+                                <a className={clsx("", styles.navbartext)} id='logo' href="/">Halodevs</a>
                             </Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>

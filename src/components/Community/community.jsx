@@ -1,20 +1,26 @@
 import React from 'react';
 import NavBar from '../Common/navigation';
 import CommunityCard from './communityTitleCard';
+import styles from './css/community.module.css';
+import clsx from 'clsx';
 
 
 function Community() {
     return (
         <div>
             <NavBar />
-            <div className="container">
-                <div className="header" style={{marginTop:"30px"}}>
-                    <h3>Community</h3>
-                    <p>Explore our incredible community, connect with fellow data</p>
-                    <p>scientists, and learn from the best.</p>
+            <div className={clsx(styles.header)}>
+                <div className={clsx(styles.hero, "container")}>
+                    <div className={clsx(styles.hero_text)}>
+                        <h1 className={clsx(styles.heading)}>Community</h1>
+                        <p className={clsx(styles.body_param)}>
+                            Explore our incredible community, connect with fellow data
+                            scientists, and learn from the best.
+                        </p>
+                    </div>
                 </div>
-                <CommunityCard/>
             </div>
+            <CommunityCard />
         </div>
     );
 }

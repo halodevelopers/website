@@ -7,6 +7,9 @@ import Intro from './intro';
 import CompteteCard from './competeCard';
 import SearchIcon from '@material-ui/icons/Search';
 import TopicCheckBox from './topic';
+import clsx from 'clsx';
+import styles from './css/compete.module.css';
+
 
 // Creating the competion page
 // author : Halodev
@@ -18,32 +21,20 @@ class Compete extends Component {
             <div>
                 <NavBar />
                 <Intro />
-                <div style={{width:"90%", margin:"auto"}}>
-                    <div className="row">
-                        <div className="col">
-                            <h6 style={{fontSize:"16px"}}>Filter Competitions</h6>
-                        </div>
-                        <div className="col-3">
-                            <h6 style={{ color: "#1f0f4f", fontSize:"16px" }}>Comptetions 0</h6>
-                        </div>
-                        <div className="col-auto">
-                            <SearchIcon />
-                        </div>
-                        <div className="col">
-                            <input type="text" style={{ width: "80%" }} placeholder='Search For Comptitions ...' className="form-control" />
-                        </div>
-                    </div>
-
+                <div style={{ width: "90%", margin: "auto" }}>
                     {/* body row */}
                     <div className="row m-10">
                         <div className="col-auto mt-5">
                             <div>
                                 <RewardCheckBox />
                                 <DifficultyCheckBox />
-                                <TopicCheckBox/>
+                                <TopicCheckBox />
                             </div>
                         </div>
                         <div className="col">
+                            <div>
+                                <input  type="text" id="search_input" placeholder='Search For Comptitions ...' className={clsx(styles.input, styles.input_form)} />
+                            </div>
                             <div className='mt-10'>
                                 <div>
                                     <CompteteCard />

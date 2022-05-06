@@ -1,0 +1,33 @@
+.header{
+    background: url("https://assets.zindi.africa/media/a057157895eb806c13aa3ac2421d75d2.png") right 0 top 0 no-repeat;
+    background-size: 450px auto;
+    height: 250px;
+}
+
+.hero_text{
+    padding-top: 80px;
+    width: 50%;
+}
+
+.heading{
+    font-size: 24px;
+}
+
+.body_param{
+    font-size: 16px;
+}
+
+.input{
+    background: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #1f0f4f;
+    padding: 10px 11px 10px 44px!important;
+    width: 100%;
+}
+
+.input_form{
+    background: url("./search.png")  left 5px top 2px no-repeat;
+    background-size: 30px auto;
+}
