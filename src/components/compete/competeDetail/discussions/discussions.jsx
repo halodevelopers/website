@@ -8,7 +8,6 @@ function Discussions() {
     return (
         <div>
             <div className="row mx-0">
-                <h2>Discussion</h2>
                 <div className="col-3 px-0">
                     <button className={clsx("btn btn-md", styles.btn_discussion)}>Discusion</button>
                 </div>

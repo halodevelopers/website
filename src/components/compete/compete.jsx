@@ -21,16 +21,16 @@ class Compete extends Component {
                 <div style={{width:"90%", margin:"auto"}}>
                     <div className="row">
                         <div className="col">
-                            <h6>Filter Competitions</h6>
+                            <h6 style={{fontSize:"16px"}}>Filter Competitions</h6>
                         </div>
                         <div className="col-3">
-                            <h6 style={{ color: "#1f0f4f" }}>Comptetions 0</h6>
+                            <h6 style={{ color: "#1f0f4f", fontSize:"16px" }}>Comptetions 0</h6>
                         </div>
                         <div className="col-auto">
                             <SearchIcon />
                         </div>
                         <div className="col">
-                            <input type="text" style={{ width: "60%" }} placeholder='Search For Comptitions ...' className="form-control" />
+                            <input type="text" style={{ width: "80%" }} placeholder='Search For Comptitions ...' className="form-control" />
                         </div>
                     </div>
 

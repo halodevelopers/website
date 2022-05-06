@@ -10,7 +10,7 @@ class CompeteDetail extends Component {
             <div>
                 <NavBar />
                 <CompeteHero />
-                <div>
+                <div >
                     <CompeteTab />
                 </div>
             </div>

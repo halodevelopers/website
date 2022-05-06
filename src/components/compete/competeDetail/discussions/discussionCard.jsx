@@ -13,19 +13,19 @@ function DiscussionCard() {
                     <img style={{width:"80px", borderRadius:"50%"}} src={avatar} alt="" srcset="" />
                 </div>
                 <div className="col-6 mt-2">
-                    <h6>Algorithms</h6>
+                    <h5 style={{ fontSize: "16px" }}>Algorithms</h5>
                     <div>
-                        <p>fedora <span>.in Data </span> <span> Turtle Rescue Forecast Challenge </span> <span> 9 days ago </span></p>
+                        <p style={{ fontSize: "14px" }}>fedora <span>.in Data </span> <span> Turtle Rescue Forecast Challenge </span> <span> 9 days ago </span></p>
                     </div>
                 </div>
                 <div className="col">
                 <span>
-                    <p>
+                    <p style={{ fontSize: "14px" }}>
                     <VisibilityIcon/> 19
                     </p>
                 </span>
                 <span>
-                    <p>
+                    <p style={{ fontSize: "14px" }}>
                     <MailOutlineIcon/> 13
                     </p>
                 </span>
@@ -33,7 +33,7 @@ function DiscussionCard() {
                 <div className="col">
                     <span>
                     <img style={{width:"20px", borderRadius:"50%"}} src={avatar} alt="" srcset="" />
-                    <p>Last answer 7 days ago</p>
+                    <p style={{ fontSize: "14px" }}>Last answer 7 days ago</p>
                     </span>
                 </div>
             </div>

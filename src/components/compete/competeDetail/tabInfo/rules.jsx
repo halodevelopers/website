@@ -4,17 +4,17 @@ class Rules extends Component {
     state = {}
     render() {
         return (
-            <div className='container top-margin'>
-                <h5 id='rules'>Rules</h5>
-                <p>
+            <div className='container top-margin mt-5'>
+                <h6 style={{fontSize:"16px"}} id='rules'>Rules</h6>
+                <p style={{fontSize:"14px"}}>
                     As this is a learning challenge, aside from the rules in the Terms of Use, no other particular rules apply.
 
                     This challenge is open to all and not restricted to any country.
                 </p>
-                <h6>
+                <h6 style={{fontSize:"16px"}}>
                     Teams and collaboration
                 </h6>
-                <p>
+                <p style={{fontSize:"14px"}}>
 
                     You may participate in this competition as an individual or in a team of up to four people. When creating a team,
                     the team must have a total submission count less than or equal to the maximum allowable submissions as of the
@@ -25,10 +25,10 @@ class Rules extends Component {
                     Code must not be shared privately outside of a team. Any code that is shared, must be made available to all
                     competition participants through the platform. (i.e. on the discussion boards).
                 </p>
-                <h6>
+                <h6 style={{fontSize:"16px"}}>
                     Datasets and packages
                 </h6>
-                <p>
+                <p style={{fontSize:"14px"}}>
 
                     The solution must use publicly-available, open-source packages only. Your models should not use any of the metadata provided.
                     You may use only the datasets provided for this competition. Automated machine learning tools such as automl are not permitted.
@@ -44,10 +44,10 @@ class Rules extends Component {
                     unauthorised access to the competition data, and work with Zindi to rectify any unauthorised transmission or access.
                     Your solution must not infringe the rights of any third party.
                 </p>
-                <h6>
+                <h6 style={{fontSize:"16px"}}>
                     Submissions and winning
                 </h6>
-                <p>
+                <p style={{fontSize:"14px"}}>
                     You may make a maximum of 10 submissions per day.
                     Note that to count, your submission must first pass processing. If your submission fails during the processing step,
                     it will not be counted and not receive a score; nor will it count against your daily submission limit. If you encounter
