@@ -28,7 +28,21 @@
 }
 
 .avatar{
-  width: 150px; 
-  height: 150px;
-  border-radius: 50%;
+ border: 3px solid white;
+ margin-top: 150px;
+margin-left: 30px;
+}
+
+.hero{
+  height: 250px;
+  background: url("./cover.jpg") no-repeat right 0 top 0;
+  background-size: cover;
+  border-radius: 10px;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
