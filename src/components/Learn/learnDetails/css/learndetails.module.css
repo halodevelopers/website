@@ -1,0 +1,32 @@
+.header{
+    background: 50% 50% no-repeat;
+    background-size: cover;
+    height: 354px;
+    margin: 0 0 24px;
+}
+
+
+.hero{
+    height: 250px;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+/* .hero{
+    height: 250px;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+} */

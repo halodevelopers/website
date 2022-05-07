@@ -1,0 +1,18 @@
+.header{
+    background: url("./bg.png") right 0 top 0 no-repeat, url("./bg2.png") right 48px bottom 0 no-repeat;
+    background-size: 264px auto,168px auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 36px;
+    padding-bottom: 81px;
+}
+
+.hero{
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 auto;
+    max-width: 1128px;
+    padding: 0 20px;
+    width: 100%;
+    position: relative;
+}

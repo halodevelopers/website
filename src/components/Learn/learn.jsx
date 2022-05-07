@@ -15,7 +15,7 @@ function Learn() {
                     <div className={clsx(styles.hero, "container")}>
                         <div className={clsx(styles.hero_text)}>
                             <h1 className={clsx(styles.heading)} >Learn</h1>
-                            <p className={clsx(styles.body_param)}>Start your machine learning journey, brush up on your technical skills, and learn winning approaches from the best of Zindi.</p>
+                            <p className={clsx(styles.body_param)}>Start your machine learning journey, brush up on your technical skills, and learn winning approaches from the best of HaloDevs.</p>
                         </div>
                     </div>
                 </div>

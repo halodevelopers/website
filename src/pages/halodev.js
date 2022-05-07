@@ -12,6 +12,8 @@ import styles from './halodev.module.css';
 import clsx from 'clsx';
 import Learn from '../components/Learn/learn';
 import Jobs from '../components/Jobs/jobs';
+import JobDetail from '../components/Jobs/jobDetails/jobDetail';
+import LearnDetail from '../components/Learn/learnDetails/LearnDetails';
 
 
 function Halodev() {
@@ -29,6 +31,9 @@ function Halodev() {
           <Route element ={<ProjectDetail/>} path = "/projects/detail" />
           <Route element ={<Learn/>} path = "/learn" />
           <Route element ={<Jobs/>} path = "/Jobs" />
+          <Route element ={<JobDetail/>} path = "/Jobs/jobdetail" />
+          <Route element ={<LearnDetail/>} path = "/learn/learndetail" />
+
           {/* <Home/> */}
         </Routes>
       </Router>

@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
+
 
 function JobCard() {
     return (
@@ -11,7 +13,9 @@ function JobCard() {
                 </div>
                 <div className="col-8">
                 <div className="title">
-                        <h5>Hulamin - Senior Data Scientist</h5>
+                    <Link to="/Jobs/jobdetail">
+                    <h5>Hulamin - Senior Data Scientist</h5>
+                    </Link>
                     </div>
                     <div className="requirements">
                         <p className="d-inline badge m-2" style={{ backgroundColor: "#c8c8e6", color: "#0B0B45" }}>Data Engineering</p>
