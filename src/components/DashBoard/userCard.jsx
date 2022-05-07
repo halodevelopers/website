@@ -11,33 +11,20 @@ class UserCard extends Component {
   render() {
     return (
       <div className={clsx("container-fluid mt-5")}>
-        <div className={clsx("row")}>
-          <div className={clsx("container-fluid")}>
-            <div className={clsx("row",)}>
-              <div className="container">
-                <div className={clsx("row", styles.row)}>
-                  <div className={clsx("col-2")}>
-                    <img
-                      src={avatar}
-                      className={clsx("row", styles.avatar)}
-                      alt="..."
-                    ></img>
-                  </div>
-                  <div className="col-6">
-                    <h4>Atwanzire Timothy Ian</h4>
-                    <ul style={{ listStyleType: 'none' }}>
-                      <li>Data Scientist</li>
-                      <li>HaloDev</li>
-                      <li>Uganda</li></ul>
-                  </div>
-                  <div className="col-4">
-                    <img src="logo/novice@192.png" alt="" />
-                  </div>
-                </div>
-              </div>
+        <div className={clsx(styles.header)}>
+          <div className={clsx(styles.hero)}>
+            <div className={clsx(styles.avatar)}>
+              <img
+                src={avatar}
+                className={clsx("rounded-circle")}
+                style={{ width: "180px" }}
+                alt="..."
+                align="center"
+              ></img>
             </div>
           </div>
-        </div><hr />
+        </div>
+        <hr />
         <div className="row">
           <div className="container-fluid">
             <div className={clsx("row",)}>
