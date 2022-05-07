@@ -51,7 +51,7 @@ class Footer extends Component {
 
                 </div>
                 <div className="text-end py-2">
-                  <p>Source code available under the MIT license. Content on this site, made by Open Knowledge Foundation, is licensed under a Creative Commons Attribution 4.0 International License. Refer to our attributions page for attributions of other work on the site.</p>
+                  <p>Source code available under the MIT license. Content on this site, made by Halodevs, is licensed under a Creative Commons Attribution 4.0 International License. Refer to our attributions page for attributions of other work on the site.</p>
                 </div>
               </div>
 
