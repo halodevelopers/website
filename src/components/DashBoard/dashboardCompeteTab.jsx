@@ -67,7 +67,7 @@ export default function DashBoardCompeteTab() {
         <Tab label="Bookmarks" {...a11yProps(4)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <DashBoardCompeteCard />
+        {/* <DashBoardCompeteCard /> */}
       </TabPanel>
       <TabPanel value={value} index={1}>
         <NoDetail />
