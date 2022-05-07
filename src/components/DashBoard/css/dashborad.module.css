@@ -13,15 +13,15 @@
   padding-left: 24px;
 
 }
-.row {
-  /* border: 1px solid #dedfe0; */
+/* .row {
+  border: 1px solid #dedfe0;
   border-bottom: 0px;
-  /* border-radius: 10px 10px 0px 0px; */
-  /* box-sizing: border-box; */
+  border-radius: 10px 10px 0px 0px;
+  box-sizing: border-box;
   padding: 8px;
   margin-right: -2.4rem;
-  /* margin-right: px; */
-}
+  margin-right: px;
+} */
 
 .tabs {
   padding: 0px;
@@ -41,8 +41,7 @@ margin-left: 30px;
   background-size: cover;
   border-radius: 10px;
   margin: auto;
-  width: 80%;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 8em;
   color: white;
 }

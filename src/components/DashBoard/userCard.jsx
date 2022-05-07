@@ -25,9 +25,9 @@ class UserCard extends Component {
           </div>
         </div>
         <hr />
-        <div className="row">
+        <div className="mt">
           <div className="container-fluid">
-            <div className={clsx("row",)}>
+            <div className={clsx("mt-5",)}>
               <DashboardTab />
             </div>
           </div>
