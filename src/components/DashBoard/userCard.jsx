@@ -13,10 +13,10 @@ class UserCard extends Component {
       <div className={clsx("container-fluid mt-5")}>
         <div className={clsx(styles.header)}>
           <div className={clsx(styles.hero)}>
-            <div className={clsx(styles.avatar)}>
+            <div className={clsx(styles.avatar_div)}>
               <img
                 src={avatar}
-                className={clsx("rounded-circle")}
+                className={clsx("rounded-circle", styles.avatar)}
                 style={{ width: "180px" }}
                 alt="..."
                 align="center"
@@ -25,9 +25,9 @@ class UserCard extends Component {
           </div>
         </div>
         <hr />
-        <div className="row">
+        <div className="mt">
           <div className="container-fluid">
-            <div className={clsx("row",)}>
+            <div className={clsx("mt-5",)}>
               <DashboardTab />
             </div>
           </div>

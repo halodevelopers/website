@@ -6,12 +6,3 @@
     border-radius: 50%;
 }
 
-.avatar{
-    align-content: center;
-}
-
-.hero{
-    height: 250px;
-    background: url("https://media-exp1.licdn.com/dms/image/C4D16AQF6c7Hjbf28sA/profile-displaybackgroundimage-shrink_200_800/0/1635632116828?e=1657152000&v=beta&t=1CjzWB8vIH62n6lLn4jTDJm7bQiWcyyXyvBOypzzdYI") no-repeat;
-    background-size: cover;
-}
