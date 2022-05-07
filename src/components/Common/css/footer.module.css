@@ -1,0 +1,51 @@
+.main{
+    /* background: url(https://assets.zindi.africa/media/a356bbddb381f5d836329c3579a6791b.png) 0 0 -40 no-repeat; */
+    background: url(https://assets.zindi.africa/media/8c89a3209ea3cb1709642c5b14738a98.png) right 0 bottom 0 no-repeat;
+    background-size: 200px;
+    background-size: 305px auto;
+}
+.container {
+    padding-left: 4rem;
+   
+    
+}
+
+.terms {
+
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.terms a {
+    margin-right: 4rem;
+    padding-bottom: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    margin-bottom: 4rem;
+    align-items: flex-end;
+    text-align: end;
+    padding-right: 2rem;
+}
+
+.nav a {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.social a {
+    padding-left: 1rem;
+    padding-bottom: 3px;
+
+}
+
+.icon {
+    color: #fcb70f;
+    background-color: none;
+
+}
