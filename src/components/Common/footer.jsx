@@ -51,7 +51,7 @@ class Footer extends Component {
 
                 </div>
                 <div className="text-end py-2">
-                  <p>Source code available under the MIT license. Content on this site, made by Open Knowledge Foundation, is licensed under a Creative Commons Attribution 4.0 International License. Refer to our attributions page for attributions of other work on the site.</p>
+                  <p>Source code available under the MIT license. Content on this site, made by Halodevs, is licensed under a Creative Commons Attribution 4.0 International License. Refer to our attributions page for attributions of other work on the site.</p>
                 </div>
               </div>
 
@@ -61,11 +61,11 @@ class Footer extends Component {
           <div className="row">
             <div className={("col-md-12", styles.nav)}>
               <div className={clsx("text-end", styles.nav)}>
-              <strong><a href="" className="text">Compete of Use </a></strong>
-              <strong><a href="" className="text">Learn  </a></strong>
-              <strong><a href="" className="text">Communiy </a></strong>
-              <strong><a href="" className="text">Projects  </a></strong>
-              <strong><a href="" className="text">Jobs </a></strong>
+              <strong><a href="/compete" className="text">Compete </a></strong>
+              <strong><a href="/learn" className="text">Learn  </a></strong>
+              <strong><a href="/community" className="text">Communiy </a></strong>
+              <strong><a href="/projects" className="text">Projects  </a></strong>
+              <strong><a href="/jobs" className="text">Jobs </a></strong>
               </div>
             </div>
             <div className="col-md-13 py-4">

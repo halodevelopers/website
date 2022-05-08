@@ -1,0 +1,49 @@
+.newsLetter {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+.buttonInside {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+input {
+    
+    width: 100%;
+    padding-left: 10px;
+    border-radius: None;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.button{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    border: 1px solid #0B0B45;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    padding:0;
+    color: white;
+    background-color: #0B0B45;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    border-radius: 0%;
+  }
+  .button:hover{
+    cursor:pointer;
+    color: #0B0B45;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+  }

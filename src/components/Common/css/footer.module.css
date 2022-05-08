@@ -1,11 +1,16 @@
 .main{
     /* background: url(https://assets.zindi.africa/media/a356bbddb381f5d836329c3579a6791b.png) 0 0 -40 no-repeat; */
     background: url(https://assets.zindi.africa/media/8c89a3209ea3cb1709642c5b14738a98.png) right 0 bottom 0 no-repeat;
+    /* background: url("https://assets.zindi.africa/media/a057157895eb806c13aa3ac2421d75d2.png") right 0 top 0 no-repeat; */
     background-size: 200px;
     background-size: 305px auto;
+    border: 1px solid #e6e6e6;
+    margin-top: 4rem;
+    
 }
 .container {
     padding-left: 4rem;
+    
    
     
 }
@@ -49,3 +54,5 @@
     background-color: none;
 
 }
+
+/*  url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296 200" width="296" height="200"><defs><pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="4" fill="rgba(245,110,65, 0.15)" /></pattern></defs><rect fill="url(%23p)" width="296" height="200" /></svg>') left 0 top 0 no-repeat; */
