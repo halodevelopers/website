@@ -5,7 +5,7 @@
 
 
 
- .hero {
+.hero {
   margin: 1rem auto;
   padding: 8rem 0;
   max-width: 1128px;
@@ -16,15 +16,15 @@
   width: 100%;
   height: auto;
   box-sizing: content-box;
-  font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+  font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #1f0f4f;
 
 
-  background: url("../../../../static/img/data2-modified.png") 25px 333px no-repeat,url("../../../../static/img/rogers-modified.png") right 25px top 0 no-repeat;
-  background-size: auto 200px,auto 200px;
+  background: url("../../../../static/img/data2-modified.png") 25px 333px no-repeat, url("../../../../static/img/rogers-modified.png") right 25px top 0 no-repeat;
+  background-size: auto 200px, auto 200px;
   position: relative;
   margin-bottom: 5rem;
 
@@ -36,7 +36,7 @@
   }
 }
 
-.buttoncompete:hover{
+.buttoncompete:hover {
   color: #0B0B45;
   background-color: #c8c8e6;
 }
@@ -48,14 +48,15 @@
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);display: inline-block;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  display: inline-block;
   text-align: center;
   align-items: flex-start;
   cursor: default;
   background-color: #0B0B45;
   box-sizing: border-box;
   font: 350 20px;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
   border-width: 1px;
   border-style: none;
   border-color: none;
@@ -76,7 +77,7 @@
   background-color: #c8c8e6;
   box-sizing: border-box;
   font: 350 20px;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
   border-width: 1px;
   border-style: none;
   border-color: none;
@@ -85,27 +86,30 @@
 
 }
 
-.buttonsecond:hover{
+.buttonsecond:hover {
 
-  background-color: #0B0B45;
+  cursor: pointer;
+  color: #0B0B45;
+  background-color: white;
+  border: 1px solid #e6e6e6;
 }
 
-.textcenter{
+.textcenter {
   margin-top: 2rem;
 
 }
 
-h1{
+h1 {
   font-weight: 600;
-  font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+  font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
 }
 
-.scroll{
+.scroll {
   background-color: #fff;
 }
 
 
-.herolink{
+.herolink {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,34 +125,39 @@ h1{
 
 }
 
-.btn{
+.btn {
   color: white;
   margin-right: 1rem;
   margin-top: 2rem;
   border: none;
   font-family: var(--bs-body-font-family);
   background-color: #0B0B45;
-  padding: 8px;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.btn:hover{
+.btn:hover {
+  cursor: pointer;
   color: #0B0B45;
-  background-color: #dedee7;
-  border: none;
+  background-color: white;
+  border: 1px solid #e6e6e6;
 }
 
-.btn1{
+.btn1 {
   color: #0B0B45;
   margin-right: 1rem;
   margin-top: 2rem;
   font-family: var(--bs-body-font-family);
   border: none;
   background-color: #dedee7;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.btn1:hover{
-  color: white;
-  margin-right: 1rem;
-  margin-top: 2rem;
-  background-color: #0B0B45;
+.btn1:hover {
+  cursor: pointer;
+  color: #0B0B45;
+  background-color: white;
+  border: 1px solid #e6e6e6;
 }

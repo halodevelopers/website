@@ -42,7 +42,7 @@ class Home extends Component {
                     </h1>
                     <div className="d-flex justify-content-center">
                         <button type="button" className={clsx("button", styles.btn)}>Join Halodevs</button>
-                        <button type="button" className={clsx("button", styles.btn1)}>Partner with Halodevs</button>
+                        <button type="button" className={clsx("button", styles.btn1)}>Become a Partner</button>
                     </div>
 
                     {/* <div className="tip-box mt-5">

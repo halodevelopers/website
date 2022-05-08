@@ -4,7 +4,7 @@
     background-color: #0B0B45;
     border-radius: 5px;
     font-weight:700px;
-    height: 40px;
+    height: 35px;
     width: 80px;
     font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
 
@@ -13,7 +13,6 @@
     letter-spacing: normal;
     word-spacing: normal;
     text-transform: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);display: inline-block;
     text-align: center;
     align-items: flex-start;
     cursor: default;
@@ -30,31 +29,8 @@
 }
 
 .btn:hover{
+    cursor:pointer;
     color: #0B0B45;
-    border-color: #0B0B45;
-    background-color: #fff;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
-
-
-    border: none;
-    border-radius: 5px;
-    font-weight:700px;
-    height: 40px;
-    width: 80px;
-    font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: #c8c8e6;
-    box-sizing: border-box;
-    font: 350 20px;
-    border-width: 1px;
-    border-style: none;
-    border-color: none;
-    border-image: initial;
-    border-radius: 2px 2px 2px 2px;
+    background-color: white;
+    border: 1px solid #e6e6e6;
 }

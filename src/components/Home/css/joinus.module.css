@@ -49,9 +49,10 @@ h1{
 }
 
 .btn:hover{
+    cursor:pointer;
     color: #0B0B45;
-    background-color: #dedee7;
-    border: 1.5px solid #dedee7;
+    background-color: white;
+    border: 1px solid #e6e6e6;
 }
 
 .btn1{
@@ -63,10 +64,10 @@ h1{
 }
 
 .btn1:hover{
-    color: white;
-    margin-right: 1rem;
-    margin-top: 2rem;
-    background-color: #0B0B45;
+    cursor:pointer;
+    color: #0B0B45;
+    background-color: white;
+    border: 1px solid #e6e6e6;
 }
 
 .Jumbotron{
