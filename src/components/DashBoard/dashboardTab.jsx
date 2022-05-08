@@ -84,10 +84,6 @@ export default function DashboardTab() {
             <Tab label="Competitions" {...a11yProps(1)} />
             <Tab label="Datasets" {...a11yProps(2)} />
             <Tab label="Code" {...a11yProps(3)} />
-            <Tab label="Discussions" {...a11yProps(4)} />
-            <div className="edit-profile float-right" style={{ marginLeft: "5%" }}>
-              <button className="btn btn-dark">Edit Profile</button>
-            </div>
           </Tabs>
 
 
@@ -108,9 +104,6 @@ export default function DashboardTab() {
           </TabPanel>
           <TabPanel value={value} index={3}>
             <DashBoardCode />
-          </TabPanel>
-          <TabPanel value={value} index={4}>
-            Item Five
           </TabPanel>
         </div>
       </div>
