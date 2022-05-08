@@ -43,10 +43,18 @@ export default function EditProfileModel() {
                 <Box sx={style}>
                     <Typography id="modal-modal-title" variant="h6" component="h2">
                         Edit Form
-                        <hr/>
+                        <hr />
                     </Typography>
                     <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        <EditFormCard/>
+                        <EditFormCard />
+                        <div className="row gutters">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div className="text-right">
+                                    <button type="button" style={{backgroundColor:"#dedee7", color:"#0B0B45"}} onClick ={handleClose} id="submit" name="submit" class="btn m-2">Cancel</button>
+                                    <button type="button" style={{color:"#dedee7", backgroundColor:"#0B0B45"}} id="submit" name="submit" class="btn btn-primary m-2">Update</button>
+                                </div>
+                            </div>
+                        </div>
                     </Typography>
                 </Box>
             </Modal>

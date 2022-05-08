@@ -81,14 +81,7 @@ function EditFormCard() {
 				</div>
 			</div>
 		</div>
-		<div className="row gutters">
-			<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-				<div className="text-right">
-					<button type="button" id="submit" name="submit" class="btn btn-secondary">Cancel</button>
-					<button type="button" id="submit" name="submit" class="btn btn-primary">Update</button>
-				</div>
-			</div>
-		</div>
+
 	</div>
 </div>
 </div>
