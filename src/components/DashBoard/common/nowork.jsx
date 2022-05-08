@@ -1,5 +1,5 @@
 import React from 'react';
-import nodataset from './images/nodatasets.png';
+import nodataset from '../images/nodatasets.png';
 
 function NoWork(props) {
     return ( 

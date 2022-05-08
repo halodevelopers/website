@@ -6,7 +6,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import LearnCard from './learnCard';
-import NoWork from '../DashBoard/nowork';
+import NoWork from '../DashBoard/common/nowork';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;

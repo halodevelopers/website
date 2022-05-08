@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import SearchIcon from '@material-ui/icons/Search';
-import styles from './css/dashboardDataset.module.css';
+import styles from '../css/dashboardDataset.module.css';
 import clsx from 'clsx';
-import SimpleTabs from './dashboardDSTab';
+// import SimpleTabs from '../dataset/dashboardDSTab';
 
 function DashBoardSearch(props){
         return (

@@ -4,6 +4,7 @@ import avatar from "./images/avatar.jpg";
 import clsx from "clsx";
 import styles from "./css/dashborad.module.css";
 import pen from "./css/pen.png";
+import EditProfileModel from "./home/dashboardEditProfile";
 
 
 class UserCard extends Component {
@@ -36,8 +37,8 @@ class UserCard extends Component {
         </div>
         {/* Profile details */}
         <div className={clsx(styles.profile_container)}>
-          <div className={clsx(styles.profile_details, 'row mt-5')}>
-            {/* <div className="col-3"></div> */}
+          <div className={clsx(styles.profile_details, 'row')}>
+            <div className="col-1"></div>
             <div className="profile_detail col">
               <h5 className="fs-5">TIMOTHY ATWANZIRE</h5>
               <div className="qualification fs-4">
@@ -51,10 +52,7 @@ class UserCard extends Component {
               <p>Mbarara University of Science & Technology</p>
             </div>
             <div className="col-auto">
-              <img
-                className={clsx(styles.cover_pen)}
-                src={pen}
-                alt="" />
+              <EditProfileModel/>
             </div>
           </div>
         </div>

@@ -54,8 +54,15 @@
   margin: 10px;
 }
 
+.edit_pen{
+  width: 30px;
+  float: right;
+  /* margin: 10px;  */
+}
+
 .profile_details{
   float: right;
+  margin-top: 50px;
 }
 
 .profile_container{
