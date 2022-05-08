@@ -61,11 +61,11 @@ class Footer extends Component {
           <div className="row">
             <div className={("col-md-12", styles.nav)}>
               <div className={clsx("text-end", styles.nav)}>
-              <strong><a href="" className="text">Compete of Use </a></strong>
-              <strong><a href="" className="text">Learn  </a></strong>
-              <strong><a href="" className="text">Communiy </a></strong>
-              <strong><a href="" className="text">Projects  </a></strong>
-              <strong><a href="" className="text">Jobs </a></strong>
+              <strong><a href="/compete" className="text">Compete </a></strong>
+              <strong><a href="/learn" className="text">Learn  </a></strong>
+              <strong><a href="/community" className="text">Communiy </a></strong>
+              <strong><a href="/projects" className="text">Projects  </a></strong>
+              <strong><a href="/jobs" className="text">Jobs </a></strong>
               </div>
             </div>
             <div className="col-md-13 py-4">
