@@ -29,7 +29,7 @@ export default function NewsLetter() {
 
                             <form className="form-inline">
                                 <input type="text" className=" mr-2" placeholder="name@example.com" />
-                                <button type="submit" className={clsx("btn ", styles.button)}>Sign Up <ArrowRightIcon /> </button>
+                                <button type="submit" className={clsx("btn ", styles.button)}><p>Sign Up <ArrowRightIcon /></p> </button>
                             </form>
                         </div>
                     </div>
