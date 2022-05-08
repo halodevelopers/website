@@ -59,7 +59,7 @@ export default function HowItWorks() {
     return (
         <div className={clsx("container-fluid", styles.box)}>
             <div className={clsx("text", styles.text)}>
-                How it works at Halodevs
+                <strong>How it works at Halodevs</strong>
             </div>
         <Box sx={{ width: '100%', }} >
             <Stepper activeStep={activeStep}>
