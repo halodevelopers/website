@@ -132,7 +132,7 @@ h1 {
   border: none;
   font-family: var(--bs-body-font-family);
   background-color: #0B0B45;
-  padding: 6px;
+  padding: 7px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -157,7 +157,7 @@ h1 {
 
 .btn1:hover {
   cursor: pointer;
-  color: #0B0B45;
-  background-color: white;
+  color: white;
+  background-color: #0B0B45;
   border: 1px solid #e6e6e6;
 }
