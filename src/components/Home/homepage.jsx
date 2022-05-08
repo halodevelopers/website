@@ -15,6 +15,7 @@ import Project from "./home/projects";
 import Description from "./home/description";
 import Organization from "./home/organization";
 import HowItWorks from "./home/howItWorks";
+import NewsLetter from "./home/newsLetter";
 // import AnnouncementBar from '../Common/anouncementbar';
 
 
@@ -80,6 +81,7 @@ class Home extends Component {
                 
                 <LearnSection /> */}
                 <JoinUs />
+                <NewsLetter />
             </div>
         );
     }
