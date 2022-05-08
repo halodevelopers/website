@@ -1,8 +1,8 @@
 import React from 'react';
-import avatar from "./images/avatar.jpg";
+import avatar from "../images/avatar.jpg";
 import StarIcon from '@material-ui/icons/Star';
 import clsx from "clsx";
-import styles from "./css/dashboardCode.module.css";
+import styles from "../css/dashboardCode.module.css";
 
 function DashBoardCodeCard(props) {
     return (

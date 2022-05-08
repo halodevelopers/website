@@ -6,14 +6,15 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import DashboardCard from './dashboardCard';
-import DashCompete from './DashCompete';
+import DashCompete from './code/DashCompete';
 import clsx from "clsx";
 import styles from "./css/tabs.module.css";
-import DashBoardDataSet from './dashboardDataset';
-import DashBoardCode from './dashboardCode';
-import DashBoardCalenderHeatMap from './dashboardCalenderHeatMap';
-import DashBoardProfileBio from './dashboardProfileBio';
+import DashBoardDataSet from './dataset/dashboardDataset';
+import DashBoardCode from './code/dashboardCode';
+import DashBoardCalenderHeatMap from './home/dashboardCalenderHeatMap';
+import DashBoardProfileBio from './home/dashboardProfileBio';
+// import DashBoardConnect from './home/dashboardConnect';
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -89,7 +90,7 @@ export default function DashboardTab() {
 
           <TabPanel value={value} index={0}>
             <div className="container-fluid">
-              <DashboardCard />
+              {/* <DashboardCard /> */}
               <DashBoardProfileBio />
               <DashBoardCalenderHeatMap />
             </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import tatanic from './images/tatanic.png';
-import styles from './css/dashboard.module.css';
+import tatanic from '../images/tatanic.png';
+import styles from '../css/dashboard.module.css';
 import clsx from 'clsx';
 
 class DashBoardCompeteCard extends Component {
