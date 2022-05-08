@@ -9,6 +9,7 @@ import Box from '@material-ui/core/Box';
 import DashBoardCompeteCard from './dashboardCompeteCard';
 import NoDetail from './noDetail';
 
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -67,7 +68,7 @@ export default function DashBoardCompeteTab() {
         <Tab label="Bookmarks" {...a11yProps(4)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        {/* <DashBoardCompeteCard /> */}
+        <DashBoardCompeteCard />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <NoDetail />

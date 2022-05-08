@@ -13,6 +13,7 @@
   padding-left: 24px;
 
 }
+
 /* .row {
   border: 1px solid #dedfe0;
   border-bottom: 0px;
@@ -27,13 +28,13 @@
   padding: 0px;
 }
 
-.avatar{
- border: 3px solid white;
- margin-top: 150px;
-margin-left: 30px;
+.avatar {
+  border: 3px solid white;
+  margin-top: 150px;
+  margin-left: 30px;
 }
 
-.hero{
+.hero {
   height: 250px;
   background: url("./cover.jpg") no-repeat right 0 top 0;
   background-size: cover;
@@ -41,7 +42,30 @@ margin-left: 30px;
   background-size: cover;
   border-radius: 10px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 3em;
   margin-bottom: 8em;
   color: white;
+  z-index: 1;
+}
+
+.cover_pen{
+  width: 30px;
+  float: right;
+  margin: 10px;
+}
+
+.profile_details{
+  float: right;
+}
+
+.profile_container{
+  margin-top: -150px;
+  height: 200px;
+  border: 1px solid grey;
+  border-top: none;
+  border-radius: 20px;
+}
+
+.location{
+  opacity: .8;
 }
