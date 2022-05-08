@@ -17,7 +17,7 @@ class JoinUs extends Component {
                     <div className={clsx("col-md-6", styles.joinus)}>
                         <div className={clsx("Jumbotron", styles.Jumbotron)}>
                             <div className={clsx("text-left", styles.title)}>
-                                <h1>Join our community of bright minds</h1>
+                                <strong>Join our community of bright minds</strong>
                             </div>
                             <p>
                                 There are more than 30 000 people in our community from novices to experts. Get noticed by companies through participating in competitions.
