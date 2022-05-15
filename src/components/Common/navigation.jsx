@@ -29,7 +29,7 @@ class NavBar extends Component {
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
                                         <Link className={clsx(styles.link)} to="/compete">
-                                            <a className="nav-link" href="#">Comptete</a>
+                                            <a className="nav-link" href="#">Compete</a>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
