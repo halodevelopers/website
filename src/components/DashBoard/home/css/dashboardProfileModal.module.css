@@ -1,10 +1,46 @@
 body {
     margin: 0;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     color: #2e323c;
     background: #f5f6fa;
     position: relative;
     height: 100%;
+    
+}
+p{
+    font-size: 14px;
+    font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
+    /* font-family: "Roboto","Helvetica","Arial",sans-serif; */
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.0138em;
+}
+strong{
+    /* font-size: 14px; */
+    font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+    text-decoration: none;
+    /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+    /* color: rgba(0, 0, 0, 0.55); */
+    text-decoration: none;
+    /* font-family: "Roboto","Helvetica","Arial",sans-serif; */
+    font-weight: 300;
+    opacity: 0.8;
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: 0.0138em;
+}
+p a:hover{
+    color: rgba(0, 0, 0, 0.7);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+}
+a p:hover{
+    color: rgba(0, 0, 0, 0.7);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
 }
 .account_settings .user_profile {
     margin: 0 0 1rem 0;
