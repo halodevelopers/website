@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.47e6ca85.css",
-    "main.js": "/static/js/main.fb526dc4.js",
+    "main.css": "/static/css/main.5f66146f.css",
+    "main.js": "/static/js/main.be79f2b1.js",
     "static/media/data2-modified.png": "/static/media/data2-modified.cb6c00576ebf7ff8933a.png",
     "static/media/rogers-modified.png": "/static/media/rogers-modified.d46d64bcf49630e72332.png",
     "static/media/cover.jpg": "/static/media/cover.4c429d611af864fa890b.jpg",
@@ -22,11 +22,11 @@
     "static/media/arvesta-logo.svg": "/static/media/arvesta-logo.b82d8c1651cc08b094aef69ee553b797.svg",
     "static/media/hogent-logo.svg": "/static/media/hogent-logo.bb162d4d0bbb215e7555d8189f519280.svg",
     "index.html": "/index.html",
-    "main.47e6ca85.css.map": "/static/css/main.47e6ca85.css.map",
-    "main.fb526dc4.js.map": "/static/js/main.fb526dc4.js.map"
+    "main.5f66146f.css.map": "/static/css/main.5f66146f.css.map",
+    "main.be79f2b1.js.map": "/static/js/main.be79f2b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.47e6ca85.css",
-    "static/js/main.fb526dc4.js"
+    "static/css/main.5f66146f.css",
+    "static/js/main.be79f2b1.js"
   ]
 }
