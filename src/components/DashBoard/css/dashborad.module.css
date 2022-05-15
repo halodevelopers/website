@@ -38,14 +38,12 @@
   height: 250px;
   background: url("./cover.jpg") no-repeat right 0 top 0;
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 5px 5px 0 0;
   background-size: cover;
-  border-radius: 10px;
+  border: 2px solid #e6e6e6;
   margin: auto;
   margin-top: 3em;
-  margin-bottom: 8em;
   color: white;
-  z-index: 1;
 }
 
 .cover_pen{
@@ -55,15 +53,13 @@
 }
 
 .profile_details{
-  float: right;
+  padding-top: 6rem;
 }
 
 .profile_container{
-  margin-top: -150px;
-  height: 200px;
-  border: 1px solid grey;
+  border: 1px solid #e6e6e6;
   border-top: none;
-  border-radius: 20px;
+  border-radius: 0 0 5px 5px;
 }
 
 .location{
