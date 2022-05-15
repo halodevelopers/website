@@ -1,5 +1,5 @@
 import React from 'react';
-import DashBoardCompeteTab from './dashboardCompeteTab';
+import DashBoardCompeteTab from '../compete/dashboardCompeteTab';
 
 function DashCompete() {
     return ( 

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import NoWork from '../../DashBoard/nowork';
+import NoWork from '../../DashBoard/common/nowork';
 import ProjectSideBarCard from './projectSideBarCard';
 
 function ProjectDescription() {

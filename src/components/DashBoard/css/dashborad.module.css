@@ -52,8 +52,16 @@
   margin: 10px;
 }
 
+.edit_pen{
+  width: 30px;
+  float: right;
+  /* margin: 10px;  */
+}
+
 .profile_details{
+
   padding-top: 6rem;
+
 }
 
 .profile_container{

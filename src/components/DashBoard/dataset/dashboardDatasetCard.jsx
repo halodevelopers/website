@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import DashBoardDataSetSearch from './DashBoardSearch';
+import DashBoardDataSetSearch from '../common/DashBoardSearch';
 import clsx from 'clsx';
-import styles from './css/dashboardDataset.module.css';
+import styles from '../css/dashboardDataset.module.css';
 
 
 class DashBoardDataSetCard extends Component {

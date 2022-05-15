@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import noDetail from "./images/noDetail.png"
+import noDetail from "../images/noDetail.png"
 
 class NoDetail extends Component {
     state = {  } 
