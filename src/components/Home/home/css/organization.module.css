@@ -8,7 +8,6 @@
 
 strong{
     font-size: 15px;
-    font-weight: 600;
     text-align: start;
     color: #0B0B45;
     text-align: justify;
@@ -25,6 +24,7 @@ strong{
 
 strong{
     color: #0B0B45;
+    font-weight: 300;
 }
 .title{
     margin-top: 1rem;

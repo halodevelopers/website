@@ -47,3 +47,12 @@ input {
     background-color: white;
     border: 1px solid #e6e6e6;
   }
+
+
+strong{
+    font-weight: 300;
+}
+
+strong, b {
+    font-weight: 300;
+  }
