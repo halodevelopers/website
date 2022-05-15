@@ -11,8 +11,9 @@ function Projects() {
             <NavBar />
             <div className={clsx(styles.header)}>
                 <div className={clsx(styles.hero, "container")}>
-                    <div className={clsx(styles.hero_text)}>
-                        <h3 className={clsx(styles.title)}>Projects</h3>
+                    <div className={clsx(styles.hero_text, 'heroic')}>
+                        <h4 className={clsx(styles.title1)}>Projects</h4>
+                        <strong className={clsx(styles.title)}>You believe in Opensource! </strong>
                         <p  className={clsx(styles.body_param)}>Explore our incredible community, connect with fellow data
                             scientists, and learn from the best.</p>
                     </div>

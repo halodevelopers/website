@@ -1,0 +1,30 @@
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: rgb(19, 19, 19);
+    opacity: .7;
+    
+}
+
+.title{
+    color:#0B0B45;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    opacity: .9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+
+}
+
+.card{
+    border-radius: 0;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    border-radius: none;
+}
+.link p{
+    margin-bottom: 1rem;
+}
+

@@ -2,20 +2,21 @@ import React, { Fragment } from 'react';
 import project from './images/project.jpg';
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
-import styles from './css/projects.module.css';
+import styles from './css/projectCard.module.css';
 import Badge from 'react-bootstrap/Badge';
 
 
 function ProjectCard() {
     return ( 
         <Fragment>
-            <div className="card m-2" style={{height:'10em'}}>
+            <div className={clsx( styles.card)}>
+            <div className={clsx("card m-2", styles.card)}>
                 <div className="row">
                     <div className="col-auto">
-                        <img src={project} style={{height:'10em', width:'15em', borderRadius:"10px"}} alt="" srcset="" />
+                        <img src={project} style={{height:'10em', width:'15em', borderRadius:"0px"}} alt="" srcset="" />
                     </div>
                     <div className="col-6 m-2">
-                        <Link className={clsx(styles.link)} to="/projects/detail">
+                        <Link className={clsx(styles.link, 'link')} to="/projects/detail">
                             <h6 className={clsx(styles.title)}>Brain Health Detection <span className="d-inline badge m-2" style={{backgroundColor : "#0B0B45"}}>Health</span></h6>
                             <p>In brain tumor classification using machine learning, we built a binary classifier to detect brain tumors from MRI scan images.</p>
                         </Link>
@@ -37,6 +38,7 @@ function ProjectCard() {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </Fragment>
      );

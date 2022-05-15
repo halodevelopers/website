@@ -7,6 +7,8 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import ProjectCard from './projectCard';
 import NoWork from '../DashBoard/common/nowork';
+import clsx from 'clsx';
+import styles from './css/projectTab.module.css'
 
 
 function TabPanel(props) {
@@ -51,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function ProjectTab() {
-    const classes = useStyles();
+    // const classes = useStyles();
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event, newValue) => {
@@ -60,7 +62,7 @@ export default function ProjectTab() {
 
 
     return (
-        <div className={classes.root}>
+        <div className={clsx("container", styles.tab)}>
             <Tabs
                 value={value}
                 onChange={handleChange}
