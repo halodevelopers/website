@@ -12,3 +12,8 @@ code {
     monospace;
 }
 
+
+strong, b {
+  font-weight: 300;
+}
+
