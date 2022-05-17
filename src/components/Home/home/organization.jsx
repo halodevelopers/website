@@ -42,7 +42,7 @@ const Organization = () => {
                                 }
 
                             />
-                            <h5 className={clsx("card-title", styles.title)}>
+                            <h5 className={clsx("card-title titletext", styles.title)}>
                                 <strong>Solve a problem</strong>
                             </h5>
                             <p className="card-text">

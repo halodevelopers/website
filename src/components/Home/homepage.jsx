@@ -27,22 +27,26 @@ class Home extends Component {
             <div>
                 <NavBar />
                 <div className={clsx("container-fluid hero hero-text ", styles.hero)}><br />
-                    <h1 className='text-center' >
-                        We are Open Mind Developers
+                    <div className={clsx("text-center", styles.textcenter)}>
+                    <h1  >
+                        We are
+                        Open Mind Developers
 
                     </h1>
-                    <h1 className='text-center' >
+                    <h1  >
 
-                        Opensourcing to Help
+                        Opensourcing AI ideas
 
                     </h1>
-                    <h1 className='text-center' >
+                    <h1 >
 
-                        Transform the world with AI
+                        {/* Transform the world with AI */}
+                        developed to give meaning to our lives.
                     </h1>
+                    </div>
                     <div className="d-flex justify-content-center">
                         <button type="button" className={clsx("button", styles.btn)}>Join Halodevs</button>
-                        <button type="button" className={clsx("button", styles.btn1)}>Become a Partner</button>
+                        <button type="button" className={clsx("button", styles.btn1)}>Become our Partner</button>
                     </div>
 
                     {/* <div className="tip-box mt-5">

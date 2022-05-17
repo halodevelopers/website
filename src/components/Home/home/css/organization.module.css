@@ -4,13 +4,26 @@
     text-align: start;
     color: #0B0B45;
     text-align: justify;
+    font-family: "Roboto","Helvetica","Arial",sans-seri;
 }
 
-strong{
-    font-size: 15px;
+.text strong{
+    font-size: 16px;
     text-align: start;
     color: #0B0B45;
     text-align: justify;
+    font-family: "Roboto","Helvetica","Arial",sans-seri;
+    color: #0B0B45;
+    font-weight: 600;
+}
+
+.titletext strong{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 15px;
+    text-align: start;
+    color: #0B0B45;
+    font-weight: 600;
 }
 
 .card{
@@ -22,14 +35,6 @@ strong{
     margin-bottom: 4rem;
 }
 
-strong{
-    color: #0B0B45;
-    font-weight: 300;
-}
-.title{
-    margin-top: 1rem;
-    margin-bottom: 0;
-}
 p{
     padding: 3px;
     margin: 0px;
