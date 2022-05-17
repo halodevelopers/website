@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ebd399e0.css",
-    "main.js": "/static/js/main.b1163576.js",
+    "main.js": "/static/js/main.40a00e58.js",
     "static/media/data2-modified.png": "/static/media/data2-modified.cb6c00576ebf7ff8933a.png",
     "static/media/rogers-modified.png": "/static/media/rogers-modified.d46d64bcf49630e72332.png",
     "static/media/cover.jpg": "/static/media/cover.4c429d611af864fa890b.jpg",
@@ -23,10 +23,10 @@
     "static/media/hogent-logo.svg": "/static/media/hogent-logo.bb162d4d0bbb215e7555d8189f519280.svg",
     "index.html": "/index.html",
     "main.ebd399e0.css.map": "/static/css/main.ebd399e0.css.map",
-    "main.b1163576.js.map": "/static/js/main.b1163576.js.map"
+    "main.40a00e58.js.map": "/static/js/main.40a00e58.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd399e0.css",
-    "static/js/main.b1163576.js"
+    "static/js/main.40a00e58.js"
   ]
 }
