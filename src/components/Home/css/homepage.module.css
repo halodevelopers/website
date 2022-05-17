@@ -7,7 +7,7 @@
 
 .hero {
   margin: 1rem auto;
-  padding: 8rem 0;
+  padding: 7rem 0;
   max-width: 1128px;
   text-align: center;
   position: relative;
@@ -21,10 +21,11 @@
   font-weight: 400;
   line-height: 24px;
   color: #1f0f4f;
+  padding-bottom: 10rem;
 
 
-  background: url("../../../../static/img/data2-modified.png") 25px 333px no-repeat, url("../../../../static/img/rogers-modified.png") right 25px top 0 no-repeat;
-  background-size: auto 200px, auto 200px;
+  background: url("../../../../static/img/data2-modified.png") 20px 320px no-repeat, url("../../../../static/img/rogers-modified.png") right 25px top 0 no-repeat;
+  background-size: auto 225px, auto 200px;
   position: relative;
   margin-bottom: 5rem;
 
@@ -95,13 +96,20 @@
 }
 
 .textcenter {
-  margin-top: 2rem;
+  /* margin-top: 1rem; */
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  margin-bottom: 2rem;
+  margin-top: 0;
 
 }
 
 h1 {
   font-weight: 600;
-  font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+  /* font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol; */
+  /* font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: "Roboto","Helvetica","Arial",sans-seri;
+  padding-top: 0;
+
 }
 
 .scroll {
@@ -126,15 +134,15 @@ h1 {
 }
 
 .btn {
+  font-family: "Roboto","Helvetica","Arial",sans-seri;
   color: white;
   margin-right: 1rem;
   margin-top: 2rem;
   border: 1px solid #e6e6e6;
-  font-family: var(--bs-body-font-family);
   background-color: #0B0B45;
-  padding: 7px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 8px;
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 .btn:hover {
@@ -153,6 +161,7 @@ h1 {
   background-color: #dedee7;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: "Roboto","Helvetica","Arial",sans-seri;
 }
 
 .btn1:hover {
