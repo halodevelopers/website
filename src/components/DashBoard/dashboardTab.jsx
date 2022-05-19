@@ -92,6 +92,7 @@ export default function DashboardTab() {
             <div className="container-fluid">
               {/* <DashboardCard /> */}
               <DashBoardProfileBio />
+    
               <DashBoardCalenderHeatMap />
             </div>
           </TabPanel>

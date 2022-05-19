@@ -1,0 +1,111 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-seri;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    height: 514px;
+    width: 980px;
+    margin: 50px auto;
+}
+
+.timeline {
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
+.timeline .timeline-months {
+    display: flex;
+    padding-left: 30px;
+}
+
+.timeline .timeline-months-month {
+    width: 10px;
+    margin: 2px;
+    border: 1px solid transparent;
+    font-size: 10px;
+}
+
+.timeline .timeline-months .Jan~.Jan,
+.timeline .timeline-months .Feb~.Feb,
+.timeline .timeline-months .Mar~.Mar,
+.timeline .timeline-months .Apr~.Apr,
+.timeline .timeline-months .May~.May,
+.timeline .timeline-months .Jun~.Jun,
+.timeline .timeline-months .Jul~.Jul,
+.timeline .timeline-months .Aug~.Aug,
+.timeline .timeline-months .Sep~.Sep,
+.timeline .timeline-months .Oct~.Oct,
+.timeline .timeline-months .Nov~.Nov,
+.timeline .timeline-months .Dec~.Dec {
+    visibility: hidden;
+}
+
+.timeline-body {
+    display: flex;
+}
+
+.timeline-body .timeline-weekdays {
+    display: inline-flex;
+    flex-direction: column;
+    width: 30px;
+}
+
+.timeline-body .timeline-weekdays-weekday {
+    font-size: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+.timeline-body .timeline-cells {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 112px;
+}
+
+.timeline-body .timeline-cells-cell {
+    height: 10px;
+    width: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 2px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.timeline-body .timeline-cells-cell:hover {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: horizontal;
+    /* align-items: center; */
+    /* background-color: blueviolet; */
+    margin-top: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01538em;
+    padding: 0;
+
+}
+
+.navigation{
+    margin-top: 2rem;
+}
+
+.takeoers{
+    margin-top: 4rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.25rem;
+}
