@@ -1,14 +1,16 @@
 import React, { Fragment } from 'react';
+import styles from './css/projectSideBarCard.module.css';
+import clsx from 'clsx';
 
 function ProjectSideBarCard() {
     return (
         <Fragment>
-            <div className="card">
+            <div className={clsx("card", styles.card)}>
                 <div className="content m-3">
                     <div className="about">
-                        <h5>About</h5>
+                        <strong>Explore More on this Project</strong>
                         <div className="about-body">
-                            <p>
+                            <p className={clsx("para", styles.para)}>
                                 Deep learning (subfield of machine learning) has gained prominence in almost every
                                 field where decision-making is involved in recent years, spanning economics, health
                                 care, marketing, and sales. In the field of healthcare, machine learning &

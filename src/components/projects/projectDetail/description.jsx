@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import NoWork from '../../DashBoard/common/nowork';
 import ProjectSideBarCard from './projectSideBarCard';
+import styles from './css/projectDescription.module.css';
+import clsx from 'clsx';
 
 function ProjectDescription() {
     return (
@@ -10,8 +12,8 @@ function ProjectDescription() {
                     <div className="row">
                         <div className="col-auto links">
                             <nav>
-                                <ul className='m-2'>
-                                    <li className='nav-link'><a href="#intro">INTRO</a></li>
+                                <ul className={clsx('list', styles.headnav)}>
+                                    <li className='nav-link '><a href="#intro">INTRO</a></li>
                                     <li className='nav-link'><a href="#about">ABOUT</a></li>
                                     <li className='nav-link'><a href="#tools">TOOLS</a></li>
                                     <li className='nav-link'><a href="#program">PROGRAM</a></li>

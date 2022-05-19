@@ -8,6 +8,8 @@ import Box from '@material-ui/core/Box';
 import ProjectDescription from './projectDetail/description';
 import ProjectSponser from './projectDetail/sponser';
 import ProjectContributor from './projectDetail/contributor';
+import styles from './css/projectTab.module.css';   
+import clsx from 'clsx';
 
 
 function TabPanel(props) {
@@ -61,7 +63,7 @@ export default function ProjectDetailTab() {
 
 
     return (
-        <div className={classes.root}>
+        <div className={clsx(classes.root, styles.tab)}>
             <Tabs
                 value={value}
                 onChange={handleChange}

@@ -35,3 +35,11 @@
 .div_space{
     display: inline-block;
 }
+
+.container{
+    margin-top: 2rem;
+}
+
+.herodata{
+    margin-top: 4rem;
+}
