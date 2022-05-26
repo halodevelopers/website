@@ -16,6 +16,7 @@ import Description from "./home/description";
 import Organization from "./home/organization";
 import HowItWorks from "./home/howItWorks";
 import NewsLetter from "./home/newsLetter";
+import ProjectCarousel from './home/project/project';
 // import AnnouncementBar from '../Common/anouncementbar';
 
 
@@ -72,6 +73,7 @@ class Home extends Component {
                 <Description />
                 <Partnership />
                 <Organization />
+                {/* < ProjectCarousel /> */}
                 <div className="container-fluid">
                     <HowItWorks />
                 </div>

@@ -1,0 +1,307 @@
+#projects-carousel {
+    position: relative;
+    padding: 0 !important;
+  }
+
+  /* #projects-carousel .carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+  } */
+
+  .slick-dotted.slick-slider {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+  }
+
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .slick-prev {
+    left: 40px;
+  }
+  .slick-prev, .slick-next {
+    z-index: 999;
+    height: 40px;
+    width: 40px;
+  }
+
+  .slick-prev, .slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+  [type="submit"], [type="button"] {
+    appearance: none;
+    border-radius: 0;
+  }
+  button, [type="button"], [type="reset"], [type="submit"] {
+  }
+  button, input, optgroup, select, textarea {
+    font-family: inherit;
+  }
+  button {
+    padding: 0;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    line-height: 1;
+    cursor: auto;
+  }
+  button, select {
+    text-transform: none;
+  }
+  button {
+    overflow: visible;
+  }
+  button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  *, ::before, ::after {
+    box-sizing: inherit;
+  }
+
+  .slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  /* element {
+    opacity: 1;
+    width: 36882px;
+    transform: translate3d(-10928px, 0px, 0px);
+  } */
+
+  .slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .slick-initialized .slick-slide {
+    display: block;
+  }
+
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+  }
+
+  #projects .project-item {
+    padding: 0;
+  }
+
+  .row.expanded {
+    max-width: none;
+  }
+
+  .row {
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .align-stretch {
+    align-items: stretch;
+  }
+  .align-left {
+    justify-content: flex-start;
+  }
+
+  .row.collapse > .column, .row.collapse > .columns {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  @media print, screen and (min-width: 64em)
+  .large-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .small-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .column, .columns {
+    flex: 1 1 0;
+    padding-right: .625rem;
+    padding-left: .625rem;
+    min-width: 0;
+  }
+  .align-self-middle {
+    align-self: center;
+  }
+  .padding-tall, #competitions, #hero #text-wrapper {
+    padding-top: 8em;
+    padding-bottom: 8em;
+  }
+  .padding, .padding-tall, #competitions, #hero #text-wrapper {
+    padding: 4em;
+      padding-top: 4em;
+      padding-bottom: 4em;
+  }
+
+  h4, .h4 {
+    font-size: 1.5625rem;
+  }
+  h4, .h4 {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+  #projects h6 {
+    color: #1779ba;
+    margin-bottom: 0;
+    margin-top: 1em;
+  }
+
+  h5, h6 {
+   
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: .9em;
+  }
+
+  .lead, #services p {
+    font-size: 125%;
+    line-height: 1.6;
+  }
+  p, ul, ol, .alert {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #595959;
+  }
+  p {
+    margin-bottom: 1rem;
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    outline: none;
+    background: transparent;
+    color: transparent;
+  }
+
+  element {
+    display: block;
+  }
+  button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+  }
+  .slick-next {
+    right: 40px;
+  }
+  .slick-prev, .slick-next {
+    z-index: 999;
+    height: 40px;
+    width: 40px;
+  }
+  .bg-dark *, #hero *, header * {
+    color: #f5f5f5;
+  }
+  .slick-next {
+    right: -25px;
+  }
+  .slick-prev, .slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+
+  .slick-dots {
+    text-align: right;
+    padding-right: 4em;
+    padding-left: 0;
+    bottom: 40px;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+      padding-right: 0px;
+      padding-left: 0px;
+    margin: 0;
+    width: 100%;
+  }
+  p, ul, ol, .alert {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #595959;
+  }
+  ul, ol, dl {
+    line-height: 1.6;
+  }
