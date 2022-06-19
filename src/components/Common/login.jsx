@@ -7,7 +7,7 @@ import clsx from 'clsx';
 function LoginForm() {
   const [formData, setFormData] = useState({
     email: '',
-    password: '',
+    password: ''
   })
 
   const { email, password } = formData
