@@ -37,7 +37,7 @@ export default function TransitionsModal() {
   return (
     <div>
       <button type="button" className={clsx(styles.btn, 'me-2')} id='btn-outline' onClick={handleOpen}>
-        Sign in
+        Sign Up
       </button>
       <Modal
         aria-labelledby="transition-modal-title"
