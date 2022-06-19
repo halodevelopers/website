@@ -36,7 +36,25 @@ export const authSlice = createSlice({
             state.isSuccess = false;
             state.message = '';
         },
-        extraReducers: () => {}
+        extraReducers: (builder) => {
+            builder
+            .addCase(register.pending, (state, action) => {
+                state.isLoading = true;
+
+            })
+            .addCase(register.fulfilled, (state, action) => {
+                state.isLoading = false;
+                state.isSuccess = true;
+                state.user = action.payload;
+                state.message = 'Registration successful'
+            })
+            .addCase(register.rejected, (state, action) => {
+                state.isLoading = false;
+                state.isError = true;
+                state.message = action.payload
+                state.user = null;
+            })
+        }
     }
 })
 

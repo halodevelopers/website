@@ -1,6 +1,10 @@
 {
   "name": "website",
   "version": "0.1.0",
+  "proxy": {
+    "path": "/api/v1",
+    "target": "http://localhost:5000"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
