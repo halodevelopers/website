@@ -1,7 +1,16 @@
-import React, { Component, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from './css/login.module.css';
-import clsx from 'clsx';
+import styles from './css/login.module.css'
+import clsx from 'clsx'
+
+
+
+import { toast } from 'react-toastify'
+
+import { register, reset } from '../../features/auth/authSlice'
+
 
 function SigninForm() {
   const [formData, setFormData] = useState({
@@ -12,17 +21,58 @@ function SigninForm() {
   })
 
   const { username, email, password, password2 } = formData
-  const onChange = (event) => {
+
+  const navigate = useNavigate()
+  const dispatch = useDispatch()
+
+  const { user, isLoading, isError, isSuccess, message } = useSelector(
+    (state) => state.auth
+  )
+
+  useEffect(() => {
+    if (isError) {
+      toast.error(message)
+    }
+
+    if (isSuccess || user) {
+      navigate('/')
+    }
+
+    dispatch(reset())
+  }, [user, isError, isSuccess, message, navigate, dispatch])
+
+  const onChange = (e) => {
     setFormData((prevState) => ({
       ...prevState,
-      [event.target.name]: event.target.value,
+      [e.target.name]: e.target.value,
     }))
   }
 
   const onSubmit = (e) => {
     e.preventDefault()
+
+    if (password !== password2) {
+      toast.error('Passwords do not match')
+    } else {
+      const userData = {
+        username,
+        email,
+        password,
+      }
+
+      dispatch(register(userData))
+    }
   }
 
+  if (isLoading) {
+    return (
+      <div className="d-flex justify-content-center">
+        <div className="spinner-border" role="status">
+          <span className="sr-only">Loading...</span>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div>
@@ -98,7 +148,7 @@ function SigninForm() {
 
       </form>
     </div>
-  );
+  )
 }
 
 export default SigninForm;

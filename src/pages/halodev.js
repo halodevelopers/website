@@ -15,6 +15,9 @@ import Jobs from '../components/Jobs/jobs';
 import JobDetail from '../components/Jobs/jobDetails/jobDetail';
 import LearnDetail from '../components/Learn/learnDetails/LearnDetails';
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function Halodev() {
   return (
@@ -37,6 +40,7 @@ function Halodev() {
           {/* <Home/> */}
         </Routes>
       </Router>
+      <ToastContainer />
       <Footer />
     </div>
     </div>
