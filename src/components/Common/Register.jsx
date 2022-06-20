@@ -13,7 +13,7 @@ import { register, reset } from '../../features/auth/authSlice'
 
 
 function SignUpForm() {
-  
+
   const [formData, setFormData] = useState({
     username: '',
     email: '',
@@ -38,7 +38,7 @@ function SignUpForm() {
     }
 
     if (isSuccess || user) {
-      navigate('/')
+      navigate('/profile')
     }
 
     dispatch(reset())
@@ -71,7 +71,7 @@ function SignUpForm() {
     return (
       <div className="d-flex justify-content-center">
         <div className="spinner-border" role="status">
-          <span className="sr-only">Loading...</span>
+          <span className="sr-only"></span>
         </div>
       </div>
     )
@@ -81,6 +81,7 @@ function SignUpForm() {
     <div>
       <h2 className="text-center mb-2">Create an account</h2>
       <form onSubmit={onSubmit}>
+       
 
         <div className="form-outline mb-2">
           <input
@@ -102,7 +103,7 @@ function SignUpForm() {
             value={email}
             onChange={onChange}
             className="form-control form-control-md"
-            placeholder='your ymail' />
+            placeholder='Enter email' />
         </div>
 
         <div className="form-outline mb-2">
