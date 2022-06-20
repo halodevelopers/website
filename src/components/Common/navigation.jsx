@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import TransitionsModal from './signinModel';
+import TransitionsModal from './RegisterModal';
 import TransitionsModal2 from './loginModel';
 import { Link } from 'react-router-dom';
 import styles from './css/navbar.module.css';

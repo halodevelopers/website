@@ -4,11 +4,14 @@ import './index.css';
 import Halodev from './pages/halodev'
 // import { AnnouncementBar } from 'react-announcement-bar';
 // import Docusaurus from './docusaurus.config';
+import { store } from './app/store';
+import { Provider } from 'react-redux';
 
 ReactDOM.render(
   <React.StrictMode>
-
-    <Halodev />
+    <Provider store={store}>
+      <Halodev />
+    </Provider>
   </React.StrictMode>,
 
   document.getElementById('root')

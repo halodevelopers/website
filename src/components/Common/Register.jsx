@@ -12,21 +12,24 @@ import { toast } from 'react-toastify'
 import { register, reset } from '../../features/auth/authSlice'
 
 
-function SigninForm() {
+function SignUpForm() {
+  
   const [formData, setFormData] = useState({
     username: '',
     email: '',
     password: '',
-    password2: '',
+    password2: ''
   })
 
-  const { username, email, password, password2 } = formData
+  const { username, email, password, password2 } = formData;
 
   const navigate = useNavigate()
   const dispatch = useDispatch()
 
   const { user, isLoading, isError, isSuccess, message } = useSelector(
-    (state) => state.auth
+    (state) => {
+      return state.auth
+    }
   )
 
   useEffect(() => {
@@ -130,7 +133,7 @@ function SigninForm() {
             class="form-check-input me-2"
             type="checkbox"
             value=""
-            id="form2Example3cg"
+            id="checkbox"
           />
           <label className="form-check-label" for="form2Example3g">
             I agree all statements in <a href="#!" className="text-body"><u>Terms of service</u></a>
@@ -151,4 +154,4 @@ function SigninForm() {
   )
 }
 
-export default SigninForm;
+export default SignUpForm;

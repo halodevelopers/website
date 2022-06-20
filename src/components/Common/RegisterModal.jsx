@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
-import SigninForm from './signin.jsx';
+import SignUpForm from './Register.jsx';
 import styles from './css/register.module.css';
 import clsx from 'clsx';
 
@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function TransitionsModal() {
   const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
     setOpen(true);
@@ -53,7 +53,7 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-              <SigninForm/>
+            <SignUpForm />
           </div>
         </Fade>
       </Modal>
