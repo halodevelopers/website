@@ -29,21 +29,21 @@ class Home extends Component {
                 <NavBar />
                 <div className={clsx("container-fluid hero hero-text ", styles.hero)}><br />
                     <div className={clsx("text-center", styles.textcenter)}>
-                    <h1  >
-                        We are
-                        Open Mind Developers
+                        <h1  >
+                        Expertise to get the most out
 
-                    </h1>
-                    <h1  >
+                        </h1>
+                        {/* Bring the expertise to get the most out of data, and the experience to build simple solutions that work.  */}
+                        <h1  >
 
-                        Opensourcing AI ideas
+                         of data and experience to 
 
-                    </h1>
-                    <h1 >
+                        </h1>
+                        <h1 >
 
-                        {/* Transform the world with AI */}
-                        developed to give meaning to our lives.
-                    </h1>
+                            {/* Transform the world with AI */}
+                            Build desired solutions that work.
+                        </h1>
                     </div>
                     <div className="d-flex justify-content-center">
                         <button type="button" className={clsx("button", styles.btn)}>Join Halodevs</button>
