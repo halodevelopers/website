@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import TransitionsModal from './RegisterModal';
-import TransitionsModal2 from './loginModel';
-import { Link } from 'react-router-dom';
+import RegisterModal from './RegisterModal';
+import LoginModal from './loginModel';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from './css/navbar.module.css';
 import clsx from 'clsx';
 import AnnouncementBar from './anouncementbar';
+import style from './css/register.module.css';
 
-class NavBar extends Component {
-    state = {}
-    render() {
+import { useSelector, useDispatch } from 'react-redux';
+import { logout, reset } from '../../features/auth/authSlice';
+
+function NavBar() {
+    const naviaget = useNavigate()
+    const dispatch = useDispatch()
+    const { user } = useSelector((state) => state.auth )
+
+    const onLogout = () => {
+        dispatch(logout())
+        dispatch(reset())
+        naviaget('/')
+    }
+    
         return (
             <div>
                 <AnnouncementBar />
@@ -55,16 +67,25 @@ class NavBar extends Component {
                                 </ul>
                             </div>
                             <div className="collapse d-flex justify-content-end" id="navbarNav">
-                                <TransitionsModal />
-                                <TransitionsModal2 />
+                               { user ? (
+                                
+                                <button className={("btn btn-outline-light", style.btn)} onClick={onLogout}>Logout</button>
+                                // avatar
+                                
+                                
+                               ) : (
+                                    <>
+                                    <RegisterModal />
+                                    <LoginModal />
+                                    </>
+                               ) }
+                                
                             </div>
                         </div>
                     </nav>
                 </div>
             </div>
-
-        );
-    }
+        )
 }
 
 export default NavBar;
