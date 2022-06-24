@@ -14,6 +14,8 @@ import Learn from '../components/Learn/learn';
 import Jobs from '../components/Jobs/jobs';
 import JobDetail from '../components/Jobs/jobDetails/jobDetail';
 import LearnDetail from '../components/Learn/learnDetails/LearnDetails';
+import About from '../components/About/about';
+import Partners from '../components/Partners/partners';
 
 
 function Halodev() {
@@ -33,7 +35,8 @@ function Halodev() {
           <Route element ={<Jobs/>} path = "/Jobs" />
           <Route element ={<JobDetail/>} path = "/Jobs/jobdetail" />
           <Route element ={<LearnDetail/>} path = "/learn/learndetail" />
-
+          <Route element = {<About/>} path = "/about"/>
+          <Route element = {<Partners/>} path = "/partners"/>
           {/* <Home/> */}
         </Routes>
       </Router>
