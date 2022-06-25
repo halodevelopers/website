@@ -13,7 +13,7 @@
   position: relative;
   overflow: hidden;
   color: #0a437f;
-  width: 100%;
+  width: .95;
   height: auto;
   box-sizing: content-box;
   font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
@@ -21,8 +21,8 @@
   font-weight: 400;
   line-height: 24px;
   padding-bottom: 10rem;
-  background: url("../../../../static/img/data2-modified.png") 20px 320px no-repeat, url("../../../../static/img/rogers-modified.png") right 25px top 0 no-repeat;
-  background-size: auto 225px, auto 200px;
+  background: url("../../../../static/img/data2-modified.png") 40px 300px no-repeat, url("../../../../static/img/rogers-modified.png") right 25px top 0 no-repeat;
+  background-size: auto 200px, auto 200px;
   position: relative;
   margin-bottom: 5rem;
 
@@ -36,12 +36,12 @@
   .hero {
     margin: 1rem auto;
     padding: 7rem 0;
-    max-width: 1128px;
+    max-width: 966px;
     text-align: center;
     position: relative;
     overflow: hidden;
     color: #0a437f;
-    width: 100%;
+    width: .95;
     height: auto;
     box-sizing: content-box;
     font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
@@ -49,17 +49,31 @@
     font-weight: 400;
     line-height: 24px;
     padding-bottom: 10rem;
-    background: url("../../../../static/img/data2-modified.png") 7px 304px no-repeat, url("../../../../static/img/rogers-modified.png")  right 22px top 24px no-repeat;
+    background: url("../../../../static/img/data2-modified.png") 7px 200px no-repeat, url("../../../../static/img/rogers-modified.png") right 22px top 16px no-repeat;
     background-size: auto 100px, auto 100px;
     position: relative;
     margin-bottom: 5rem;
-  
+
   }
 
   .texthero {
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 20px;
-  
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+
+  }
+
+  .lastTextdiv{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    margin-top: -25px;
+    margin-bottom: 90px;
+  }
+  .textcenter {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 2rem;
+    margin-top: -20px;
   }
 }
 
@@ -123,7 +137,7 @@
 
 .textcenter {
   /* margin-top: 1rem; */
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   /* font-style: italic; */
   margin-bottom: 2rem;
   margin-top: 0;
@@ -134,7 +148,7 @@ h1 {
   font-weight: 600;
   /* font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol; */
   /* font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   padding-top: 0;
 
 }
@@ -161,7 +175,7 @@ h1 {
 }
 
 .btn {
-  font-family: "Roboto","Helvetica","Arial",sans-seri;
+  font-family: "Roboto", "Helvetica", "Arial", sans-seri;
   color: white;
   margin-right: 1rem;
   margin-top: 2rem;
@@ -188,7 +202,7 @@ h1 {
   background-color: #dedee7;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Roboto","Helvetica","Arial",sans-seri;
+  font-family: "Roboto", "Helvetica", "Arial", sans-seri;
 }
 
 .btn1:hover {

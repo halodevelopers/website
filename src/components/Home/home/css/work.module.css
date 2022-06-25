@@ -1,87 +1,66 @@
 .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 8rem;
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
-    cursor: pointer;
-    transition: all 0.3s;
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
 .row {
-    font-size: 15px;
-    justify-items: center;
-    font-weight: 100;
-    max-width: 1128px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    color: #0B0B45;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    box-sizing: content-box;
-    text-transform: uppercase;
-    font-family: var(--bs-body-font-family);
-    font-family: Montserrat, sans-serif;
-    text-align: center;
-
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 10px;
 }
 
-.one {
-    
-    color: #f56e41;
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
     font-size: 3rem;
     font-weight: 800;
     line-height: 1;
     margin-top: .5rem;
+}
+
+.one {
+    color: #f56e41;
 }
 
 .two {
     color: #1de1ae;
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1;
-    margin-top: .5rem;
-
 }
 
 .three {
     color: #fcb70f;
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1;
-    margin-top: .5rem;
-
 }
 
 .four {
     font-size: 3rem;
-    font-weight: 800;
-    line-height: 1;
-    margin-top: .5rem;
-    color: #1e1d36;
-
 }
 
 
 .five {
     color: #f56e41;
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1;
-    margin-top: .5rem;
-
 }
 
 .six {
     color: #24b3ee;
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1;
-    margin-top: .5rem;
-
 }
+
+/* @media screen and (max-width: 966px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.3s;
+        display: flex;
+    }
+} */
