@@ -36,7 +36,7 @@ export default function ContactModal() {
 
   return (
     <div>
-      <button type="button" className={clsx(styles.btn, 'me-2')} id='btn-outline' onClick={handleOpen}>
+      <button type="button" className="text-dark btn" id='btn-outline' onClick={handleOpen}>
         Contact us
       </button>
       <Modal
