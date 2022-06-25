@@ -28,17 +28,17 @@ class Home extends Component {
                 <NavBar />
                 <div className={clsx("container-fluid hero hero-text ", styles.hero)}><br />
                     <div className={clsx("text-center", styles.textcenter)}>
-                    <h1  >
+                    <h1 className={clsx("text-center", styles.texthero)}>
                         We are
                         Open Mind Developers
 
                     </h1>
-                    <h1  >
+                    <h1 className={clsx("text-center", styles.texthero)} >
 
                         Opensourcing AI ideas
 
                     </h1>
-                    <h1 >
+                    <h1 className={clsx("text-center", styles.texthero)} >
 
                         {/* Transform the world with AI */}
                         developed to give meaning to our lives.

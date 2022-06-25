@@ -12,7 +12,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  color: #0B0B45;
+  color: #0a437f;
   width: 100%;
   height: auto;
   box-sizing: content-box;
@@ -20,10 +20,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #1f0f4f;
   padding-bottom: 10rem;
-
-
   background: url("../../../../static/img/data2-modified.png") 20px 320px no-repeat, url("../../../../static/img/rogers-modified.png") right 25px top 0 no-repeat;
   background-size: auto 225px, auto 200px;
   position: relative;
@@ -35,10 +32,39 @@
   .heroBanner {
     padding: 2rem;
   }
+
+  .hero {
+    margin: 1rem auto;
+    padding: 7rem 0;
+    max-width: 1128px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #0a437f;
+    width: 100%;
+    height: auto;
+    box-sizing: content-box;
+    font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 10rem;
+    background: url("../../../../static/img/data2-modified.png") 7px 304px no-repeat, url("../../../../static/img/rogers-modified.png")  right 22px top 24px no-repeat;
+    background-size: auto 100px, auto 100px;
+    position: relative;
+    margin-bottom: 5rem;
+  
+  }
+
+  .texthero {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+  
+  }
 }
 
 .buttoncompete:hover {
-  color: #0B0B45;
+  color: #0a437f;
   background-color: #c8c8e6;
 }
 
@@ -54,7 +80,7 @@
   text-align: center;
   align-items: flex-start;
   cursor: default;
-  background-color: #0B0B45;
+  background-color: #0a437f;
   box-sizing: border-box;
   font: 350 20px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
@@ -69,7 +95,7 @@
 .buttonsecond {
   margin: 1.5rem 0;
   margin-left: 1rem;
-  color: #0B0B45;
+  color: #0a437f;
   letter-spacing: normal;
   word-spacing: normal;
   text-align: center;
@@ -90,7 +116,7 @@
 .buttonsecond:hover {
 
   cursor: pointer;
-  color: #0B0B45;
+  color: #0a437f;
   background-color: white;
   border: 1px solid #e6e6e6;
 }
@@ -98,6 +124,7 @@
 .textcenter {
   /* margin-top: 1rem; */
   font-family: "Roboto","Helvetica","Arial",sans-serif;
+  /* font-style: italic; */
   margin-bottom: 2rem;
   margin-top: 0;
 
@@ -107,7 +134,7 @@ h1 {
   font-weight: 600;
   /* font-family: IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol; */
   /* font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-family: "Roboto","Helvetica","Arial",sans-seri;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
   padding-top: 0;
 
 }
@@ -139,7 +166,7 @@ h1 {
   margin-right: 1rem;
   margin-top: 2rem;
   border: 1px solid #e6e6e6;
-  background-color: #0B0B45;
+  background-color: #0a437f;
   padding: 8px;
   padding-left: 11px;
   padding-right: 11px;
@@ -147,13 +174,13 @@ h1 {
 
 .btn:hover {
   cursor: pointer;
-  color: #0B0B45;
+  color: #0a437f;
   background-color: white;
   border: 1px solid #e6e6e6;
 }
 
 .btn1 {
-  color: #0B0B45;
+  color: #0a437f;
   margin-right: 1rem;
   margin-top: 2rem;
   font-family: var(--bs-body-font-family);
@@ -167,6 +194,6 @@ h1 {
 .btn1:hover {
   cursor: pointer;
   color: white;
-  background-color: #0B0B45;
+  background-color: #0a437f;
   border: 1px solid #e6e6e6;
 }
