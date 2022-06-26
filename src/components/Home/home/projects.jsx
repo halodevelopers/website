@@ -13,8 +13,7 @@ const Project = () => {
             <Row>
                 <div className="col-md-8">
                     <div className="text">
-                        <strong>Explore projects developed by Halodevs </strong>
-                        
+                        <h6>Explore projects developed by Halodevs </h6>   
                     </div>
                 </div>
                 <div className="col-md-4">

@@ -16,25 +16,21 @@ import Dice from './svg/dic';
 const Organization = () => {
     return (
         <div className={clsx("container", styles.organization)}>
-            <div className="row">
-                <div className="col-md-12">
-                    <div className={clsx("text", styles.text)}  >
-                        <strong>See how Halodevs can help your organisation</strong>
-                    </div>
-                </div>
+            <div className={clsx("text", styles.text)}  >
+                <p>See how Halodevs can help your organisation</p>
             </div>
             <div className="row">
                 <div className="col-md-3">
                     <div className={clsx("card", styles.card)}>
                         <div className="card-body">
-                        
+
                             <CardHeader
-                                
+
                                 avatar={
                                     <Light />
-                                    
+
                                 }
-                                
+
                                 action={
                                     <IconButton aria-label="settings">
                                         <MoreVertIcon />
@@ -46,9 +42,11 @@ const Organization = () => {
                                 <strong>Solve a problem</strong>
                             </h5>
                             <p className="card-text">
-                                We work with you to define and set up your machine learning challenge. Our community of data scientists solves the challenge through a competition and you receive the winning solutions.                            </p>
+                                We work with you to define and set up your machine learning challenge. 
+                                Our community of data scientists solves the challenge through a competition 
+                                and you receive the winning solutions.</p>
                             <a href="#" className={clsx("btn", styles.btn)}>
-                            Join Us <ArrowRightAltIcon className="icon-right" />
+                                Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
                         </div>
                     </div>
@@ -56,12 +54,12 @@ const Organization = () => {
                 <div className="col-md-3">
                     <div className={clsx("card", styles.card)}>
                         <div className="card-body">
-                        <CardHeader
+                            <CardHeader
                                 avatar={
                                     <Trophy />
-                                    
+
                                 }
-                                
+
                                 action={
                                     <IconButton aria-label="settings">
                                         <MoreVertIcon />
@@ -73,9 +71,11 @@ const Organization = () => {
                                 <strong>Find the best talent</strong>
                             </h5>
                             <p className="card-text">
-                                With thousands of skilled individuals across data science, artificial intelligence, machine learning and data engineering specialisations, Halodevs helps you find the best talent.                            </p>
+                                With thousands of skilled individuals across data science, artificial intelligence, 
+                                machine learning and data engineering specialisations, Halodevs helps you find the 
+                                best talent.                            </p>
                             <a href="#" className={clsx("btn", styles.btn)}>
-                            Join Us <ArrowRightAltIcon className="icon-right" />
+                                Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
                         </div>
                     </div>
@@ -83,12 +83,12 @@ const Organization = () => {
                 <div className="col-md-3">
                     <div className={clsx("card", styles.card)}>
                         <div className="card-body">
-                        <CardHeader
+                            <CardHeader
                                 avatar={
                                     <Puzzle />
-                                    
+
                                 }
-                                
+
                                 action={
                                     <IconButton aria-label="settings">
                                         <MoreVertIcon />
@@ -102,7 +102,7 @@ const Organization = () => {
                             <p className="card-text">
                                 Halodevs hosts the largest community of data scientists in Africa. For organisations wishing to build their brand amongst this unique audience, Halodevs is the place to go.                            </p>
                             <a href="#" className={clsx("btn", styles.btn)}>
-                            Join Us <ArrowRightAltIcon className="icon-right" />
+                                Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
                         </div>
                     </div>
@@ -110,12 +110,12 @@ const Organization = () => {
                 <div className="col-md-3">
                     <div className={clsx("card", styles.card)}>
                         <div className="card-body">
-                        <CardHeader
+                            <CardHeader
                                 avatar={
                                     <Dice />
-                                    
+
                                 }
-                                
+
                                 action={
                                     <IconButton aria-label="settings">
                                         <MoreVertIcon />
@@ -129,7 +129,7 @@ const Organization = () => {
                             <p className="card-text">
                                 Build your organisation’s skills by hosting a hackathon on Halodevs. Hackathons are short, fun, problem-solving sprints, usually run over 1–3 days designed to challenge your organisation’s skills and foster collaboration.                            </p>
                             <a href="#" className={clsx("btn", styles.btn)}>
-                            Join Us <ArrowRightAltIcon className="icon-right" />
+                                Join Us <ArrowRightAltIcon className="icon-right" />
                             </a>
                         </div>
                     </div>

@@ -2,6 +2,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-align: start;
+    width: 70%;
     color: #0B0B45;
     text-align: justify;
     font-family: "Roboto","Helvetica","Arial",sans-seri;
@@ -31,8 +32,9 @@
 }
 
 .organization{
-    
     margin-bottom: 4rem;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 p{

@@ -14,7 +14,7 @@ function ProjectCard() {
                         <img src={image1} alt="" srcset="" className={clsx('img roundedCircle', styles.img)} />
                     </div>
                     <div className={clsx("col-6 m-2", styles.col)}>
-                        <Link className={clsx(styles.link, styles.col)} to="/projects/detail">
+                        <Link className={clsx("mt-3", styles.link, styles.col)} to="/projects/detail">
                             <strong className={clsx(styles.title, styles.col)}>Brain Health Detection <span className={clsx("d-inline badge m-2", styles.col, styles.badge)} style={{ backgroundColor: "#0B0B45" }}>Health</span>
                             <span className={clsx("d-inline badge m-2", styles.title, styles.badge)} style={{ backgroundColor: "#fcb70f" }}>Sponsor this project</span>
                             </strong>
@@ -29,7 +29,7 @@ function ProjectCard() {
                             <p className={clsx("d-inline badge m-2", styles.badge)} style={{ backgroundColor: "#c8c8e6", color: "#0B0B45" }}>sklearn</p>
                         </div>
                     </div>
-                    <div className={clsx("col-2 m-2", styles.col)}>
+                    <div className={clsx("col-2 m-2 mt-5", styles.col)}>
                         <div className={clsx("data justitify-content-end", styles.next)}>
                             <h6>Contributors <Badge bg="secondary">25</Badge></h6>
                             <h6>Mentors <Badge bg="secondary">04</Badge></h6>
