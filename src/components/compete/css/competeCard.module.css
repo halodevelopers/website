@@ -3,8 +3,13 @@
     color: #0B0B45;
 }
 
+.compete_card{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 .compete_img{
-    width: 200px;
+    width: 150px;
     border-top-right-radius: 30%;
     border-bottom-left-radius: 30%;
 }
@@ -28,12 +33,12 @@
     font-size: 14px;
 }
 
-.compete_card{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-bottom: 1px solid #777288;
-}
 
 .card_list{
     list-style-type: none;
+}
+
+.col{
+    display: inline-flex;
+    flex-wrap: wrap;
 }

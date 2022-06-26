@@ -11,18 +11,20 @@ class SingleCard extends Component {
     state = {}
     render() {
         return (
-            <div className={clsx(styles.compete_card)}>
-                <div className="row">
-                    <div className="col-3">
+            <div className={clsx(styles.compete_card, 'card mt-2')}>
+                <div className={clsx("row", styles.col)}>
+                    <div className={clsx("ms-2 me-2", styles.col_3, styles.col)}>
+                        <div className={clsx(styles.col)}>
                         <img src={zindi} className={clsx("float-start", styles.compete_img)} alt="..."></img>
+                        </div>
                     </div>
-                    <div className="col-6 mt-2">
-                        <Link className={clsx(styles.link)} to="/compete/detail">
+                    <div className={clsx("mt-2", styles.col_5, styles.col)}>
+                        <Link className={clsx(styles.link, styles.col)} to="/compete/detail">
                             <h6 className={clsx(styles.comptete_title_inner)}>Torture Resue Forecast Challenge</h6>
                             <p className={clsx(styles.comptete_p)}>Can you forecast the number of turtles rescued per site per week in Kenya?</p>
                         </Link>
                     </div>
-                    <div className="col-3">
+                    <div className={clsx(styles.col, styles.col_2)}>
                         <div className={clsx(styles.card_body)}>
                             <h6 style={{ color: "#0B0B45", marginLeft:"10px", fontSize:"15px"}}>Knowledge</h6>
                             <ul>
