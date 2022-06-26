@@ -9,9 +9,10 @@
 }
 
 .compete_img{
-    width: 150px;
+    width: 95%;
     border-top-right-radius: 30%;
     border-bottom-left-radius: 30%;
+    margin: 0px;
 }
 
 .comptete_title_inner{
@@ -41,4 +42,8 @@
 .col{
     display: inline-flex;
     flex-wrap: wrap;
+}
+
+.col_3{
+    margin: auto;
 }
