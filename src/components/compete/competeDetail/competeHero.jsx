@@ -18,19 +18,19 @@ class CompeteHero extends Component {
                 </div>
                 <div className="col">
                     <h4 className={clsx(styles.title_text)}>Prize</h4>
-                    <p>Knowledge</p>
+                    <p className="text-light">Knowledge</p>
                 </div>
                 <div className="col">
                     <h4 className={clsx(styles.title_text)}>Time</h4>
-                    <p>active</p>
+                    <p className="text-light">active</p>
                 </div>
                 <div className="col">
                     <h4 className={clsx(styles.title_text)}>Participants</h4>
-                    <p>2 active · 16 enrolled</p>
+                    <p className="text-light">2 active · 16 enrolled</p>
                 </div>
                 <div className="col">
                     <h4 className={clsx(styles.title_text)}>Helping</h4>
-                    <p>Kenya</p>
+                    <p className="text-light">Kenya</p>
                 </div>
             </div>
         );

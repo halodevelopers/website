@@ -20,8 +20,9 @@
 
 .title_text{
     opacity: .8;
+    color: white;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 12px;
     margin-bottom: 8px;
 }
@@ -34,4 +35,19 @@
 
 .div_space{
     display: inline-block;
+}
+
+@media (max-width: 991.98px){
+    .hero{
+        height: 400px;
+        background-image: url("./img/Tortoise.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        margin: auto;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+    }
 }

@@ -31,3 +31,11 @@
     background: url("./search.png")  left 5px top 3px no-repeat;
     background-size: 30px auto;
 }
+
+/* @media (max-width: 991.98px){
+    .header{
+        background: url("https://assets.zindi.africa/media/a057157895eb806c13aa3ac2421d75d2.png") right 0 top 0 no-repeat;
+        background-size: 550px auto;
+        height: 450px;
+    }
+} */

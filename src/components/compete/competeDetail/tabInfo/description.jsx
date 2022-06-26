@@ -4,7 +4,7 @@ class DescriptionDetail extends Component {
     state = {}
     render() {
         return (
-            <div className='container top-margin mt-2'>
+            <div className='top-margin mt-2'>
                 <h5 style={{fontSize:"16px"}} id='description'>Description</h5>
                 <p style={{fontSize:"14px"}}>
                     The objective of this competition is to create a machine learning model to help Kenyan

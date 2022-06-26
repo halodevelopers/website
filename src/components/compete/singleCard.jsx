@@ -20,7 +20,7 @@ class SingleCard extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6 m-1">
+                    <div className="col-7 mx-1">
                         <div className={clsx("mt-2", styles.col_6, styles.col)}>
                             <Link className={clsx(styles.link, styles.col)} to="/compete/detail">
                                 <h6 className={clsx(styles.comptete_title_inner)}>Torture Resue Forecast Challenge</h6>
@@ -28,7 +28,7 @@ class SingleCard extends Component {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-2 m-1">
+                    <div className="col-2">
                         <div className={clsx(styles.col, styles.col_2)}>
                             <div className={clsx(styles.card_body)}>
                                 <h6 style={{ color: "#0B0B45", marginLeft: "10px", fontSize: "15px" }}>Knowledge</h6>
