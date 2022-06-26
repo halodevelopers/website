@@ -8,14 +8,18 @@
     padding-right: 2rem;
     margin-top: 5rem;
     border-radius: 0px;
-    
-
 }
-p{
+
+.col{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+/* p{
     font-size: 12px;
     padding-top: 1rem;
     justify-items: center;
-}
+} */
 .img {
     background: #eee;
     border-radius: 100px;
@@ -24,6 +28,7 @@ p{
     border-style: none;
     width: 150px; 
     height: 150px;
+    text-align: center;
 }
 
 .avatar{
@@ -32,27 +37,22 @@ p{
     border-radius: 50%;
   }
 
-  .title{
-    
-
-  }
-
-
-  .link{
+.link{
     color: #0B0B45;
+    text-decoration: none;
 }
 
 .link:hover{
     color: #0B0B45;
 }
 
-.badge{
+/* .badge{
     height: 10px;
     border-radius: 0px;
     margin-left: 0px;
     align-items: flex-start;
   
-}
+} */
 
 .next{
     text-align: right;

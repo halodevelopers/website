@@ -7,6 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MarkEmailUnreadSharpIcon from '@mui/icons-material/MarkEmailUnreadSharp';
+import ContactModal from '../contact/contactModal';
 
 class Footer extends Component {
   state = {}
@@ -58,25 +59,26 @@ class Footer extends Component {
             </div>
           </div>
           <div className={clsx("container-fluid ", styles.container)}>
-          <div className="row">
-            <div className={("col-md-12", styles.nav)}>
-              <div className={clsx("text-end", styles.nav)}>
-              <strong><a href="/compete" className="text">Compete </a></strong>
-              <strong><a href="/learn" className="text">Learn  </a></strong>
-              <strong><a href="/community" className="text">Communiy </a></strong>
-              <strong><a href="/projects" className="text">Projects  </a></strong>
-              <strong><a href="/jobs" className="text">Jobs </a></strong>
+            <div className="row">
+              <div className={("col-md-12", styles.nav)}>
+                <div className={clsx("text-end", styles.nav)}>
+                  <div className={clsx(styles.footerLink)}><a href="/learn" className="text-dark">Learn  </a></div>
+                  <div className={clsx(styles.footerLink)}><a href="/compete" className="text-dark"> Compete </a></div>
+                  <div className={clsx(styles.footerLink)}><a href="/community" className="text-dark">Communiy </a></div>
+                  <div className={clsx(styles.footerLink)}><a href="/projects" className="text-dark">Projects  </a></div>
+                  <div className={clsx(styles.footerLink)}><a href="/jobs" className="text-dark">Jobs </a></div>
+                  <div className={clsx(styles.footerLink)}> < ContactModal /> </div>
+                </div>
               </div>
-            </div>
-            <div className="col-md-13 py-4">
+              <div className="col-md-13 py-4">
 
-              <div className={clsx("text-muted ", styles.terms)}>
-                <a href="" className="text"><p>Terms of Use </p></a>
-                <a href="" className="text"><p>Privacy Policy </p></a>
-                <a href="" className="text"><p>Rules and Guidelines</p></a>
+                <div className={clsx("text-muted ", styles.terms)}>
+                  <a href="" className="text"><p>Terms of Use </p></a>
+                  <a href="" className="text"><p>Privacy Policy </p></a>
+                  <a href="" className="text"><p>Rules and Guidelines</p></a>
+                </div>
               </div>
             </div>
-          </div>
           </div>
           <div className="bg-light py-4">
             <div className="container text-center">

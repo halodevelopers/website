@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import ScrollableTabsButtonAuto from './tab-card';
+// import ScrollableTabsButtonAuto from './tab-card';
 import clsx from 'clsx';
 import NavBar from "../Common/navigation";
 import styles from './css/homepage.module.css';
 
 // Home Import componets
-import LearnSection from './learn.jsx';
+// import LearnSection from './learn.jsx';
 import JoinUs from './joinOurCommunity';
 import Partnership from './patnership';
-import HeroLink from './home/herolink';
+// import HeroLink from './home/herolink';
 import Pride from "./home/works";
 import Project from "./home/projects";
 import Description from "./home/description";
@@ -29,19 +29,17 @@ class Home extends Component {
                 <NavBar />
                 <div className={clsx("container-fluid hero hero-text ", styles.hero)}><br />
                     <div className={clsx("text-center", styles.textcenter)}>
-                    <h1  >
+                    <h1 className={clsx("text-center", styles.texthero)}>
                         We are
                         Open Mind Developers
 
                     </h1>
-                    <h1  >
+                    <h1 className={clsx("text-center", styles.texthero)} >
 
                         Opensourcing AI ideas
 
                     </h1>
-                    <h1 >
-
-                        {/* Transform the world with AI */}
+                    <h1 className={clsx("text-center", styles.lastTextdiv )} >
                         developed to give meaning to our lives.
                     </h1>
                     </div>

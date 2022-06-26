@@ -9,14 +9,10 @@
     
 }
 .container {
-    padding-left: 4rem;
-    
-   
-    
+    margin: auto;
 }
 
 .terms {
-
     display: flex;
     flex-direction: row;
     padding-bottom: 0;
@@ -28,19 +24,11 @@
     padding-bottom: 0;
 }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 0;
-    margin-bottom: 4rem;
-    align-items: flex-end;
-    text-align: end;
-    padding-right: 2rem;
-}
-
-.nav a {
-    display: flex;
-    padding-right: 2rem;
+.footerLink{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 .social a {
@@ -52,6 +40,12 @@
 .icon {
     color: #fcb70f;
     background-color: none;
+
+}
+
+.link{
+    display: inline-flex;
+    flex-wrap: wrap;
 
 }
 
