@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 966px) {
     .announce{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 700;
         line-height: 40px;
         padding: 8px 30px;
@@ -47,7 +47,6 @@
         height: 7vh;
         width: 100%;
         margin-top: 0;
-        /* width: 100vw; */
         text-decoration: none;
         font-size: 14px;
         font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
