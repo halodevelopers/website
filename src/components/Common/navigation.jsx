@@ -22,6 +22,7 @@ class NavBar extends Component {
                                 <a className={clsx("", styles.navbarbrand)} id='logo' href="/" />
                                 <a className={clsx("", styles.navbartext)} id='logo' href="/">Halodevs</a>
                             </Link>
+
                             {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button> */}
@@ -54,6 +55,9 @@ class NavBar extends Component {
                                     </li>
                                 </ul>
                             </div>
+                            <button class="navbar-toggler ms-5 ms-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon "></span>
+                            </button>
                             <div className="collapse d-flex justify-content-end" id="navbarNav">
                                 <TransitionsModal />
                                 <TransitionsModal2 />
