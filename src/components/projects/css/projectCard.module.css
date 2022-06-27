@@ -27,4 +27,17 @@
 .link p{
     margin-bottom: 1rem;
 }
+.proj_img{
+    height: 13em; 
+    width: 13em; 
+    border-radius: 50%;
+    margin-right: 2px;
+}
 
+@media (max-width: 991.98px){
+    .proj_img{
+        height: 10em; 
+        width: 14em; 
+        border-radius: 0px;
+    }
+}
