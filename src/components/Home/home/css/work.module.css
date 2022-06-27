@@ -49,18 +49,8 @@
     color: #24b3ee;
 }
 
-/* @media screen and (max-width: 966px) {
+@media screen and (max-width: 966px) {
     .container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 2rem;
-        margin-bottom: 10px;
-        font-size: 20px;
-        font-weight: bold;
-        padding: 10px;
-        cursor: pointer;
-        transition: all 0.3s;
-        display: flex;
+        margin-top: -100px;
     }
-} */
+}

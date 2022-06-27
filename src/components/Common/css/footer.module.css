@@ -20,19 +20,19 @@
 }
 
 .terms a {
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
     padding-bottom: 0;
 }
 
 .footerLink{
     display: inline-flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 5px;
     margin-top: 10px;
 }
 
 .social a {
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     padding-bottom: 3px;
 
 }

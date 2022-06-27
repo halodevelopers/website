@@ -8,7 +8,7 @@ import styles from './css/work.module.css'
 
 const Pride = () => {
     return (
-      <div className={clsx("container-fluid", styles.container)}>
+      <div className={clsx("container", styles.container)}>
         <div className={clsx("row small-6 medium-4 large-auto cell", styles.row)}>
           <div className="col-md-12 grid-x c-brag__component">
             <div className="small-12 medium-12 cell c-brag__component__label">For over</div>

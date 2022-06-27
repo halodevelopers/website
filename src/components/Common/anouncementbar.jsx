@@ -8,7 +8,7 @@ class AnnouncementBar extends Component {
     state = {}
     render() {
         return (
-            <div className={clsx("container-fluid", styles.container)}>
+            <div className={clsx("container", styles.container)}>
                 <div className="row">
                     <div className="col-md-12">
 

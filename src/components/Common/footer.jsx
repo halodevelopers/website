@@ -58,7 +58,7 @@ class Footer extends Component {
 
             </div>
           </div>
-          <div className={clsx("container-fluid ", styles.container)}>
+          <div className={clsx("container", styles.container)}>
             <div className="row">
               <div className={("col-md-12", styles.nav)}>
                 <div className={clsx("text-end", styles.nav)}>

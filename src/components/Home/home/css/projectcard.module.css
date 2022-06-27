@@ -10,11 +10,21 @@
     border-radius: 0px;
 }
 
+.imgdiv{
+    margin: auto;
+}
+
 .col{
+    /* float: left; */
     display: inline-flex;
     flex-wrap: wrap;
 }
 
+.badge{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: auto;
+}
 /* p{
     font-size: 12px;
     padding-top: 1rem;

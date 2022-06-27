@@ -26,25 +26,25 @@ class Home extends Component {
         return (
             <div>
                 <NavBar />
-                <div className={clsx("container-fluid hero hero-text ", styles.hero)}><br />
+                <div className={clsx("container hero hero-text ", styles.hero)}><br />
                     <div className={clsx("text-center", styles.textcenter)}>
-                    <h1 className={clsx("text-center", styles.texthero)}>
-                        We are
-                        Open Mind Developers
-
-                    </h1>
-                    <h1 className={clsx("text-center", styles.texthero)} >
-
-                        Opensourcing AI ideas
-
-                    </h1>
-                    <h1 className={clsx("text-center", styles.lastTextdiv )} >
-                        developed to give meaning to our lives.
-                    </h1>
+                        <h1 className={clsx("text-center container", styles.texthero)}>
+                            We are
+                            Open Mind Developers
+                        </h1>
+                        <h1 className={clsx("text-center container", styles.texthero)} >
+                            Opensourcing AI ideas
+                        </h1>
+                        <h1 className={clsx("text-center container", styles.texthero)} >
+                            developed to give meaning to
+                        </h1>
+                        <h1 className={clsx("text-center container", styles.lastTextdiv)} >
+                            our lives.
+                        </h1>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <button type="button" className={clsx("button", styles.btn)}>Join Halodevs</button>
-                        <button type="button" className={clsx("button", styles.btn1)}>Become our Partner</button>
+                        <button type="button" className={clsx("button mx-1", styles.btn)}>Join Halodevs</button>
+                        <button type="button" className={clsx("button mx-1", styles.btn1)}>Become our Partner</button>
                     </div>
 
                     {/* <div className="tip-box mt-5">
@@ -57,31 +57,15 @@ class Home extends Component {
                     </div> */}
 
                 </div>
-                {/* Links */}
-                {/* <div className="hero-theme">
-                    <div className={clsx("grid-x grid-padding-x grid-x--equal-height", styles.herolink)}>
-                        <HeroLink href="/students" name="students" />
-                        <HeroLink href="/patners" name="partners" />
-                        <HeroLink href="/coaches" name="coaches" />
-                    </div>
-                </div> */}
-                {/* Pride */}
                 <Pride />
                 <Description />
                 <Partnership />
                 <Organization />
-                <div className="container-fluid">
+                <div className="container">
                     <HowItWorks />
                 </div>
 
                 <Project />
-                {/* Learn Section */}
-                {/* <div className="container">
-                    <ScrollableTabsButtonAuto className={clsx("scroll", styles.scroll)} />
-                </div>
-
-                
-                <LearnSection /> */}
                 <JoinUs />
                 <NewsLetter />
             </div>
