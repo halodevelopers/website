@@ -21,7 +21,7 @@ function Jobs() {
                 <hr style={{ width: "95%" }} />
             </div>
             <div className="row container">
-                <div className="col-4">
+                <div className="col my-5">
                     <FilterSideBAr />
                 </div>
                 <div className="col">

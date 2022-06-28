@@ -31,3 +31,17 @@
     background: url("./search.png")  left 5px top 3px no-repeat;
     background-size: 30px auto;
 }
+
+.xs{
+    display: none;
+}
+
+@media (max-width: 991.98px){
+    .sm{
+        display: none;
+    }
+
+    .xs{
+        display: block;
+    }
+}

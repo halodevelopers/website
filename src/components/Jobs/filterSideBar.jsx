@@ -85,7 +85,7 @@ function CountrySelector() {
 
     return (
         <Fragment>
-            <div>
+            <div className='container'>
                 <h5>Location</h5>
                 <Select options={options} value={value} onChange={changeHandler} />
             </div>

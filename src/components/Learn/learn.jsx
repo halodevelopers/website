@@ -20,7 +20,7 @@ function Learn() {
                     </div>
                 </div>
             </div>
-            <div className="tab container">
+            <div className="tab container mt-auto">
                 <LearnTab />
             </div>
         </Fragment>
