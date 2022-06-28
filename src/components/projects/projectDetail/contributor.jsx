@@ -3,6 +3,7 @@ import ProjectSearch from './search';
 import styles from './css/projectcards.module.css';
 import clsx from 'clsx';
 import ContributorCard from './contributorCard';
+import ContributerXs from './contributerXs';
 
 
 function ProjectContributor() {
@@ -18,7 +19,7 @@ function ProjectContributor() {
 
             {/* Contributor Card */}
             <div>
-                <div className={clsx(styles.card_titles)}>
+                <div className={clsx(styles.card_titles, styles.sm)}>
                     <div className="row text-center">
                         <div className="col-1">
                             <div className="heading">
@@ -52,9 +53,16 @@ function ProjectContributor() {
                             </div>
                         </div>
                     </div>
+                    <ContributorCard />
+                </div>
+                <div className={clsx(styles.xs, "text-center")}>
+                    <ul>
+                        <div className="row">
+                            < ContributerXs />
+                        </div>
+                    </ul>
                 </div>
             </div>
-            <ContributorCard/>
         </Fragment>
     );
 }
