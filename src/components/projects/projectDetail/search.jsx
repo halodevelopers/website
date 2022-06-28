@@ -4,14 +4,14 @@ function ProjectSearch(props) {
     return ( 
         <Fragment>
             <div className="row" style={{margin:"auto"}}>
-                <div className="col-5">
+                <div className="col-auto">
                     <input type="text" placeholder="I'm Looking For ..." className="form-control" />
                 </div>
-                <div className="col">
-                    <button className="btn btn-dark">SEARCH</button>
+                <div className="col-auto m-1">
+                    <button className="btn btn-sm btn-xs btn-dark">SEARCH</button>
                 </div>
-                <div className="col">
-                    <a href="#" className="btn btn-outline-dark">{props.name} Project</a>
+                <div className="col-auto m-1">
+                    <a href="#" className="btn btn-sm btn-xs btn-outline-dark">{props.name} Project</a>
                 </div>
             </div>
         </Fragment>

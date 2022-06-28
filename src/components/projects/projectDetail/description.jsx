@@ -8,7 +8,7 @@ function ProjectDescription() {
     return (
         <Fragment>
             <div className="row  container-fuild">
-                <div className="col-8">
+                <div className="col">
                     <div className="row">
                         <div className="col-auto links">
                             <nav>
@@ -20,7 +20,7 @@ function ProjectDescription() {
                                 </ul>
                             </nav>
                         </div>
-                        <div className="col">
+                        <div className="col col-xs-23">
                             <div id="intro">
                                 <h5>Brain Tumor Classification using Machine Learning</h5>
                                 <p>Deep learning (subfield of machine learning) has gained prominence in almost every
@@ -53,7 +53,7 @@ function ProjectDescription() {
                                     <li>OpenCV – 4.5.2</li>
                                 </ul>
                             </div>
-                            <div id="program">
+                            <div id="program" className='m-2'>
                                 <h5>Program</h5>
                                 <NoWork name="program" />
                             </div>

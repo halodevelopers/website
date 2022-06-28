@@ -43,3 +43,19 @@
 .herodata{
     margin-top: 4rem;
 }
+
+@media (max-width: 991.98px){
+    .hero{
+        height: 450px;
+        background-image: url("./img/project.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        margin: auto;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    
+}

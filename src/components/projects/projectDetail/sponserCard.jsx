@@ -4,7 +4,7 @@ import styles from './css/projectcards.module.css';
 import clsx from 'clsx';
 
 
-function SpomsorCard() {
+function SponserCard() {
     return (
         <Fragment>
             <div className={clsx(styles.card_user)}>
@@ -41,4 +41,4 @@ function SpomsorCard() {
     );
 }
 
-export default SpomsorCard;
+export default SponserCard;

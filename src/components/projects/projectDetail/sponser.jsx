@@ -2,53 +2,64 @@ import React, { Fragment } from 'react';
 import ProjectSearch from './search';
 import styles from './css/projectcards.module.css';
 import clsx from 'clsx';
-import SpomsorCard from './sponserCard';
+import SponserCard from './sponserCard';
+import SponserXs from './sponsorXs';
 
 function ProjectSponser() {
-    return ( 
+    return (
         <Fragment>
-            <div>
-                <h5>Be A Sponser</h5>
-                <p>Your Donation with Save and Change the  World</p>
-            </div>
-            <div style={{paddingTop:'25px', paddingBottom:'30px'}}>
-                <ProjectSearch name = "Sponse"/>
-            </div>
+            <div className="m-auto">
+                <div>
+                    <h5>Be A Sponser</h5>
+                    <p>Your Donation with Save and Change the  World</p>
+                </div>
+                <div style={{ paddingTop: '25px', paddingBottom: '30px' }}>
+                    <ProjectSearch name="Sponse" />
+                </div>
 
-            {/* Sponser Card Titles*/}
-            <div className={clsx(styles.card_titles)}>
-            <div className="row text-center">
-                <div className="col-2">
-                    <div className="heading">
-                        <h6 className={clsx(styles.card_heading)}>LOGO</h6>
-                    </div>
-                </div>
-                <div className="col-3">
-                    <div className="heading">
-                        <h6 className={clsx(styles.card_heading)}>COMPANY NAME</h6>
-                    </div>
-                </div>
-                <div className="col-2">
-                    <div className="heading">
-                        <h6 className={clsx(styles.card_heading)}>ADDRESS</h6>
-                    </div>
-                </div>
-                <div className="col-2">
-                    <div className="heading">
-                        <h6 className={clsx(styles.card_heading)}>REMARKS</h6>
-                    </div>
-                </div>
-                <div className="col-1">
-                    <div className="heading">
-                        <h6 className={clsx(styles.card_heading)}>CREATED</h6>
+                {/* Sponser Card Titles*/}
+                <div className={clsx(styles.card_titles, styles.sm, "text-center")}>
+                    <div className="row text-center">
+                        <div className="col-2">
+                            <div className="heading">
+                                <h6 className={clsx(styles.card_heading)}>LOGO</h6>
+                            </div>
+                        </div>
+                        <div className="col-3">
+                            <div className="heading">
+                                <h6 className={clsx(styles.card_heading)}>COMPANY NAME</h6>
+                            </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="heading">
+                                <h6 className={clsx(styles.card_heading)}>ADDRESS</h6>
+                            </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="heading">
+                                <h6 className={clsx(styles.card_heading)}>REMARKS</h6>
+                            </div>
+                        </div>
+                        <div className="col-1">
+                            <div className="heading">
+                                <h6 className={clsx(styles.card_heading)}>CREATED</h6>
 
+                            </div>
+                        </div>
                     </div>
+                    <SponserCard />
+                </div>
+                <div className={clsx(styles.xs, "text-center")}>
+                    <ul>
+                        <div className="row">
+                            <SponserXs />
+                            <SponserXs />
+                        </div>
+                    </ul>
                 </div>
             </div>
-            <SpomsorCard/>
-        </div>
         </Fragment>
-     );
+    );
 }
 
 export default ProjectSponser;

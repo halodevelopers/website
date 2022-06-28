@@ -12,7 +12,7 @@ function ProjectDetail() {
             <div className={clsx("hero container-fluid", StyleSheet.herodata)}>
                 <ProjectHero/>
             </div>
-            <div className={clsx("container", styles.container)}>
+            <div className={clsx("container-fluid", styles.container)}>
                 <ProjectDetailTab/>
             </div>
         </Fragment>

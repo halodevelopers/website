@@ -22,22 +22,22 @@ function ProjectCard() {
                             </Link>
                             <div className={clsx(styles.col)}>
                                 <div className="row d-flex">
-                                    <div className="col">
+                                    <div className="col-auto">
                                         <p className={clsx("badge m-1", styles.badge)} style={{ backgroundColor: "#c8c8e6", color: "#0B0B45" }}>TensorFlow</p>
                                     </div>
-                                    <div className="col">
+                                    <div className="col-auto">
                                         <p className={clsx("badge m-1", styles.badge)} style={{ backgroundColor: "#c8c8e6", color: "#0B0B45" }}>Keras</p>
                                     </div>
-                                    <div className="col">
+                                    <div className="col-auto">
                                         <p className={clsx("badge m-1", styles.badge)} style={{ backgroundColor: "#c8c8e6", color: "#0B0B45" }}>Python</p>
                                     </div>
-                                    <div className="col">
+                                    <div className="col-auto">
                                         <p className={clsx("badge m-1", styles.badge)} style={{ backgroundColor: "#c8c8e6", color: "#0B0B45" }}>Open CV</p>
                                     </div>
-                                    <div className="col">
+                                    <div className="col-auto">
                                         <p className={clsx("badge m-1", styles.badge)} style={{ backgroundColor: "#c8c8e6", color: "#0B0B45" }}>Numpy</p>
                                     </div>
-                                    <div className="col">
+                                    <div className="col-auto">
                                         <p className={clsx("badge m-1", styles.badge)} style={{ backgroundColor: "#c8c8e6", color: "#0B0B45" }}>sklearn</p>
                                     </div>
                                 </div>

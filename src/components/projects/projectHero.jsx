@@ -18,19 +18,19 @@ class ProjectHero extends Component {
                 </div>
                 <div className="col">
                     <h4 className={clsx(styles.title_text)}>Theme</h4>
-                    <p>Save Human Health</p>
+                    <p className='text-light fw-light'>Save Human Health</p>
                 </div>
                 <div className="col">
                     <h4 className={clsx(styles.title_text)}>Duration</h4>
-                    <p>3 months</p>
+                    <p className='text-light fw-light'>3 months</p>
                 </div>
                 <div className="col">
                     <h4 className={clsx(styles.title_text)}>Contributors</h4>
-                    <p>2 active · 4 enrolled</p>
+                    <p className='text-light fw-light'>2 active · 4 enrolled</p>
                 </div>
                 <div className="col">
                     <h4 className={clsx(styles.title_text)}>Helping</h4>
-                    <p>Elder</p>
+                    <p className='text-light fw-light'>Elder</p>
                 </div>
             </div>
         );

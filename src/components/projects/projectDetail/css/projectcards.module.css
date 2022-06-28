@@ -50,3 +50,15 @@
     padding-bottom: 5px;
     border-bottom: 1px solid #777288;  
 }
+
+.xs{
+    display: None;
+}
+@media (max-width: 991.98px){
+    .sm{
+        display: none;
+    }
+    .xs{
+        display: contents;
+    }
+}
